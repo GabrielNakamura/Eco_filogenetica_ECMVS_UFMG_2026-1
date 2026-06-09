@@ -1,0 +1,52 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Ecologia Filogenética 2026/1"
+        
+  page-footer:
+    right: "This page is built with ❤️ and [Quarto](https://quarto.org/)."
+    background: "#D9E3E4"
+        
+  sidebar:
+    background: "#D9E3E4"
+    logo: "images/ECMVS_logo.png"
+    align: center
+    style: "docked"
+    search: true
+    tools: 
+      - icon: github
+        text: "Repositório do curso"
+      - icon: globe
+        href: https://gabrielnakamura.netlify.app/
+        text: "Website pessoal"
+    
+    contents:
+      - section: "Informações sobre o curso"
+        contents:
+          - text: "Introdução"
+            href: index.qmd
+          - text: "Syllabus"
+            href: syllabus.qmd
+          - text: "Links úteis"
+            href: links.qmd
+      - section: "Materiais por dia"
+        contents:
+          - text: "Dia 1 - Árvores filogenéticas"
+            href: aulas/Aula1_phylo_trees.qmd
+          - text: "Dia 2"
+            href: aulas/Aula2_processos_evolutivos_filo.qmd
+format:
+  html:
+    theme:
+      light: [cosmo, theme.scss]
+      dark: [cosmo, theme-dark.scss]
+    mainfont: "Atkinson Hyperlegible"
+    code-copy: true
+    code-overflow: wrap
+    toc: true
+
+freeze: auto
+
+editor: visual

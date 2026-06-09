@@ -1,0 +1,11 @@
+---
+title: "Ecologia filogenética ECMVS 2026-1"
+---
+
+| Dia   | Data  | Tópico                | Material |
+|-------|-------|-----------------------|----------|
+| Dia 1 | XX/07 | Árvores filogenéticas |          |
+| Dia 2 |       |                       |          |
+| Dia 3 |       |                       |          |
+| Dia 4 |       |                       |          |
+| Dia 5 |       |                       |          |
