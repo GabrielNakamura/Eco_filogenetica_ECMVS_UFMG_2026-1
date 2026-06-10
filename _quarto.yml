@@ -25,17 +25,19 @@ website:
     contents:
       - section: "Informações sobre o curso"
         contents:
-          - text: "Introdução"
+          - text: "Apresentação"
+            href: about.qmd
+          - text: "Cronograma do curso"
             href: index.qmd
-          - text: "Syllabus"
-            href: syllabus.qmd
           - text: "Links úteis"
             href: links.qmd
       - section: "Materiais por dia"
         contents:
           - text: "Dia 1 - Árvores filogenéticas"
-            href: aulas/Aula1_phylo_trees.qmd
-          - text: "Dia 2"
+            href: aulas/aula1_phylogenetic_trees/index.qmd
+          - text: "Dia 2 - Processos evolutivos"
+            href: aulas/Aula2_processos_evolutivos_filo.qmd
+          - text: "Dia 3 - Evolução como fator de 'confusão'"
             href: aulas/Aula2_processos_evolutivos_filo.qmd
 format:
   html:

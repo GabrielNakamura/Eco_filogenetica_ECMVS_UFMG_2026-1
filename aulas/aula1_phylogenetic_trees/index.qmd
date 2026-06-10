@@ -1,0 +1,78 @@
+---
+title: "Anatomia das árvores (filogenéticas)"
+format:
+  html:
+    code-copy: true
+    code-tools:
+      source: true
+      toggle: true # Opcional: esconde o botão de ocultar/mostrar códigos se não quiser
+---
+
+:::callout-note
+Em construção...
+:::
+
+## Árvores filogenéticas
+
+Nessa seção iremos compreender como identificar as principais estruturas 
+   de uma árvore filogenética, extrair informações referentes a identidade
+   dos tips, nós, ramos e suas respectivas idades. 
+   
+Ao fim dessa aula você deve ser capaz de identificar os principais elementos
+   que compõe uma árvore filogenética, extrair suas informações, editar as 
+   árvores, interoperabilizar os formatos existentes e dominar funções 
+   básicas de plotagem de árvores.
+
+
+## Formatos manejáveis das árvores filogenéticas
+
+Para essa prática utilizaremos os seguintes pacotes:
+
+```{r,eval=FALSE}
+library(geiger)
+library(ape)
+library(phytools)
+```
+
+
+
+
+## Manejo e processamento das árvores 
+
+
+## Diferentes formas de representar a estrutura de árvores
+
+Existem algumas situações que o formato da informação da estrutura da 
+   árvore não é muito amigável para manipulação nem para compreensão de 
+   seus detalhes, por exemplo, verificar quem são todos os descendentes e 
+   os clados filhos de um determinado ancestral. Para tornar essa tarefa menos
+   complicada podemos transformar a árvore em formatos mais amigáveis para 
+   manipulação, por exemplo, data frames. 
+   
+```{r, eval=FALSE}
+library(tidytree)
+```
+
+O pacote `tidytree` possibilita manipular a estrutura da árvore filogenética
+   seguindo o paradigma de programação funcional utilizado em pacotes mais 
+   recentes como `tidiverse` e `dplyr`
+
+## Exercícios para praticar
+
+1. 
+
+2. 
+
+3. Plote a árvore filogenética simulada usando três representações visuais 
+    distintas
+
+
+## Slides da aula 
+
+Aqui você encontra a apresentação associada a esse tópico
+
+[Tela cheia 📺](slides.qmd)
+
+```{=html}
+<iframe class="slide-deck" src="slides.html" height="420" width="750" style="border: 1px solid #2e3846;"></iframe>
+```

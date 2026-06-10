@@ -1,71 +1,150 @@
 [
   {
-    "objectID": "aulas/Aula1_phylo_trees.html",
-    "href": "aulas/Aula1_phylo_trees.html",
+    "objectID": "aulas/aula1_phylogenetic_trees/Aula1_phylo_trees.html",
+    "href": "aulas/aula1_phylogenetic_trees/Aula1_phylo_trees.html",
     "title": "Árvores",
     "section": "",
-    "text": "Material de apoio ✍️",
-    "crumbs": [
-      "Materiais por dia",
-      "Dia 1 - Árvores filogenéticas"
-    ]
+    "text": "[Tela cheia]()\n\n\n\n\n\n\nMaterial de apoio ✍️"
   },
   {
-    "objectID": "aulas/Aula1_phylo_trees.html#as-árvores",
-    "href": "aulas/Aula1_phylo_trees.html#as-árvores",
+    "objectID": "aulas/aula1_phylogenetic_trees/Aula1_phylo_trees.html#as-árvores",
+    "href": "aulas/aula1_phylogenetic_trees/Aula1_phylo_trees.html#as-árvores",
     "title": "Árvores",
     "section": "",
-    "text": "Material de apoio ✍️",
-    "crumbs": [
-      "Materiais por dia",
-      "Dia 1 - Árvores filogenéticas"
-    ]
+    "text": "[Tela cheia]()\n\n\n\n\n\n\nMaterial de apoio ✍️"
+  },
+  {
+    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#anatomia-de-uma-árvore",
+    "href": "aulas/aula1_phylogenetic_trees/slides.html#anatomia-de-uma-árvore",
+    "title": "Árvores filogenéticas",
+    "section": "Anatomia de uma árvore",
+    "text": "Anatomia de uma árvore\n\nRamos\nNós\nMais um tanto de coisas"
+  },
+  {
+    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#tipos-de-árvore",
+    "href": "aulas/aula1_phylogenetic_trees/slides.html#tipos-de-árvore",
+    "title": "Árvores filogenéticas",
+    "section": "Tipos de árvore",
+    "text": "Tipos de árvore"
+  },
+  {
+    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#formatos",
+    "href": "aulas/aula1_phylogenetic_trees/slides.html#formatos",
+    "title": "Árvores filogenéticas",
+    "section": "Formatos",
+    "text": "Formatos"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "Sobre",
+    "title": "Sobre o curso",
     "section": "",
-    "text": "Ecologia filogenética de comunidades"
+    "text": "O conteúdo nesse sítio tem como objetivo servir como material de apoio para a disciplina **Tópicos Especiais - Métodos e técnicas em ecologia, conservação e manejo da vida silvestre - Diversidade Funcional e filogenética de comunidades, parte da grade de disciplinas oferecidas no PPG Ecologia, Conservação e Manejo da Vida Silvestre da Universidade Federal de Minas Gerais, ministrada por mim, Gabriel Nakamura e pelo Rafa Leitão.\nEspecificamente, aqui você irá encontrar os materiais para a segunda semana da disciplina, onde, apesar do nome oficial ser Diversidade Filogenética, iremos abordar menos sobre isso, e mais sobre o que gera, de onde vem, e como podemos utilizar alguns métodos filogenéticos para responder questões em ecologia e macroevolução. Este curso não tem como intuito apresentar uma lista exaustiva de métricas e métodos, mas sim fornecer as bases teóricas e metodológicas para que os estudantes possam eles mesmos chegarem nas melhores alternativas para representar e responder suas questões.\nPara uma visão geral dos temas, horários e conteúdos veja esta página.",
+    "crumbs": [
+      "Informações sobre o curso",
+      "Apresentação"
+    ]
   },
   {
-    "objectID": "about.html#sobre-o-curso",
-    "href": "about.html#sobre-o-curso",
-    "title": "Sobre",
-    "section": "",
-    "text": "Ecologia filogenética de comunidades"
+    "objectID": "about.html#professores",
+    "href": "about.html#professores",
+    "title": "Sobre o curso",
+    "section": "Professores",
+    "text": "Professores\n\n\n\n\nRafa Leitão\n\n\n\nRafa é professor Adjunto do Departamento de Genética, Ecologia e Evolução (GEE/ICB) da Universidade Federal de Minas Gerais (UFMG) e orientador permanente do Programa de Pós-Graduação em Ecologia, Conservação e Manejo de Vida Silvestre (ECMVS-UFMG). Doutor em Biologia de Água Doce pelo Instituto Nacional de Pesquisas da Amazônia (BADPI-INPA) e em ‘Ecosystèmes’ pela Universidade de Montpellier (ESA-UM, França). Bacharel em Ciências Biológicas e mestre em Ecologia pela Universidade Federal do Rio de Janeiro (UFRJ). Atua principalmente nas áreas de ecologia de comunidades, diversidade funcional, conservação de ecossistemas aquáticos, interações interespecíficas e ictiologia.\n\n\n\n\n\n\n\nGabriel Nakamura\n\n\n\nÉ professor no Departamento de Genética, Ecologia e Evolução da UFMG e credenciado como membro permanente do programa de pós-graduação em Ecologia, Conservação e Manejo da Vida Silvestre. Tem graduação em Ciências Biológicas (licenciatura plena, UFMS), mestrado em Ecologia e Conservação (UFMS) e doutorado em Ecologia (UFRGS). Minha pesquisa busca compreender como processos históricos (especiação, extinção, dispersão) e ecológicos geram e moldam a biodiversidade no tempo profundo. Atuo principalmente no desenvolvimento de ferramentas numéricas para quantificar padrões e processos macroecológicos e macroevolutivos. Tenho experiência em métodos quantitativos, simulações, ecologia de comunidades e reprodutibilidade em pesquisa. Me interesso também por vieses no conhecimento biológico e na produção científica, sobretudo na comparação entre norte e sul globais, visando promover equidade, diversidade e inclusão na ciência. Fui pesquisador em biogeografia computacional na Texas AM University. Sou editor associado dos periódicos Austral Ecology e Perspectives in Ecology and Conservation e pesquisador do INCT - Ecologia, Evolução e Conservação da Biodiversidade. Mais informações em minha página profissional",
+    "crumbs": [
+      "Informações sobre o curso",
+      "Apresentação"
+    ]
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Ecologia filogenética ECMVS 2026-1",
     "section": "",
-    "text": "Dia\nData\nTópico\nMaterial\n\n\n\n\nDia 1\nXX/07\nÁrvores filogenéticas\n\n\n\nDia 2\n\n\n\n\n\nDia 3\n\n\n\n\n\nDia 4\n\n\n\n\n\nDia 5",
+    "text": "Dia\nData\nTópico\nDescrição\nRoteiros e códigos\nSlides\nLeituras\n\n\n\n\nDia 1\n05/07\nÁrvores filogenéticas\nTipos de árvores, estrutura de árvores filogenéticas, processamento e manejo de árvores, fontes secundárias para árvores\n💻\n📽\n📚\n\n\nDia 2\n06/07\nDescrição de padrões I: filogenias e atributos\n\n💻\n📽\n📚\n\n\nDia 3\n07/07\nDescrição de padrões II: integrando filogenias em ecologia\n\n\n\n\n\n\nDia 4\n08/07\nInferências I: filogenias para evitar erros\n\n\n\n\n\n\nDia 5\n09/07\nInferências II: filogenias para entender processos",
     "crumbs": [
       "Informações sobre o curso",
-      "Introdução"
+      "Cronograma do curso"
     ]
   },
   {
-    "objectID": "aulas/Aula2_processos_evolutivos_filo.html",
-    "href": "aulas/Aula2_processos_evolutivos_filo.html",
+    "objectID": "aulas/aula2_descricao-padroes_I/Aula2_processos_evolutivos_filo.html",
+    "href": "aulas/aula2_descricao-padroes_I/Aula2_processos_evolutivos_filo.html",
     "title": "Processos evolutivos",
     "section": "",
-    "text": "Filogenias como preditoras",
+    "text": "Filogenias como preditoras"
+  },
+  {
+    "objectID": "aulas/aula2_descricao-padroes_I/Aula2_processos_evolutivos_filo.html#processos-evolutivos",
+    "href": "aulas/aula2_descricao-padroes_I/Aula2_processos_evolutivos_filo.html#processos-evolutivos",
+    "title": "Processos evolutivos",
+    "section": "",
+    "text": "Filogenias como preditoras"
+  },
+  {
+    "objectID": "aulas/aula1_phylogenetic_trees/index.html",
+    "href": "aulas/aula1_phylogenetic_trees/index.html",
+    "title": "Anatomia das árvores (filogenéticas)",
+    "section": "",
+    "text": "Note\n\n\n\nEm construção…",
     "crumbs": [
       "Materiais por dia",
-      "Dia 2"
+      "Dia 1 - Árvores filogenéticas"
     ]
   },
   {
-    "objectID": "aulas/Aula2_processos_evolutivos_filo.html#processos-evolutivos",
-    "href": "aulas/Aula2_processos_evolutivos_filo.html#processos-evolutivos",
-    "title": "Processos evolutivos",
-    "section": "",
-    "text": "Filogenias como preditoras",
+    "objectID": "aulas/aula1_phylogenetic_trees/index.html#árvores-filogenéticas",
+    "href": "aulas/aula1_phylogenetic_trees/index.html#árvores-filogenéticas",
+    "title": "Anatomia das árvores (filogenéticas)",
+    "section": "Árvores filogenéticas",
+    "text": "Árvores filogenéticas\nNessa seção iremos compreender como identificar as principais estruturas de uma árvore filogenética, extrair informações referentes a identidade dos tips, nós, ramos e suas respectivas idades.\nAo fim dessa aula você deve ser capaz de identificar os principais elementos que compõe uma árvore filogenética, extrair suas informações, editar as árvores, interoperabilizar os formatos existentes e dominar funções básicas de plotagem de árvores.",
     "crumbs": [
       "Materiais por dia",
-      "Dia 2"
+      "Dia 1 - Árvores filogenéticas"
+    ]
+  },
+  {
+    "objectID": "aulas/aula1_phylogenetic_trees/index.html#formatos-manejáveis-das-árvores-filogenéticas",
+    "href": "aulas/aula1_phylogenetic_trees/index.html#formatos-manejáveis-das-árvores-filogenéticas",
+    "title": "Anatomia das árvores (filogenéticas)",
+    "section": "Formatos manejáveis das árvores filogenéticas",
+    "text": "Formatos manejáveis das árvores filogenéticas\nPara essa prática utilizaremos os seguintes pacotes:\n\nlibrary(geiger)\nlibrary(ape)\nlibrary(phytools)",
+    "crumbs": [
+      "Materiais por dia",
+      "Dia 1 - Árvores filogenéticas"
+    ]
+  },
+  {
+    "objectID": "aulas/aula1_phylogenetic_trees/index.html#manejo-e-processamento-das-árvores",
+    "href": "aulas/aula1_phylogenetic_trees/index.html#manejo-e-processamento-das-árvores",
+    "title": "Anatomia das árvores (filogenéticas)",
+    "section": "Manejo e processamento das árvores",
+    "text": "Manejo e processamento das árvores",
+    "crumbs": [
+      "Materiais por dia",
+      "Dia 1 - Árvores filogenéticas"
+    ]
+  },
+  {
+    "objectID": "aulas/aula1_phylogenetic_trees/index.html#slides-da-aula",
+    "href": "aulas/aula1_phylogenetic_trees/index.html#slides-da-aula",
+    "title": "Anatomia das árvores (filogenéticas)",
+    "section": "Slides da aula",
+    "text": "Slides da aula\nAqui você encontra a apresentação associada a esse tópico\nTela cheia 📺",
+    "crumbs": [
+      "Materiais por dia",
+      "Dia 1 - Árvores filogenéticas"
+    ]
+  },
+  {
+    "objectID": "aulas/aula1_phylogenetic_trees/index.html#exercícios-para-praticar",
+    "href": "aulas/aula1_phylogenetic_trees/index.html#exercícios-para-praticar",
+    "title": "Anatomia das árvores (filogenéticas)",
+    "section": "Exercícios para praticar",
+    "text": "Exercícios para praticar",
+    "crumbs": [
+      "Materiais por dia",
+      "Dia 1 - Árvores filogenéticas"
     ]
   }
 ]

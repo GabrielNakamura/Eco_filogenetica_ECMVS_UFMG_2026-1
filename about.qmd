@@ -1,7 +1,53 @@
 ---
-title: "Sobre"
+title: "Sobre o curso"
 ---
 
-## Sobre o curso
+O conteúdo nesse sítio tem como objetivo servir como material de apoio para a disciplina \*\*Tópicos Especiais - Métodos e técnicas em ecologia, conservação e manejo da vida silvestre - Diversidade Funcional e filogenética de ~~comunidades~~, parte da grade de disciplinas oferecidas no PPG Ecologia, Conservação e Manejo da Vida Silvestre da Universidade Federal de Minas Gerais, ministrada por mim, [Gabriel Nakamura](http://lattes.cnpq.br/2456515948049565) e pelo [Rafa Leitão](http://lattes.cnpq.br/1431026167939116).
 
-Ecologia filogenética de ~~comunidades~~
+Especificamente, aqui você irá encontrar os materiais para a segunda semana da disciplina, onde, apesar do nome oficial ser Diversidade Filogenética, iremos abordar menos sobre isso, e mais sobre o que gera, de onde vem, e como podemos utilizar alguns métodos filogenéticos para responder questões em ecologia e macroevolução. Este curso não tem como intuito apresentar uma lista exaustiva de métricas e métodos, mas sim fornecer as bases teóricas e metodológicas para que os estudantes possam eles mesmos chegarem nas melhores alternativas para representar e responder suas questões.
+
+Para uma visão geral dos temas, horários e conteúdos veja [esta página]().
+
+## Professores
+
+::: {style="float: left; margin-right: 15px;"}
+![Rafa Leitão](/images/Rafa_leitao_image2.jpg){width=200px}
+:::
+
+Rafa é professor Adjunto do Departamento de Genética, Ecologia e Evolução (GEE/ICB) 
+    da Universidade Federal de Minas Gerais (UFMG) e orientador permanente do 
+    Programa de Pós-Graduação em Ecologia, Conservação e Manejo de Vida Silvestre 
+    (ECMVS-UFMG). Doutor em Biologia de Água Doce pelo Instituto Nacional de 
+    Pesquisas da Amazônia (BADPI-INPA) e em 'Ecosystèmes' pela Universidade de 
+    Montpellier (ESA-UM, França). Bacharel em Ciências Biológicas e mestre em 
+    Ecologia pela Universidade Federal do Rio de Janeiro (UFRJ). 
+    Atua principalmente nas áreas de ecologia de comunidades, diversidade funcional,
+    conservação de ecossistemas aquáticos, interações interespecíficas e ictiologia.
+    
+<div style="clear: both;"></div>
+
+
+::: {style="float: left; margin-right: 15px;"}
+![Gabriel Nakamura](/images/Gabriel_Nakamura.jpg){width=200px}
+:::
+
+É professor no Departamento de Genética, Ecologia e Evolução da UFMG e 
+    credenciado como membro permanente do programa de pós-graduação em Ecologia, 
+    Conservação e Manejo da Vida Silvestre. Tem graduação em Ciências Biológicas
+    (licenciatura plena, UFMS), mestrado em Ecologia e Conservação (UFMS) e
+    doutorado em Ecologia (UFRGS). Minha pesquisa busca compreender como 
+    processos históricos (especiação, extinção, dispersão) e ecológicos geram e
+    moldam a biodiversidade no tempo profundo. Atuo principalmente no 
+    desenvolvimento de ferramentas numéricas para quantificar padrões e processos
+    macroecológicos e macroevolutivos. Tenho experiência em métodos quantitativos, 
+    simulações, ecologia de comunidades e reprodutibilidade em pesquisa. 
+    Me interesso também por vieses no conhecimento biológico e na produção 
+    científica, sobretudo na comparação entre norte e sul globais, visando 
+    promover equidade, diversidade e inclusão na ciência. Fui pesquisador em 
+    biogeografia computacional na Texas AM University. Sou editor associado dos 
+    periódicos Austral Ecology e Perspectives in Ecology and Conservation e
+    pesquisador do INCT - Ecologia, Evolução e Conservação da Biodiversidade. 
+    Mais informações em minha [página profissional](https://gabrielnakamura.netlify.app/)
+    
+    
+    

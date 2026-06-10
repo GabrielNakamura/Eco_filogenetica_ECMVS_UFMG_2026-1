@@ -2,10 +2,10 @@
 title: "Ecologia filogenética ECMVS 2026-1"
 ---
 
-| Dia   | Data  | Tópico                | Material |
-|-------|-------|-----------------------|----------|
-| Dia 1 | XX/07 | Árvores filogenéticas |          |
-| Dia 2 |       |                       |          |
-| Dia 3 |       |                       |          |
-| Dia 4 |       |                       |          |
-| Dia 5 |       |                       |          |
+| Dia | Data | Tópico | Descrição | Roteiros e códigos | Slides | Leituras |
+|------------|------------|------------|--|------------|------------|------------|
+| Dia 1 | 05/07 | Árvores filogenéticas | Tipos de árvores, estrutura de árvores filogenéticas, processamento e manejo de árvores, fontes secundárias para árvores | [💻](/aulas/Aula1_phylo_trees.html) | 📽 | 📚 |
+| Dia 2 | 06/07 | Descrição de padrões I: filogenias e atributos |  | [💻](/aulas/Aula1_phylo_trees.html) | 📽 | 📚 |
+| Dia 3 | 07/07 | Descrição de padrões II: integrando filogenias em ecologia |  |  |  |  |
+| Dia 4 | 08/07 | Inferências I: filogenias para evitar erros |  |  |  |  |
+| Dia 5 | 09/07 | Inferências II: filogenias para entender processos |  |  |  |  |
