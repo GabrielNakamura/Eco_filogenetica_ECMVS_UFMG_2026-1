@@ -23,14 +23,14 @@
   {
     "objectID": "aulas/aula1_phylogenetic_trees/slides.html#tipos-de-árvore",
     "href": "aulas/aula1_phylogenetic_trees/slides.html#tipos-de-árvore",
-    "title": "Árvores filogenéticas",
+    "title": "Árvores filogenéticas: de onde vem, do que se alimentam, como são e onde vivem",
     "section": "Tipos de árvore",
     "text": "Tipos de árvore"
   },
   {
     "objectID": "aulas/aula1_phylogenetic_trees/slides.html#formatos",
     "href": "aulas/aula1_phylogenetic_trees/slides.html#formatos",
-    "title": "Árvores filogenéticas",
+    "title": "Árvores filogenéticas: de onde vem, do que se alimentam, como são e onde vivem",
     "section": "Formatos",
     "text": "Formatos"
   },
@@ -146,5 +146,61 @@
       "Materiais por dia",
       "Dia 1 - Árvores filogenéticas"
     ]
+  },
+  {
+    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-de-onde-vem-e-do-que-se-alimentam",
+    "href": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-de-onde-vem-e-do-que-se-alimentam",
+    "title": "Árvores filogenéticas: de onde vem, do que se alimentam, como são e onde vivem",
+    "section": "Árvores filogenéticas: de onde vem e do que se alimentam?",
+    "text": "Árvores filogenéticas: de onde vem e do que se alimentam?\nComo surgem?\n\nMáxima parsimônia: menor número de mudanças\nDistâncias: Jukes-Cantor, distâncias entre pares de espécies acoplada a método de agrupamento\nMáxima verossimilhança\n\nInferência Bayesiana"
+  },
+  {
+    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filongéticas-como-são",
+    "href": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filongéticas-como-são",
+    "title": "Árvores filogenéticas: de onde vem, do que se alimentam, como são e onde vivem",
+    "section": "Árvores filongéticas: como são?",
+    "text": "Árvores filongéticas: como são?\n\nRamos\nNós\nMais um tanto de coisas"
+  },
+  {
+    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-onde-vivem",
+    "href": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-onde-vivem",
+    "title": "Árvores filogenéticas: de onde vem, do que se alimentam, como são e onde vivem",
+    "section": "Árvores filogenéticas: onde vivem?",
+    "text": "Árvores filogenéticas: onde vivem?"
+  },
+  {
+    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#como-surgem-1",
+    "href": "aulas/aula1_phylogenetic_trees/slides.html#como-surgem-1",
+    "title": "Árvores filogenéticas: de onde vem, do que se alimentam, como são e onde vivem",
+    "section": "Como surgem?",
+    "text": "Como surgem?"
+  },
+  {
+    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#como-surgem-2",
+    "href": "aulas/aula1_phylogenetic_trees/slides.html#como-surgem-2",
+    "title": "Árvores filogenéticas: de onde vem, do que se alimentam, como são e onde vivem",
+    "section": "Como surgem?",
+    "text": "Como surgem?"
+  },
+  {
+    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#como-surgem-likelihood",
+    "href": "aulas/aula1_phylogenetic_trees/slides.html#como-surgem-likelihood",
+    "title": "Árvores filogenéticas: de onde vem, do que se alimentam, como são e onde vivem",
+    "section": "Como surgem? Likelihood",
+    "text": "Como surgem? Likelihood"
+  },
+  {
+    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#como-surgem-likelihood-1",
+    "href": "aulas/aula1_phylogenetic_trees/slides.html#como-surgem-likelihood-1",
+    "title": "Árvores filogenéticas: de onde vem, do que se alimentam, como são e onde vivem",
+    "section": "Como surgem? Likelihood",
+    "text": "Como surgem? Likelihood"
+  },
+  {
+    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#como-surgem-likelihood-2",
+    "href": "aulas/aula1_phylogenetic_trees/slides.html#como-surgem-likelihood-2",
+    "title": "Árvores filogenéticas: de onde vem, do que se alimentam, como são e onde vivem",
+    "section": "Como surgem? Likelihood",
+    "text": "Como surgem? Likelihood"
   }
 ]

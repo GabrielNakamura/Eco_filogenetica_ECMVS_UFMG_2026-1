@@ -1,9 +1,29 @@
 ---
-title: "Árvores filogenéticas"
+title: "Árvores filogenéticas: de onde vem, do que se alimentam, como são e onde vivem"
 format: qmdrslides-revealjs
 ---
 
-## Anatomia de uma árvore
+## Árvores filogenéticas: de onde vem e do que se alimentam?
+
+### Como surgem?
+
+- Máxima parsimônia: menor número de mudanças
+- Distâncias: Jukes-Cantor, distâncias entre pares de espécies 
+    acoplada a método de agrupamento
+- Máxima verossimilhança  
+- Inferência Bayesiana
+
+## Como surgem? {background-image="images/tree1.png" background-size="cover" background-position="center"}
+
+## Como surgem? {background-image="images/tree5.png" background-size="cover" background-position="center"}
+
+## Como surgem? Likelihood {background-image="images/ML_tree.png" background-size="cover" background-position="center"}
+
+## Como surgem? Likelihood {background-image="images/ML_tree1.png" background-size="cover" background-position="center"}
+
+## Como surgem? Likelihood {background-image="images/ML_tree2.png" background-size="cover" background-position="center"}
+
+## Árvores filongéticas: como são?
 
 1. Ramos
 2. Nós
@@ -12,3 +32,7 @@ format: qmdrslides-revealjs
 ## Tipos de árvore
 
 ## Formatos
+
+## Árvores filogenéticas: onde vivem?
+
+
