@@ -29,7 +29,7 @@ website:
             href: about.qmd
           - text: "Cronograma do curso"
             href: index.qmd
-          - text: "Links úteis"
+          - text: "Links para materiais úteis"
             href: links.qmd
       - section: "Materiais por dia"
         contents:

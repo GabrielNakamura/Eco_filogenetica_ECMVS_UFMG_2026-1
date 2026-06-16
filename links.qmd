@@ -1,0 +1,19 @@
+---
+title: "Links para materiais"
+---
+
+Aqui vocês irão encontrar links para materiais abertos sobre ecologia 
+    filogenética e outros assuntos relacionados. 
+
+## Livros e materiais didáticos
+
+- [Phylogenetic Biology](https://dunnlab.org/phylogenetic_biology/) por 
+    Cassey Dunn
+    
+    
+## Ferramental
+
+- [CRAN Task View: Phylogenetics](https://cran.r-project.org/web/views/Phylogenetics.html):
+    compilado de pacotes em R voltados para filogenômica, ecologia filogenética, 
+    macroevolução e outros assuntos relacionados.
+    

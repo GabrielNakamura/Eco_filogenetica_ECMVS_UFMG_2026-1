@@ -34,6 +34,8 @@
   <link href="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="../../site_libs/revealjs/plugin/reveal-chalkboard/font-awesome/css/all.css" rel="stylesheet">
+  <link href="../../site_libs/revealjs/plugin/reveal-chalkboard/style.css" rel="stylesheet">
   <link href="../../site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
   <style type="text/css">
     .reveal div.sourceCode {
@@ -138,19 +140,101 @@
 </section>
 <section id="árvores-filogenéticas-de-onde-vem-e-do-que-se-alimentam" class="slide level2">
 <h2>Árvores filogenéticas: de onde vem e do que se alimentam?</h2>
-<h3 id="como-surgem">Como surgem?</h3>
+<div class="columns">
+<div class="column" style="width:50%;">
+<h4 id="dois-ingredientes-básicos">Dois ingredientes básicos</h4>
 <ul>
-<li>Máxima parsimônia: menor número de mudanças</li>
-<li>Distâncias: Jukes-Cantor, distâncias entre pares de espécies acoplada a método de agrupamento</li>
-<li>Máxima verossimilhança<br>
-</li>
-<li>Inferência Bayesiana</li>
+<li>Dados (principalmente moleculares)</li>
+<li>Um modelo generativo de evolução (como o dado observado é criado?)</li>
 </ul>
+<h4 id="resultado">Resultado</h4>
+<ul>
+<li>Uma estrutura que relaciona os taxons e suas distâncias<br>
+</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><img data-src="images/ana_maria.jpg" style="width:100.0%"></p>
+</div></div>
 </section>
-<section id="como-surgem-1" class="slide level2" data-background-image="images/tree1.png" data-background-size="cover" data-background-position="center">
+<section id="árvores-filogenéticas-de-onde-vem-e-do-que-se-alimentam-1" class="slide level2" data-background-image="images/ingredientes_arvore.png" data-background-size="cover" data-background-position="center">
+<h2>Árvores filogenéticas: de onde vem e do que se alimentam?</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>Dados (principalmente moleculares)</li>
+<li>Um modelo generativo de evolução (como o dado observado é criado?)</li>
+</ul>
+</div></div>
+</section>
+<section id="quem-são" class="slide level2">
+<h2>Quem são?</h2>
+<p>Toda árvore bifurcada com n tips (pontas) vai apresentar as seguintes características</p>
+<ol type="1">
+<li class="fragment">O número de nós é <span class="math inline">\(n-1\)</span></li>
+<li class="fragment">O número total de nós é <span class="math inline">\(2n-1\)</span></li>
+<li class="fragment">Cada tip tem um único ramo</li>
+<li class="fragment">O único nó que não aprensenta um ramo “parental” é o nó <strong>raiz</strong></li>
+</ol>
+</section>
+<section id="como-surgem-por-que-árvores-filogenéticas-são-sempre-uma-hipótese" class="slide level2" data-background-image="images/ordenar_monstros.png" data-background-size="cover" data-background-position="center">
+<h2>Como surgem? Por que árvores filogenéticas são <strong>sempre</strong> uma hipótese?</h2>
+</section>
+<section id="como-surgem-por-que-árvores-filogenéticas-são-sempre-uma-hipótese-1" class="slide level2" data-background-image="images/ordenar_monstros.png" data-background-size="cover" data-background-position="center">
+<h2>Como surgem? Por que árvores filogenéticas são <strong>sempre</strong> uma hipótese?</h2>
+<div style="display:flex; justify-content:center; align-items:center; height:70vh;">
+<p><span class="math display">\[
+N_r = (2n - 3)!!
+\]</span></p>
+</div>
+</section>
+<section id="como-surgem-por-que-árvores-filogenéticas-são-sempre-uma-hipótese-2" class="slide level2" data-background-image="images/ordenar_monstros.png" data-background-size="cover" data-background-position="center">
+<h2>Como surgem? Por que árvores filogenéticas são <strong>sempre</strong> uma hipótese?</h2>
+<div style="display:flex; justify-content:center; align-items:center; height:70vh;">
+<p><span class="math display">\[
+N_r = (2n - 3)!! = 15
+\]</span></p>
+</div>
+</section>
+<section id="por-que-árvores-filogenéticas-são-sempre-uma-hipótese" class="slide level2">
+<h2>Por que árvores filogenéticas são <strong>sempre</strong> uma hipótese?</h2>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th style="text-align: center;">Espécies ((n))</th>
+<th style="text-align: right;">Árvores enraizadas ((N_r))</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">10</td>
+<td style="text-align: right;">34.459.425</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">20</td>
+<td style="text-align: right;">8.200.794.532.637.891.559.375</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">30</td>
+<td style="text-align: right;">(4,95 ^{38})</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">50</td>
+<td style="text-align: right;">(2,75 ^{76})</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">100</td>
+<td style="text-align: right;">(3,35 ^{184})</td>
+</tr>
+</tbody>
+</table>
+<p><span class="math display">\[
+N_r = (2n-3)!!
+\]</span></p>
+</section>
+<section id="como-surgem" class="slide level2" data-background-image="images/tree1.png" data-background-size="cover" data-background-position="center">
 <h2>Como surgem?</h2>
 </section>
-<section id="como-surgem-2" class="slide level2" data-background-image="images/tree5.png" data-background-size="cover" data-background-position="center">
+<section id="como-surgem-1" class="slide level2" data-background-image="images/tree5.png" data-background-size="cover" data-background-position="center">
 <h2>Como surgem?</h2>
 </section>
 <section id="como-surgem-likelihood" class="slide level2" data-background-image="images/ML_tree.png" data-background-size="cover" data-background-position="center">
@@ -162,19 +246,32 @@
 <section id="como-surgem-likelihood-2" class="slide level2" data-background-image="images/ML_tree2.png" data-background-size="cover" data-background-position="center">
 <h2>Como surgem? Likelihood</h2>
 </section>
-<section id="árvores-filongéticas-como-são" class="slide level2">
-<h2>Árvores filongéticas: como são?</h2>
-<ol type="1">
-<li>Ramos</li>
-<li>Nós</li>
-<li>Mais um tanto de coisas</li>
-</ol>
+<section id="a-anatomia-de-uma-árvore-filogenética" class="slide level2">
+<h2>A anatomia de uma árvore filogenética?</h2>
+<h3 id="qual-a-diferença-entre-essas-arvores">Qual a diferença entre essas arvores</h3>
+<!-- figura com árvores em diferentes formatos aqui mas com a mesma topologia -->
 </section>
 <section id="tipos-de-árvore" class="slide level2">
 <h2>Tipos de árvore</h2>
 </section>
-<section id="formatos" class="slide level2">
-<h2>Formatos</h2>
+<section id="formatos-operacionais" class="slide level2">
+<h2>Formatos operacionais</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<h3 id="principais-formatos">Principais formatos</h3>
+<ul>
+<li>Newick</li>
+<li>Tópico explicativo 2</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<h3 id="traduzindo-para-o-formato">Traduzindo para o formato</h3>
+<textarea style="width: 100%; height: 350px; font-size: 1rem; padding: 10px; border-radius: 5px; border: 1px solid #ccc;" placeholder="Digite suas anotações aqui durante a apresentação..."></textarea>
+</div></div>
+</section>
+<section id="árvores-filogenéticas-mini-quiz" class="slide level2">
+<h2>Árvores filogenéticas: mini quiz</h2>
+<iframe src="https://klash.shinyapps.io/tree_thinking/" width="100%" height="500px" style="border: 1px solid #ccc; border-radius: 8px;">
+</iframe>
 </section>
 <section id="árvores-filogenéticas-onde-vivem" class="slide level2">
 <h2>Árvores filogenéticas: onde vivem?</h2>
@@ -195,6 +292,7 @@
   <script src="../../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
   <script src="../../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
   <script src="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="../../site_libs/revealjs/plugin/reveal-chalkboard/plugin.js"></script>
   <script src="../../site_libs/revealjs/plugin/quarto-support/support.js"></script>
   
 
@@ -216,7 +314,8 @@
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
 'jumpToSlide': true,
-'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":false},
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"8\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":false},
+'chalkboard': {"buttons":true},
 'smaller': false,
  
         // Display controls in the bottom right corner
@@ -237,7 +336,7 @@
         progress: false,
 
         // Display the page number of the current slide
-        slideNumber: 'c',
+        slideNumber: 'c/t',
 
         // 'all', 'print', or 'speaker'
         showSlideNumber: 'all',
@@ -387,7 +486,7 @@
         },
 
         // reveal.js plugins
-        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, QuartoSupport,
 
           RevealMath,
           RevealNotes,

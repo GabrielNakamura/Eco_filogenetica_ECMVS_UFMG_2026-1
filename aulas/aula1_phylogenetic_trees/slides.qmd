@@ -1,17 +1,95 @@
 ---
 title: "Árvores filogenéticas: de onde vem, do que se alimentam, como são e onde vivem"
-format: qmdrslides-revealjs
+format: 
+  qmdrslides-revealjs:
+    chalkboard: true
+    slide-number: true
 ---
 
 ## Árvores filogenéticas: de onde vem e do que se alimentam?
 
-### Como surgem?
+:::: {.columns}
 
-- Máxima parsimônia: menor número de mudanças
-- Distâncias: Jukes-Cantor, distâncias entre pares de espécies 
-    acoplada a método de agrupamento
-- Máxima verossimilhança  
-- Inferência Bayesiana
+::: {.column width="50%"}
+#### Dois ingredientes básicos 
+
+- Dados (principalmente moleculares)
+- Um modelo generativo de evolução (como o dado observado é criado?)
+
+#### Resultado
+- Uma estrutura que relaciona os taxons e suas distâncias  
+:::
+
+::: {.column width="50%"}
+
+![](images/ana_maria.jpg){width=100%}
+:::
+
+::::
+
+## Árvores filogenéticas: de onde vem e do que se alimentam? {background-image="images/ingredientes_arvore.png" background-size="cover" background-position="center"}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+- Dados (principalmente moleculares)
+- Um modelo generativo de evolução (como o dado observado é criado?)
+
+:::
+
+::::
+
+## Quem são?
+
+Toda árvore bifurcada com n tips (pontas) vai apresentar as seguintes 
+    características
+
+::: {.incremental}
+
+1. O número de nós é $n-1$
+2. O número total de nós é $2n-1$
+3. Cada tip tem um único ramo
+4. O único nó que não aprensenta um ramo "parental" é o nó **raiz**
+
+:::
+## Como surgem? Por que árvores filogenéticas são **sempre** uma hipótese? {background-image="images/ordenar_monstros.png" background-size="cover" background-position="center"}
+
+## Como surgem? Por que árvores filogenéticas são **sempre** uma hipótese? {background-image="images/ordenar_monstros.png" background-size="cover" background-position="center"}
+
+<div style="display:flex; justify-content:center; align-items:center; height:70vh;">
+
+$$
+N_r = (2n - 3)!!
+$$
+
+</div>
+
+## Como surgem? Por que árvores filogenéticas são **sempre** uma hipótese? {background-image="images/ordenar_monstros.png" background-size="cover" background-position="center"}
+
+<div style="display:flex; justify-content:center; align-items:center; height:70vh;">
+
+$$
+N_r = (2n - 3)!! = 15
+$$
+
+</div>
+
+## Por que árvores filogenéticas são **sempre** uma hipótese? 
+
+
+| Espécies (\(n\)) | Árvores enraizadas (\(N_r\)) |
+|:---:|---:|
+| 10  | 34.459.425 |
+| 20  | 8.200.794.532.637.891.559.375 |
+| 30  | \(4,95 \times 10^{38}\) |
+| 50  | \(2,75 \times 10^{76}\) |
+| 100 | \(3,35 \times 10^{184}\) |
+
+$$
+N_r = (2n-3)!!
+$$
+
 
 ## Como surgem? {background-image="images/tree1.png" background-size="cover" background-position="center"}
 
@@ -23,15 +101,37 @@ format: qmdrslides-revealjs
 
 ## Como surgem? Likelihood {background-image="images/ML_tree2.png" background-size="cover" background-position="center"}
 
-## Árvores filongéticas: como são?
+## A anatomia de uma árvore filogenética?
 
-1. Ramos
-2. Nós
-3. Mais um tanto de coisas
+### Qual a diferença entre essas arvores 
+
+<!-- figura com árvores em diferentes formatos aqui mas com a mesma topologia -->
 
 ## Tipos de árvore
 
-## Formatos
+## Formatos operacionais 
+
+::: {.columns}
+
+::: {.column width="50%"}
+### Principais formatos
+
+* Newick
+* Tópico explicativo 2
+
+:::
+
+::: {.column width="50%"}
+### Traduzindo para o formato
+
+<textarea style="width: 100%; height: 350px; font-size: 1rem; padding: 10px; border-radius: 5px; border: 1px solid #ccc;" placeholder="Digite suas anotações aqui durante a apresentação..."></textarea>
+:::
+
+:::
+
+## Árvores filogenéticas: mini quiz
+
+<iframe src="https://klash.shinyapps.io/tree_thinking/" width="100%" height="500px" style="border: 1px solid #ccc; border-radius: 8px;"></iframe>
 
 ## Árvores filogenéticas: onde vivem?
 
