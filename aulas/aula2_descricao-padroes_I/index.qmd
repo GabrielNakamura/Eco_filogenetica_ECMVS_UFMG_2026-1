@@ -1,0 +1,41 @@
+---
+title: "Inferência de processos evolutivos a partir de filogenias"
+format:
+  html:
+    code-copy: true
+    code-tools:
+      source: true
+      toggle: true # Opcional: esconde o botão de ocultar/mostrar códigos se não quiser
+---
+
+:::callout-note
+Em construção...
+:::
+
+### Objetivo
+Nessa aula iremos explorar informações sobre padrões e processos evolutivos 
+    que podemos obter a partir do uso de filogenias. De maneira geral, o objetivo
+    desta aula é apresentar os principais métodos comparativos utilizados em 
+    diferentes áreas.
+    
+### Conteúdo 
+1. Métodos comparativos: definição, para que servem.
+2. O modelo Browniano
+3. Filogenia como fator de confusão: sinal filogenético em espécies e comunidades
+
+
+### Atividades
+
+### Referências utilizadas nessa seção 
+
+### Exercícios
+
+## Slides da aula 
+
+Aqui você encontra os slides apresentados em sala de aula sobre esse tópico
+
+[Tela cheia 📺](slides.qmd)
+
+```{=html}
+<iframe class="slide-deck" src="slides.html" height="420" width="750" style="border: 1px solid #2e3846;"></iframe>
+```

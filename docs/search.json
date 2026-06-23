@@ -50,7 +50,7 @@
     "href": "about.html#professores",
     "title": "Sobre o curso",
     "section": "Professores",
-    "text": "Professores\n\n\n\n\nRafa Leitão\n\n\n\nRafa é professor Adjunto do Departamento de Genética, Ecologia e Evolução (GEE/ICB) da Universidade Federal de Minas Gerais (UFMG) e orientador permanente do Programa de Pós-Graduação em Ecologia, Conservação e Manejo de Vida Silvestre (ECMVS-UFMG). Doutor em Biologia de Água Doce pelo Instituto Nacional de Pesquisas da Amazônia (BADPI-INPA) e em ‘Ecosystèmes’ pela Universidade de Montpellier (ESA-UM, França). Bacharel em Ciências Biológicas e mestre em Ecologia pela Universidade Federal do Rio de Janeiro (UFRJ). Atua principalmente nas áreas de ecologia de comunidades, diversidade funcional, conservação de ecossistemas aquáticos, interações interespecíficas e ictiologia.\n\n\n\n\n\n\n\nGabriel Nakamura\n\n\n\nÉ professor no Departamento de Genética, Ecologia e Evolução da UFMG e credenciado como membro permanente do programa de pós-graduação em Ecologia, Conservação e Manejo da Vida Silvestre. Tem graduação em Ciências Biológicas (licenciatura plena, UFMS), mestrado em Ecologia e Conservação (UFMS) e doutorado em Ecologia (UFRGS). Minha pesquisa busca compreender como processos históricos (especiação, extinção, dispersão) e ecológicos geram e moldam a biodiversidade no tempo profundo. Atuo principalmente no desenvolvimento de ferramentas numéricas para quantificar padrões e processos macroecológicos e macroevolutivos. Tenho experiência em métodos quantitativos, simulações, ecologia de comunidades e reprodutibilidade em pesquisa. Me interesso também por vieses no conhecimento biológico e na produção científica, sobretudo na comparação entre norte e sul globais, visando promover equidade, diversidade e inclusão na ciência. Fui pesquisador em biogeografia computacional na Texas AM University. Sou editor associado dos periódicos Austral Ecology e Perspectives in Ecology and Conservation e pesquisador do INCT - Ecologia, Evolução e Conservação da Biodiversidade. Mais informações em minha página profissional",
+    "text": "Professores\n\n\n\n\nRafa Leitão\n\n\n\nRafa é professor Adjunto do Departamento de Genética, Ecologia e Evolução (GEE/ICB) da Universidade Federal de Minas Gerais (UFMG) e orientador permanente do Programa de Pós-Graduação em Ecologia, Conservação e Manejo de Vida Silvestre (ECMVS-UFMG). Doutor em Biologia de Água Doce pelo Instituto Nacional de Pesquisas da Amazônia (BADPI-INPA) e em ‘Ecosystèmes’ pela Universidade de Montpellier (ESA-UM, França). Bacharel em Ciências Biológicas e mestre em Ecologia pela Universidade Federal do Rio de Janeiro (UFRJ). Atua principalmente nas áreas de ecologia de comunidades, diversidade funcional, conservação de ecossistemas aquáticos, interações interespecíficas e ictiologia.\n\n\n\n\n\n\n\nGabriel Nakamura\n\n\n\nGabriel é professor no Departamento de Genética, Ecologia e Evolução da UFMG e credenciado como membro permanente do programa de pós-graduação em Ecologia, Conservação e Manejo da Vida Silvestre. Tem graduação em Ciências Biológicas (licenciatura plena, UFMS), mestrado em Ecologia e Conservação (UFMS) e doutorado em Ecologia (UFRGS). Minha pesquisa busca compreender como processos históricos (especiação, extinção, dispersão) e ecológicos geram e moldam a biodiversidade no tempo profundo. Atuo principalmente no desenvolvimento de ferramentas numéricas para quantificar padrões e processos macroecológicos e macroevolutivos. Tenho experiência em métodos quantitativos, simulações, ecologia de comunidades e reprodutibilidade em pesquisa. Me interesso também por vieses no conhecimento biológico e na produção científica, sobretudo na comparação entre norte e sul globais, visando promover equidade, diversidade e inclusão na ciência. Fui pesquisador em biogeografia computacional na Texas AM University. Sou editor associado dos periódicos Austral Ecology e Perspectives in Ecology and Conservation e pesquisador do INCT - Ecologia, Evolução e Conservação da Biodiversidade. Mais informações em minha página profissional",
     "crumbs": [
       "Informações sobre o curso",
       "Apresentação"
@@ -84,67 +84,67 @@
   {
     "objectID": "aulas/aula1_phylogenetic_trees/index.html",
     "href": "aulas/aula1_phylogenetic_trees/index.html",
-    "title": "Anatomia das árvores (filogenéticas)",
+    "title": "Anatomia das árvores 🌳 (filogenéticas)",
     "section": "",
     "text": "Note\n\n\n\nEm construção…",
     "crumbs": [
       "Materiais por dia",
-      "Dia 1 - Árvores filogenéticas"
+      "Aula 1 - Árvores filogenéticas"
     ]
   },
   {
     "objectID": "aulas/aula1_phylogenetic_trees/index.html#árvores-filogenéticas",
     "href": "aulas/aula1_phylogenetic_trees/index.html#árvores-filogenéticas",
-    "title": "Anatomia das árvores (filogenéticas)",
+    "title": "Anatomia das árvores 🌳 (filogenéticas)",
     "section": "Árvores filogenéticas",
     "text": "Árvores filogenéticas\nNessa seção iremos compreender como identificar as principais estruturas de uma árvore filogenética, extrair informações referentes a identidade dos tips, nós, ramos e suas respectivas idades.\nAo fim dessa aula você deve ser capaz de identificar os principais elementos que compõe uma árvore filogenética, extrair suas informações, editar as árvores, interoperabilizar os formatos existentes e dominar funções básicas de plotagem de árvores.",
     "crumbs": [
       "Materiais por dia",
-      "Dia 1 - Árvores filogenéticas"
+      "Aula 1 - Árvores filogenéticas"
     ]
   },
   {
     "objectID": "aulas/aula1_phylogenetic_trees/index.html#formatos-manejáveis-das-árvores-filogenéticas",
     "href": "aulas/aula1_phylogenetic_trees/index.html#formatos-manejáveis-das-árvores-filogenéticas",
-    "title": "Anatomia das árvores (filogenéticas)",
+    "title": "Anatomia das árvores 🌳 (filogenéticas)",
     "section": "Formatos manejáveis das árvores filogenéticas",
     "text": "Formatos manejáveis das árvores filogenéticas\nPara essa prática utilizaremos os seguintes pacotes:\n\nlibrary(geiger)\nlibrary(ape)\nlibrary(phytools)",
     "crumbs": [
       "Materiais por dia",
-      "Dia 1 - Árvores filogenéticas"
+      "Aula 1 - Árvores filogenéticas"
     ]
   },
   {
     "objectID": "aulas/aula1_phylogenetic_trees/index.html#manejo-e-processamento-das-árvores",
     "href": "aulas/aula1_phylogenetic_trees/index.html#manejo-e-processamento-das-árvores",
-    "title": "Anatomia das árvores (filogenéticas)",
+    "title": "Anatomia das árvores 🌳 (filogenéticas)",
     "section": "Manejo e processamento das árvores",
     "text": "Manejo e processamento das árvores",
     "crumbs": [
       "Materiais por dia",
-      "Dia 1 - Árvores filogenéticas"
+      "Aula 1 - Árvores filogenéticas"
     ]
   },
   {
     "objectID": "aulas/aula1_phylogenetic_trees/index.html#slides-da-aula",
     "href": "aulas/aula1_phylogenetic_trees/index.html#slides-da-aula",
-    "title": "Anatomia das árvores (filogenéticas)",
+    "title": "Anatomia das árvores 🌳 (filogenéticas)",
     "section": "Slides da aula",
-    "text": "Slides da aula\nAqui você encontra a apresentação associada a esse tópico\nTela cheia 📺",
+    "text": "Slides da aula\nAqui você encontra os slides apresentados em aula sobre esse tópico\nTela cheia 📺",
     "crumbs": [
       "Materiais por dia",
-      "Dia 1 - Árvores filogenéticas"
+      "Aula 1 - Árvores filogenéticas"
     ]
   },
   {
     "objectID": "aulas/aula1_phylogenetic_trees/index.html#exercícios-para-praticar",
     "href": "aulas/aula1_phylogenetic_trees/index.html#exercícios-para-praticar",
-    "title": "Anatomia das árvores (filogenéticas)",
+    "title": "Anatomia das árvores 🌳 (filogenéticas)",
     "section": "Exercícios para praticar",
-    "text": "Exercícios para praticar\n\n\n\nPlote a árvore filogenética simulada usando três representações visuais distintas",
+    "text": "Exercícios para praticar\n\nSimule uma árvore filogenética e mapeie todos os ancestrais de todos os tips, ou seja, desde o tempo zero até a raiz.\n\n\n\nClique para ver o código de simulação\n# O SEU CÓDIGO VAI AQUI DENTRO:\n\n# Exemplo: Simulação de Caminhada Aleatória (Stochastic Process)\nset.seed(42)\ndados &lt;- data.frame(Tempo = 1:100, Valor = cumsum(rnorm(100)))\n\n\n\nSimule uma filogenia com 50 espécies. Após a simulação insira mais 4 espécies na filogenia. Faça esses inserções de duas formas. Uma, inserindo na metade do ramo de qualquer outra espécie já presente, outra inserindo em um nó que liga pelo menos 10 espécies.\n\n\nReferências e recursos utilizados nesta aula\n\nPacote treethinking contendo alguns quizes em relação a estrutura de árvores filogenéticas\nShiny app phylomapper %% checar se isso entra%%\nMaterial do Nick Matzke com uma introdução ao pensamento filogenético e interpretação de árvores\nExplicação simples e com exemplos pequenos sore como funciona o método de verossimilhança (likelihood)",
     "crumbs": [
       "Materiais por dia",
-      "Dia 1 - Árvores filogenéticas"
+      "Aula 1 - Árvores filogenéticas"
     ]
   },
   {
@@ -206,12 +206,12 @@
   {
     "objectID": "aulas/aula1_phylogenetic_trees/index.html#diferentes-formas-de-representar-a-estrutura-de-árvores",
     "href": "aulas/aula1_phylogenetic_trees/index.html#diferentes-formas-de-representar-a-estrutura-de-árvores",
-    "title": "Anatomia das árvores (filogenéticas)",
+    "title": "Anatomia das árvores 🌳 (filogenéticas)",
     "section": "Diferentes formas de representar a estrutura de árvores",
     "text": "Diferentes formas de representar a estrutura de árvores\nExistem algumas situações que o formato da informação da estrutura da árvore não é muito amigável para manipulação nem para compreensão de seus detalhes, por exemplo, verificar quem são todos os descendentes e os clados filhos de um determinado ancestral. Para tornar essa tarefa menos complicada podemos transformar a árvore em formatos mais amigáveis para manipulação, por exemplo, data frames.\n\nlibrary(tidytree)\n\nO pacote tidytree possibilita manipular a estrutura da árvore filogenética seguindo o paradigma de programação funcional utilizado em pacotes mais recentes como tidiverse e dplyr",
     "crumbs": [
       "Materiais por dia",
-      "Dia 1 - Árvores filogenéticas"
+      "Aula 1 - Árvores filogenéticas"
     ]
   },
   {
@@ -297,5 +297,96 @@
     "title": "Árvores filogenéticas: de onde vem, do que se alimentam, como são e onde vivem",
     "section": "Árvores filogenéticas: mini quiz",
     "text": "Árvores filogenéticas: mini quiz"
+  },
+  {
+    "objectID": "links.html",
+    "href": "links.html",
+    "title": "Links para materiais",
+    "section": "",
+    "text": "Aqui vocês irão encontrar links para materiais abertos sobre ecologia filogenética e outros assuntos relacionados.",
+    "crumbs": [
+      "Informações sobre o curso",
+      "Links para materiais úteis"
+    ]
+  },
+  {
+    "objectID": "links.html#livros-e-materiais-didáticos",
+    "href": "links.html#livros-e-materiais-didáticos",
+    "title": "Links para materiais",
+    "section": "Livros e materiais didáticos",
+    "text": "Livros e materiais didáticos\n\nPhylogenetic Biology por Cassey Dunn",
+    "crumbs": [
+      "Informações sobre o curso",
+      "Links para materiais úteis"
+    ]
+  },
+  {
+    "objectID": "links.html#ferramental",
+    "href": "links.html#ferramental",
+    "title": "Links para materiais",
+    "section": "Ferramental",
+    "text": "Ferramental\n\nCRAN Task View: Phylogenetics: compilado de pacotes em R voltados para filogenômica, ecologia filogenética, macroevolução e outros assuntos relacionados.",
+    "crumbs": [
+      "Informações sobre o curso",
+      "Links para materiais úteis"
+    ]
+  },
+  {
+    "objectID": "aulas/aula1_phylogenetic_trees/index.html#recursos",
+    "href": "aulas/aula1_phylogenetic_trees/index.html#recursos",
+    "title": "Anatomia das árvores 🌳 (filogenéticas)",
+    "section": "Recursos",
+    "text": "Recursos\nLista com alguns recursos que podem ser utilizados na disciplina de ecologia filogenética ou macroecologia filogenética. - Livro do Luke Harmon sobre método comparativo - site utilizado como modelo para de layout para site da disciplina - Livro do Nate Swenson - Phylogenetic Ecology como base para organização do conteúdo, principalmente a sequência e os eixos apresentados - Cassey Dunn book - very very good source of information on phylogenies and phylogenetic inference - Special issue in Phil Transactions B on phylogenetic models - Figure tree by Darwin in On the origin of species",
+    "crumbs": [
+      "Materiais por dia",
+      "Aula 1 - Árvores filogenéticas"
+    ]
+  },
+  {
+    "objectID": "aulas/aula1_phylogenetic_trees/index.html#aula-1---compreendendo-filogenias",
+    "href": "aulas/aula1_phylogenetic_trees/index.html#aula-1---compreendendo-filogenias",
+    "title": "Anatomia das árvores 🌳 (filogenéticas)",
+    "section": "Aula 1 - Compreendendo filogenias",
+    "text": "Aula 1 - Compreendendo filogenias\n\nObjetivo\nIntroduzir conceitualmente e operacionalmente filogenias em um contexto de estudos evolutivos, ecológicos, biogeográficos, macroecologicos e integrativo destes temas.\n\n\nConteúdo\nNessa aula apresentarei o significado das filogenias, o que elas representam e que tipo de informações conseguimos extrair a partir delas. Apresentarei também, brevemente, como as filogenias podem ser criadas, levando em conta principalmente informações moleculares com métodos de inferência de máxima verossimilhança. Por fim apresentarei como as filogenias podem ser operacionalizadas, ou seja, representadas de modo que possamos processá-las e manipulá-las como um dado/informação. Como podemos extrair as informações que vimos conceitualmente a partir das estruturas de dados de filogenias, quais bases de dados podem ser utilizadas.\n\n\nAtividades\n\nQuizz com o app treethinking de autoria do Klaus Schliep\nExercícios envolvendo manipulação e processamento de dados filogenéticos\nSimulação de árvores filogenéticas utilizando utilizando modelos de birth-death com o pacote geiger",
+    "crumbs": [
+      "Materiais por dia",
+      "Aula 1 - Árvores filogenéticas"
+    ]
+  },
+  {
+    "objectID": "about.html#recursos-e-referências",
+    "href": "about.html#recursos-e-referências",
+    "title": "Sobre o curso",
+    "section": "Recursos e referências",
+    "text": "Recursos e referências\nLista com alguns recursos que podem ser utilizados na disciplina de ecologia filogenética ou macroecologia filogenética. - Livro do Luke Harmon sobre método comparativo - site utilizado como modelo para de layout para site da disciplina - Livro do Nate Swenson - Phylogenetic Ecology como base para organização do conteúdo, principalmente a sequência e os eixos apresentados - Cassey Dunn book - very very good source of information on phylogenies and phylogenetic inference - Special issue in Phil Transactions B on phylogenetic models - Figure tree by Darwin in On the origin of species",
+    "crumbs": [
+      "Informações sobre o curso",
+      "Apresentação"
+    ]
+  },
+  {
+    "objectID": "aulas/aula1_phylogenetic_trees/index.html#sec-exercicios",
+    "href": "aulas/aula1_phylogenetic_trees/index.html#sec-exercicios",
+    "title": "Anatomia das árvores 🌳 (filogenéticas)",
+    "section": "Exercícios para praticar",
+    "text": "Exercícios para praticar\n\nSimule uma árvore filogenética e mapeie todos os ancestrais de todos os tips, ou seja, desde o tempo zero até a raiz.\n\n\n\nClique para ver a resolução do exercício\nset.seed(42)\n\n\n\nSimule uma filogenia com 50 espécies. Após a simulação insira mais 4 espécies na filogenia. Faça esses inserções de duas formas. Uma, inserindo na metade do ramo de qualquer outra espécie já presente, outra inserindo em um nó que liga pelo menos 10 espécies.\n\n\n\nClique para ver a resolução do exercício\nset.seed(42)\n\n\n\nUtilizando a mesma árvore simulada no exercício anterior. Calcule o comprimento do ramo que leva até o tip de cada espécie. O que esse ramo indica em termos de informação evolutiva?\n\n\n\nClique para ver a resolução do exercício\nset.seed(42)\n\n\n\nReferências e recursos utilizados nesta aula\n\nPacote treethinking contendo alguns quizes em relação a estrutura de árvores filogenéticas \nMaterial do Nick Matzke com uma introdução ao pensamento filogenético e interpretação de árvores\nExplicação simples e com exemplos pequenos sore como funciona o método de verossimilhança (likelihood)",
+    "crumbs": [
+      "Materiais por dia",
+      "Aula 1 - Árvores filogenéticas"
+    ]
+  },
+  {
+    "objectID": "aulas/aula2_descricao-padroes_I/index.html",
+    "href": "aulas/aula2_descricao-padroes_I/index.html",
+    "title": "Inferência de processos evolutivos a partir de filogenias",
+    "section": "",
+    "text": "Note\n\n\n\nEm construção…"
+  },
+  {
+    "objectID": "aulas/aula2_descricao-padroes_I/index.html#slides-da-aula",
+    "href": "aulas/aula2_descricao-padroes_I/index.html#slides-da-aula",
+    "title": "Inferência de processos evolutivos a partir de filogenias",
+    "section": "Slides da aula",
+    "text": "Slides da aula\nAqui você encontra os slides apresentados em sala de aula sobre esse tópico\nTela cheia 📺"
   }
 ]

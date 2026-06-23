@@ -1,0 +1,15 @@
+/* Custom background color matching STA 210 */
+body {
+    background-color: #F4F6F6;
+}
+
+/* Sidebar header font styling */
+.sidebar h2 {
+    color: #5B888C;
+    font-weight: 600;
+}
+
+/* Custom styles for links */
+a {
+    color: #3A6063;
+}

@@ -31,7 +31,7 @@ Rafa é professor Adjunto do Departamento de Genética, Ecologia e Evolução (G
 ![Gabriel Nakamura](/images/Gabriel_Nakamura.jpg){width=200px}
 :::
 
-É professor no Departamento de Genética, Ecologia e Evolução da UFMG e 
+Gabriel é professor no Departamento de Genética, Ecologia e Evolução da UFMG e 
     credenciado como membro permanente do programa de pós-graduação em Ecologia, 
     Conservação e Manejo da Vida Silvestre. Tem graduação em Ciências Biológicas
     (licenciatura plena, UFMS), mestrado em Ecologia e Conservação (UFMS) e
@@ -49,5 +49,14 @@ Rafa é professor Adjunto do Departamento de Genética, Ecologia e Evolução (G
     pesquisador do INCT - Ecologia, Evolução e Conservação da Biodiversidade. 
     Mais informações em minha [página profissional](https://gabrielnakamura.netlify.app/)
     
-    
+## Recursos e referências
+Lista com alguns recursos que podem ser utilizados na disciplina de ecologia filogenética ou macroecologia filogenética. 
+- Livro do Luke Harmon sobre [método comparativo](https://lukejharmon.github.io/pcm/pdf/phylogeneticComparativeMethods.pdf)
+- [site utilizado como modelo para de layout para site da disciplina](https://sta210-s22.github.io/website/)
+- Livro do Nate Swenson - Phylogenetic Ecology como base para organização do conteúdo, principalmente a sequência e os eixos apresentados
+- Cassey Dunn book - very very good source of information on phylogenies and [phylogenetic inference](https://dunnlab.org/phylogenetic_biology/phylogenies.html)
+- Special issue in [Phil Transactions B on phylogenetic models](https://royalsocietypublishing.org/rstb/issue/380/1919)
+- Figure tree by Darwin in [On the origin of species](https://dunnlab.org/phylogenetic_biology/figures/darwin.png)
+
+
     

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Sobre o curso – Ecologia Filogenética 2026/1</title>
+<title>Inferência de processos evolutivos a partir de filogenias – Ecologia Filogenética 2026/1</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,30 +20,65 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-2fef5ea3f8957b3e4ecc936fc74692ca.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-343ca00e028411d8a36049db19630603.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-72412ffdb1e108b6e678acee5cb1fffa.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-343ca00e028411d8a36049db19630603.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-2fef5ea3f8957b3e4ecc936fc74692ca.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-343ca00e028411d8a36049db19630603.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-72412ffdb1e108b6e678acee5cb1fffa.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-343ca00e028411d8a36049db19630603.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -246,7 +281,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./about.html">Informações sobre o curso</a></li><li class="breadcrumb-item"><a href="./about.html">Apresentação</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Inferência de processos evolutivos a partir de filogenias</li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -260,8 +295,8 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-center sidebar-header">
-      <a href="./index.html" class="sidebar-logo-link">
-      <img src="./images/ECMVS_logo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      <a href="../../index.html" class="sidebar-logo-link">
+      <img src="../../images/ECMVS_logo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
       <div class="sidebar-tools-main tools-wide">
     <a href="" title="Repositório do curso" class="quarto-navigation-tool px-1" aria-label="Repositório do curso"><i class="bi bi-github"></i></a>
@@ -287,19 +322,19 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./about.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../about.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Apresentação</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Cronograma do curso</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./links.html" class="sidebar-item-text sidebar-link">
+  <a href="../../links.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Links para materiais úteis</span></a>
   </div>
 </li>
@@ -316,19 +351,19 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./aulas/aula1_phylogenetic_trees/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../aulas/aula1_phylogenetic_trees/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Aula 1 - Árvores filogenéticas</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./aulas/Aula2_processos_evolutivos_filo.qmd" class="sidebar-item-text sidebar-link">
+  <a href="../../aulas/Aula2_processos_evolutivos_filo.qmd" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Aula 2 - Processos evolutivos</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./aulas/Aula2_processos_evolutivos_filo.qmd" class="sidebar-item-text sidebar-link">
+  <a href="../../aulas/Aula2_processos_evolutivos_filo.qmd" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Aula 3 - Evolução como fator de ‘confusão’</span></a>
   </div>
 </li>
@@ -344,8 +379,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#professores" id="toc-professores" class="nav-link active" data-scroll-target="#professores">Professores</a></li>
-  <li><a href="#recursos-e-referências" id="toc-recursos-e-referências" class="nav-link" data-scroll-target="#recursos-e-referências">Recursos e referências</a></li>
+  <li><a href="#objetivo" id="toc-objetivo" class="nav-link active" data-scroll-target="#objetivo">Objetivo</a></li>
+  <li><a href="#conteúdo" id="toc-conteúdo" class="nav-link" data-scroll-target="#conteúdo">Conteúdo</a></li>
+  <li><a href="#atividades" id="toc-atividades" class="nav-link" data-scroll-target="#atividades">Atividades</a></li>
+  <li><a href="#referências-utilizadas-nessa-seção" id="toc-referências-utilizadas-nessa-seção" class="nav-link" data-scroll-target="#referências-utilizadas-nessa-seção">Referências utilizadas nessa seção</a></li>
+  <li><a href="#exercícios" id="toc-exercícios" class="nav-link" data-scroll-target="#exercícios">Exercícios</a></li>
+  <li><a href="#slides-da-aula" id="toc-slides-da-aula" class="nav-link" data-scroll-target="#slides-da-aula">Slides da aula</a></li>
   </ul>
 </nav>
     </div>
@@ -353,9 +392,9 @@ ul.task-list li input[type="checkbox"] {
 <main class="content" id="quarto-document-content">
 
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./about.html">Informações sobre o curso</a></li><li class="breadcrumb-item"><a href="./about.html">Apresentação</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Sobre o curso</h1>
+<div class="quarto-title-block"><div><h1 class="title">Inferência de processos evolutivos a partir de filogenias</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
 </div>
 
 
@@ -372,37 +411,50 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>O conteúdo nesse sítio tem como objetivo servir como material de apoio para a disciplina **Tópicos Especiais - Métodos e técnicas em ecologia, conservação e manejo da vida silvestre - Diversidade Funcional e filogenética de <del>comunidades</del>, parte da grade de disciplinas oferecidas no PPG Ecologia, Conservação e Manejo da Vida Silvestre da Universidade Federal de Minas Gerais, ministrada por mim, <a href="http://lattes.cnpq.br/2456515948049565">Gabriel Nakamura</a> e pelo <a href="http://lattes.cnpq.br/1431026167939116">Rafa Leitão</a>.</p>
-<p>Especificamente, aqui você irá encontrar os materiais para a segunda semana da disciplina, onde, apesar do nome oficial ser Diversidade Filogenética, iremos abordar menos sobre isso, e mais sobre o que gera, de onde vem, e como podemos utilizar alguns métodos filogenéticos para responder questões em ecologia e macroevolução. Este curso não tem como intuito apresentar uma lista exaustiva de métricas e métodos, mas sim fornecer as bases teóricas e metodológicas para que os estudantes possam eles mesmos chegarem nas melhores alternativas para representar e responder suas questões.</p>
-<p>Para uma visão geral dos temas, horários e conteúdos veja <a href="">esta página</a>.</p>
-<section id="professores" class="level2">
-<h2 class="anchored" data-anchor-id="professores">Professores</h2>
-<div style="float: left; margin-right: 15px;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="./images/Rafa_leitao_image2.jpg" class="img-fluid figure-img" width="200"></p>
-<figcaption>Rafa Leitão</figcaption>
-</figure>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
 </div>
 </div>
-<p>Rafa é professor Adjunto do Departamento de Genética, Ecologia e Evolução (GEE/ICB) da Universidade Federal de Minas Gerais (UFMG) e orientador permanente do Programa de Pós-Graduação em Ecologia, Conservação e Manejo de Vida Silvestre (ECMVS-UFMG). Doutor em Biologia de Água Doce pelo Instituto Nacional de Pesquisas da Amazônia (BADPI-INPA) e em ‘Ecosystèmes’ pela Universidade de Montpellier (ESA-UM, França). Bacharel em Ciências Biológicas e mestre em Ecologia pela Universidade Federal do Rio de Janeiro (UFRJ). Atua principalmente nas áreas de ecologia de comunidades, diversidade funcional, conservação de ecossistemas aquáticos, interações interespecíficas e ictiologia.</p>
-<div style="clear: both;">
-
-</div>
-<div style="float: left; margin-right: 15px;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="./images/Gabriel_Nakamura.jpg" class="img-fluid figure-img" width="200"></p>
-<figcaption>Gabriel Nakamura</figcaption>
-</figure>
+<div class="callout-body-container callout-body">
+<p>Em construção…</p>
 </div>
 </div>
-<p>Gabriel é professor no Departamento de Genética, Ecologia e Evolução da UFMG e credenciado como membro permanente do programa de pós-graduação em Ecologia, Conservação e Manejo da Vida Silvestre. Tem graduação em Ciências Biológicas (licenciatura plena, UFMS), mestrado em Ecologia e Conservação (UFMS) e doutorado em Ecologia (UFRGS). Minha pesquisa busca compreender como processos históricos (especiação, extinção, dispersão) e ecológicos geram e moldam a biodiversidade no tempo profundo. Atuo principalmente no desenvolvimento de ferramentas numéricas para quantificar padrões e processos macroecológicos e macroevolutivos. Tenho experiência em métodos quantitativos, simulações, ecologia de comunidades e reprodutibilidade em pesquisa. Me interesso também por vieses no conhecimento biológico e na produção científica, sobretudo na comparação entre norte e sul globais, visando promover equidade, diversidade e inclusão na ciência. Fui pesquisador em biogeografia computacional na Texas AM University. Sou editor associado dos periódicos Austral Ecology e Perspectives in Ecology and Conservation e pesquisador do INCT - Ecologia, Evolução e Conservação da Biodiversidade. Mais informações em minha <a href="https://gabrielnakamura.netlify.app/">página profissional</a></p>
+<section id="objetivo" class="level3">
+<h3 class="anchored" data-anchor-id="objetivo">Objetivo</h3>
+<p>Nessa aula iremos explorar informações sobre padrões e processos evolutivos que podemos obter a partir do uso de filogenias. De maneira geral, o objetivo desta aula é apresentar os principais métodos comparativos utilizados em diferentes áreas.</p>
 </section>
-<section id="recursos-e-referências" class="level2">
-<h2 class="anchored" data-anchor-id="recursos-e-referências">Recursos e referências</h2>
-<p>Lista com alguns recursos que podem ser utilizados na disciplina de ecologia filogenética ou macroecologia filogenética. - Livro do Luke Harmon sobre <a href="https://lukejharmon.github.io/pcm/pdf/phylogeneticComparativeMethods.pdf">método comparativo</a> - <a href="https://sta210-s22.github.io/website/">site utilizado como modelo para de layout para site da disciplina</a> - Livro do Nate Swenson - Phylogenetic Ecology como base para organização do conteúdo, principalmente a sequência e os eixos apresentados - Cassey Dunn book - very very good source of information on phylogenies and <a href="https://dunnlab.org/phylogenetic_biology/phylogenies.html">phylogenetic inference</a> - Special issue in <a href="https://royalsocietypublishing.org/rstb/issue/380/1919">Phil Transactions B on phylogenetic models</a> - Figure tree by Darwin in <a href="https://dunnlab.org/phylogenetic_biology/figures/darwin.png">On the origin of species</a></p>
+<section id="conteúdo" class="level3">
+<h3 class="anchored" data-anchor-id="conteúdo">Conteúdo</h3>
+<ol type="1">
+<li>Métodos comparativos: definição, para que servem.</li>
+<li>O modelo Browniano</li>
+<li>Filogenia como fator de confusão: sinal filogenético em espécies e comunidades</li>
+<li>Filogenia como causa de padrões: extraindo processos históricos a partir de filogenias</li>
+<li>Filogenia como resposta: métricas de diversidade</li>
+</ol>
+</section>
+<section id="atividades" class="level3">
+<h3 class="anchored" data-anchor-id="atividades">Atividades</h3>
+</section>
+<section id="referências-utilizadas-nessa-seção" class="level3">
+<h3 class="anchored" data-anchor-id="referências-utilizadas-nessa-seção">Referências utilizadas nessa seção</h3>
+</section>
+<section id="exercícios" class="level3">
+<h3 class="anchored" data-anchor-id="exercícios">Exercícios</h3>
+</section>
+<section id="slides-da-aula" class="level2">
+<h2 class="anchored" data-anchor-id="slides-da-aula">Slides da aula</h2>
+<p>Aqui você encontra os slides apresentados em sala de aula sobre esse tópico</p>
+<p><a href="slides.qmd">Tela cheia 📺</a></p>
+<iframe class="slide-deck" src="slides.html" height="420" width="750" style="border: 1px solid #2e3846;"></iframe>
 
+
+<!-- -->
 
 </section>
 
@@ -489,6 +541,57 @@ ul.task-list li input[type="checkbox"] {
         container: window.document.getElementById('quarto-embedded-source-code-modal')
       });
       clipboardModal.on('success', onCopySuccess);
+    }
+    const viewSource = window.document.getElementById('quarto-view-source') ||
+                       window.document.getElementById('quarto-code-tools-source');
+    if (viewSource) {
+      const sourceUrl = viewSource.getAttribute("data-quarto-source-url");
+      viewSource.addEventListener("click", function(e) {
+        if (sourceUrl) {
+          // rstudio viewer pane
+          if (/\bcapabilities=\b/.test(window.location)) {
+            window.open(sourceUrl);
+          } else {
+            window.location.href = sourceUrl;
+          }
+        } else {
+          const modal = new bootstrap.Modal(document.getElementById('quarto-embedded-source-code-modal'));
+          modal.show();
+        }
+        return false;
+      });
+    }
+    function toggleCodeHandler(show) {
+      return function(e) {
+        const detailsSrc = window.document.querySelectorAll(".cell > details > .sourceCode");
+        for (let i=0; i<detailsSrc.length; i++) {
+          const details = detailsSrc[i].parentElement;
+          if (show) {
+            details.open = true;
+          } else {
+            details.removeAttribute("open");
+          }
+        }
+        const cellCodeDivs = window.document.querySelectorAll(".cell > .sourceCode");
+        const fromCls = show ? "hidden" : "unhidden";
+        const toCls = show ? "unhidden" : "hidden";
+        for (let i=0; i<cellCodeDivs.length; i++) {
+          const codeDiv = cellCodeDivs[i];
+          if (codeDiv.classList.contains(fromCls)) {
+            codeDiv.classList.remove(fromCls);
+            codeDiv.classList.add(toCls);
+          } 
+        }
+        return false;
+      }
+    }
+    const hideAllCode = window.document.getElementById("quarto-hide-all-code");
+    if (hideAllCode) {
+      hideAllCode.addEventListener("click", toggleCodeHandler(false));
+    }
+    const showAllCode = window.document.getElementById("quarto-show-all-code");
+    if (showAllCode) {
+      showAllCode.addEventListener("click", toggleCodeHandler(true));
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
@@ -818,7 +921,51 @@ ul.task-list li input[type="checkbox"] {
       }
     }
   });
-  </script>
+  </script><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
+<div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "Inferência de processos evolutivos a partir de filogenias"</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="an">format:</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co">  html:</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co">    code-copy: true</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co">    code-tools:</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co">      source: true</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="co">      toggle: true # Opcional: esconde o botão de ocultar/mostrar códigos se não quiser</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>:::callout-note</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>Em construção...</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="fu">### Objetivo</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>Nessa aula iremos explorar informações sobre padrões e processos evolutivos </span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>    que podemos obter a partir do uso de filogenias. De maneira geral, o objetivo</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>    desta aula é apresentar os principais métodos comparativos utilizados em </span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>    diferentes áreas.</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="fu">### Conteúdo </span></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>Métodos comparativos: definição, para que servem.</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>O modelo Browniano</span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>Filogenia como fator de confusão: sinal filogenético em espécies e comunidades</span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="ss">4. </span>Filogenia como causa de padrões: extraindo processos históricos a partir de </span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>    filogenias</span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a><span class="ss">5. </span>Filogenia como resposta: métricas de diversidade </span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a><span class="fu">### Atividades</span></span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a><span class="fu">### Referências utilizadas nessa seção </span></span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a><span class="fu">### Exercícios</span></span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a><span class="fu">## Slides da aula </span></span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a>Aqui você encontra os slides apresentados em sala de aula sobre esse tópico</span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">Tela cheia 📺</span><span class="co">](slides.qmd)</span></span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a><span class="in">```{=html}</span></span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a><span class="in">&lt;iframe class="slide-deck" src="slides.html" height="420" width="750" style="border: 1px solid #2e3846;"&gt;&lt;/iframe&gt;</span></span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span></code><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></pre></div>
+</div></div></div></div></div>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">

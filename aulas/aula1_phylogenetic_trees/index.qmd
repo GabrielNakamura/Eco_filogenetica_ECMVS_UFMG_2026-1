@@ -1,5 +1,5 @@
 ---
-title: "Anatomia das árvores (filogenéticas)"
+title: "Anatomia das árvores 🌳 (filogenéticas)"
 format:
   html:
     code-copy: true
@@ -11,6 +11,18 @@ format:
 :::callout-note
 Em construção...
 :::
+
+### Objetivo
+Introduzir conceitualmente e operacionalmente filogenias em um contexto de estudos evolutivos, ecológicos, biogeográficos, macroecologicos e integrativo destes temas. 
+
+### Conteúdo 
+Nessa aula apresentarei o significado das filogenias, o que elas representam e que tipo de informações conseguimos extrair a partir delas. Apresentarei também, brevemente, como as filogenias podem ser criadas, levando em conta principalmente informações moleculares com métodos de inferência de máxima verossimilhança. Por fim apresentarei como as filogenias podem ser operacionalizadas, ou seja, representadas de modo que possamos processá-las e manipulá-las como um dado/informação. Como podemos extrair as informações que vimos conceitualmente a partir das estruturas de dados de filogenias, quais bases de dados podem ser utilizadas.
+
+### Atividades
+- Quizz com o app [`treethinking`](https://github.com/KlausVigo/tree_thinking) de autoria do [Klaus Schliep]()
+- Exercícios envolvendo manipulação e processamento de dados filogenéticos (@sec-exercicios)
+- Simulação de árvores filogenéticas utilizando utilizando modelos de birth-death com o pacote [`geiger`](https://cran.r-project.org/web/packages/geiger/index.html)
+
 
 ## Árvores filogenéticas
 
@@ -57,19 +69,56 @@ O pacote `tidytree` possibilita manipular a estrutura da árvore filogenética
    seguindo o paradigma de programação funcional utilizado em pacotes mais 
    recentes como `tidiverse` e `dplyr`
 
-## Exercícios para praticar
+## Exercícios para praticar {#sec-exercicios}
 
-1. 
+1. Simule uma árvore filogenética e mapeie todos os ancestrais de todos os tips, 
+    ou seja, desde o tempo zero até a raiz.
 
-2. 
+```{r, eval=FALSE}
+#| code-fold: true
+#| code-summary: "Clique para ver a resolução do exercício"
 
-3. Plote a árvore filogenética simulada usando três representações visuais 
-    distintas
+set.seed(42)
 
+```
+
+2. Simule uma filogenia com 50 espécies. Após a simulação insira mais 4 espécies
+   na filogenia. Faça esses inserções de duas formas. Uma, inserindo na 
+   metade do ramo de qualquer outra espécie já presente, outra inserindo em um 
+   nó que liga pelo menos 10 espécies.
+
+```{r, eval=FALSE}
+#| code-fold: true
+#| code-summary: "Clique para ver a resolução do exercício"
+
+set.seed(42)
+
+```
+   
+3. Utilizando a mesma árvore simulada no exercício anterior. Calcule o 
+   comprimento do ramo que leva até o tip de cada espécie. O que esse ramo 
+   indica em termos de informação evolutiva?
+
+```{r, eval=FALSE}
+#| code-fold: true
+#| code-summary: "Clique para ver a resolução do exercício"
+
+set.seed(42)
+
+```   
+   
+### Referências e recursos utilizados nesta aula 
+
+- Pacote [treethinking](https://github.com/KlausVigo/tree_thinking) contendo 
+    alguns quizes em relação a estrutura de árvores filogenéticas
+<!-- - Shiny app `phylomapper`  -->
+- Material do Nick Matzke com uma introdução ao [pensamento filogenético e interpretação de árvores](http://phylo.wikidot.com/tree-thinking-with-r)
+- Explicação simples e com exemplos pequenos sore como funciona o 
+[método de verossimilhança (likelihood)](https://joelvelasco.net/teaching/129/foster01-idiotslikelihood.pdf)
 
 ## Slides da aula 
 
-Aqui você encontra a apresentação associada a esse tópico
+Aqui você encontra os slides apresentados em aula sobre esse tópico
 
 [Tela cheia 📺](slides.qmd)
 

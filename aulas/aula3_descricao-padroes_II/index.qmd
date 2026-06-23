@@ -1,0 +1,39 @@
+---
+title: "Inferência de processos evolutivos a partir de filogenias"
+format:
+  html:
+    code-copy: true
+    code-tools:
+      source: true
+      toggle: true # Opcional: esconde o botão de ocultar/mostrar códigos se não quiser
+---
+
+::: callout-note
+Em construção...
+:::
+
+### Objetivo
+
+Esta aula é a parte dois da aula: "Processos ecológicos"
+
+### Conteúdo
+
+1. Filogenias como preditores: diversificação
+2. Filogenias como resposta: métricas de diversidade
+3. Integrando Macroevolução e macroecologia
+
+### Atividades
+
+### Referências utilizadas nessa seção
+
+### Exercícios
+
+## Slides da aula
+
+Aqui você encontra os slides apresentados em sala de aula sobre esse tópico
+
+[Tela cheia 📺](slides.qmd)
+
+```{=html}
+<iframe class="slide-deck" src="slides.html" height="420" width="750" style="border: 1px solid #2e3846;"></iframe>
+```

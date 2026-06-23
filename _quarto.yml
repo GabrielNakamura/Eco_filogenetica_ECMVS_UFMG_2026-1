@@ -33,11 +33,11 @@ website:
             href: links.qmd
       - section: "Materiais por dia"
         contents:
-          - text: "Dia 1 - Árvores filogenéticas"
+          - text: "Aula 1 - Árvores filogenéticas"
             href: aulas/aula1_phylogenetic_trees/index.qmd
-          - text: "Dia 2 - Processos evolutivos"
+          - text: "Aula 2 - Processos evolutivos"
             href: aulas/Aula2_processos_evolutivos_filo.qmd
-          - text: "Dia 3 - Evolução como fator de 'confusão'"
+          - text: "Aula 3 - Evolução como fator de 'confusão'"
             href: aulas/Aula2_processos_evolutivos_filo.qmd
 format:
   html:
