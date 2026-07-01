@@ -1,5 +1,5 @@
 ---
-title: "Anatomia das árvores 🌳 (filogenéticas)"
+title: "Árvores 🌳 filogenéticas"
 format:
   html:
     code-copy: true
@@ -13,7 +13,8 @@ Em construção...
 :::
 
 ### Objetivo
-Introduzir conceitualmente e operacionalmente filogenias em um contexto de estudos evolutivos, ecológicos, biogeográficos, macroecologicos e integrativo destes temas. 
+Introduzir conceitualmente e operacionalmente filogenias em um contexto de estudos evolutivos, ecológicos, biogeográficos, macroecologicos e integrativo destes temas.
+Esta aula é referente a primeira aula da disciplina de Ecologia Filogenética.
 
 ### Conteúdo 
 Nessa aula apresentarei o significado das filogenias, o que elas representam e que tipo de informações conseguimos extrair a partir delas. Apresentarei também, brevemente, como as filogenias podem ser criadas, levando em conta principalmente informações moleculares com métodos de inferência de máxima verossimilhança. Por fim apresentarei como as filogenias podem ser operacionalizadas, ou seja, representadas de modo que possamos processá-las e manipulá-las como um dado/informação. Como podemos extrair as informações que vimos conceitualmente a partir das estruturas de dados de filogenias, quais bases de dados podem ser utilizadas.

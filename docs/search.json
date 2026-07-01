@@ -23,7 +23,7 @@
   {
     "objectID": "aulas/aula1_phylogenetic_trees/slides.html#tipos-de-árvore",
     "href": "aulas/aula1_phylogenetic_trees/slides.html#tipos-de-árvore",
-    "title": "Árvores filogenéticas: de onde vem, do que se alimentam, como são e onde vivem",
+    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
     "section": "Tipos de árvore",
     "text": "Tipos de árvore"
   },
@@ -84,7 +84,7 @@
   {
     "objectID": "aulas/aula1_phylogenetic_trees/index.html",
     "href": "aulas/aula1_phylogenetic_trees/index.html",
-    "title": "Anatomia das árvores 🌳 (filogenéticas)",
+    "title": "Árvores 🌳 filogenéticas",
     "section": "",
     "text": "Note\n\n\n\nEm construção…",
     "crumbs": [
@@ -95,7 +95,7 @@
   {
     "objectID": "aulas/aula1_phylogenetic_trees/index.html#árvores-filogenéticas",
     "href": "aulas/aula1_phylogenetic_trees/index.html#árvores-filogenéticas",
-    "title": "Anatomia das árvores 🌳 (filogenéticas)",
+    "title": "Árvores 🌳 filogenéticas",
     "section": "Árvores filogenéticas",
     "text": "Árvores filogenéticas\nNessa seção iremos compreender como identificar as principais estruturas de uma árvore filogenética, extrair informações referentes a identidade dos tips, nós, ramos e suas respectivas idades.\nAo fim dessa aula você deve ser capaz de identificar os principais elementos que compõe uma árvore filogenética, extrair suas informações, editar as árvores, interoperabilizar os formatos existentes e dominar funções básicas de plotagem de árvores.",
     "crumbs": [
@@ -106,7 +106,7 @@
   {
     "objectID": "aulas/aula1_phylogenetic_trees/index.html#formatos-manejáveis-das-árvores-filogenéticas",
     "href": "aulas/aula1_phylogenetic_trees/index.html#formatos-manejáveis-das-árvores-filogenéticas",
-    "title": "Anatomia das árvores 🌳 (filogenéticas)",
+    "title": "Árvores 🌳 filogenéticas",
     "section": "Formatos manejáveis das árvores filogenéticas",
     "text": "Formatos manejáveis das árvores filogenéticas\nPara essa prática utilizaremos os seguintes pacotes:\n\nlibrary(geiger)\nlibrary(ape)\nlibrary(phytools)",
     "crumbs": [
@@ -117,7 +117,7 @@
   {
     "objectID": "aulas/aula1_phylogenetic_trees/index.html#manejo-e-processamento-das-árvores",
     "href": "aulas/aula1_phylogenetic_trees/index.html#manejo-e-processamento-das-árvores",
-    "title": "Anatomia das árvores 🌳 (filogenéticas)",
+    "title": "Árvores 🌳 filogenéticas",
     "section": "Manejo e processamento das árvores",
     "text": "Manejo e processamento das árvores",
     "crumbs": [
@@ -128,7 +128,7 @@
   {
     "objectID": "aulas/aula1_phylogenetic_trees/index.html#slides-da-aula",
     "href": "aulas/aula1_phylogenetic_trees/index.html#slides-da-aula",
-    "title": "Anatomia das árvores 🌳 (filogenéticas)",
+    "title": "Árvores 🌳 filogenéticas",
     "section": "Slides da aula",
     "text": "Slides da aula\nAqui você encontra os slides apresentados em aula sobre esse tópico\nTela cheia 📺",
     "crumbs": [
@@ -150,9 +150,9 @@
   {
     "objectID": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-de-onde-vem-e-do-que-se-alimentam",
     "href": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-de-onde-vem-e-do-que-se-alimentam",
-    "title": "Árvores filogenéticas: de onde vem, do que se alimentam, como são e onde vivem",
+    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
     "section": "Árvores filogenéticas: de onde vem e do que se alimentam?",
-    "text": "Árvores filogenéticas: de onde vem e do que se alimentam?\n\n\nDois ingredientes básicos\n\nDados (principalmente moleculares)\nUm modelo generativo de evolução (como o dado observado é criado?)\n\nResultado\n\nUma estrutura que relaciona os taxons e suas distâncias"
+    "text": "Árvores filogenéticas: de onde vem e do que se alimentam?\n\n\n\nDados (principalmente moleculares)\nUm modelo generativo que representa o processo de evolução (como o dado observado é criado?)"
   },
   {
     "objectID": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filongéticas-como-são",
@@ -164,14 +164,14 @@
   {
     "objectID": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-onde-vivem",
     "href": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-onde-vivem",
-    "title": "Árvores filogenéticas: de onde vem, do que se alimentam, como são e onde vivem",
+    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
     "section": "Árvores filogenéticas: onde vivem?",
     "text": "Árvores filogenéticas: onde vivem?"
   },
   {
     "objectID": "aulas/aula1_phylogenetic_trees/slides.html#como-surgem-1",
     "href": "aulas/aula1_phylogenetic_trees/slides.html#como-surgem-1",
-    "title": "Árvores filogenéticas: de onde vem, do que se alimentam, como são e onde vivem",
+    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
     "section": "Como surgem?",
     "text": "Como surgem?"
   },
@@ -185,28 +185,28 @@
   {
     "objectID": "aulas/aula1_phylogenetic_trees/slides.html#como-surgem-likelihood",
     "href": "aulas/aula1_phylogenetic_trees/slides.html#como-surgem-likelihood",
-    "title": "Árvores filogenéticas: de onde vem, do que se alimentam, como são e onde vivem",
+    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
     "section": "Como surgem? Likelihood",
     "text": "Como surgem? Likelihood"
   },
   {
     "objectID": "aulas/aula1_phylogenetic_trees/slides.html#como-surgem-likelihood-1",
     "href": "aulas/aula1_phylogenetic_trees/slides.html#como-surgem-likelihood-1",
-    "title": "Árvores filogenéticas: de onde vem, do que se alimentam, como são e onde vivem",
+    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
     "section": "Como surgem? Likelihood",
     "text": "Como surgem? Likelihood"
   },
   {
     "objectID": "aulas/aula1_phylogenetic_trees/slides.html#como-surgem-likelihood-2",
     "href": "aulas/aula1_phylogenetic_trees/slides.html#como-surgem-likelihood-2",
-    "title": "Árvores filogenéticas: de onde vem, do que se alimentam, como são e onde vivem",
+    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
     "section": "Como surgem? Likelihood",
     "text": "Como surgem? Likelihood"
   },
   {
     "objectID": "aulas/aula1_phylogenetic_trees/index.html#diferentes-formas-de-representar-a-estrutura-de-árvores",
     "href": "aulas/aula1_phylogenetic_trees/index.html#diferentes-formas-de-representar-a-estrutura-de-árvores",
-    "title": "Anatomia das árvores 🌳 (filogenéticas)",
+    "title": "Árvores 🌳 filogenéticas",
     "section": "Diferentes formas de representar a estrutura de árvores",
     "text": "Diferentes formas de representar a estrutura de árvores\nExistem algumas situações que o formato da informação da estrutura da árvore não é muito amigável para manipulação nem para compreensão de seus detalhes, por exemplo, verificar quem são todos os descendentes e os clados filhos de um determinado ancestral. Para tornar essa tarefa menos complicada podemos transformar a árvore em formatos mais amigáveis para manipulação, por exemplo, data frames.\n\nlibrary(tidytree)\n\nO pacote tidytree possibilita manipular a estrutura da árvore filogenética seguindo o paradigma de programação funcional utilizado em pacotes mais recentes como tidiverse e dplyr",
     "crumbs": [
@@ -217,21 +217,21 @@
   {
     "objectID": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-de-onde-vem-e-do-que-se-alimentam-1",
     "href": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-de-onde-vem-e-do-que-se-alimentam-1",
-    "title": "Árvores filogenéticas: de onde vem, do que se alimentam, como são e onde vivem",
+    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
     "section": "Árvores filogenéticas: de onde vem e do que se alimentam?",
-    "text": "Árvores filogenéticas: de onde vem e do que se alimentam?\n\n\n\nDados (principalmente moleculares)\nUm modelo generativo de evolução (como o dado observado é criado?)"
+    "text": "Árvores filogenéticas: de onde vem e do que se alimentam?\n\n\n\nDados (principalmente moleculares)\nUm modelo generativo que representa o processo de evolução (como o dado observado é criado?)"
   },
   {
     "objectID": "aulas/aula1_phylogenetic_trees/slides.html#como-surgem",
     "href": "aulas/aula1_phylogenetic_trees/slides.html#como-surgem",
-    "title": "Árvores filogenéticas: de onde vem, do que se alimentam, como são e onde vivem",
+    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
     "section": "Como surgem?",
     "text": "Como surgem?"
   },
   {
     "objectID": "aulas/aula1_phylogenetic_trees/slides.html#como-surgem-por-que-árvores-filogenéticas-são-sempre-uma-hipótese",
     "href": "aulas/aula1_phylogenetic_trees/slides.html#como-surgem-por-que-árvores-filogenéticas-são-sempre-uma-hipótese",
-    "title": "Árvores filogenéticas: de onde vem, do que se alimentam, como são e onde vivem",
+    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
     "section": "Como surgem? Por que árvores filogenéticas são sempre uma hipótese?",
     "text": "Como surgem? Por que árvores filogenéticas são sempre uma hipótese?"
   },
@@ -245,14 +245,14 @@
   {
     "objectID": "aulas/aula1_phylogenetic_trees/slides.html#como-surgem-por-que-árvores-filogenéticas-são-sempre-uma-hipótese-1",
     "href": "aulas/aula1_phylogenetic_trees/slides.html#como-surgem-por-que-árvores-filogenéticas-são-sempre-uma-hipótese-1",
-    "title": "Árvores filogenéticas: de onde vem, do que se alimentam, como são e onde vivem",
+    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
     "section": "Como surgem? Por que árvores filogenéticas são sempre uma hipótese?",
     "text": "Como surgem? Por que árvores filogenéticas são sempre uma hipótese?\n\n\\[\nN_r = (2n - 3)!!\n\\]"
   },
   {
     "objectID": "aulas/aula1_phylogenetic_trees/slides.html#como-surgem-por-que-árvores-filogenéticas-são-sempre-uma-hipótese-2",
     "href": "aulas/aula1_phylogenetic_trees/slides.html#como-surgem-por-que-árvores-filogenéticas-são-sempre-uma-hipótese-2",
-    "title": "Árvores filogenéticas: de onde vem, do que se alimentam, como são e onde vivem",
+    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
     "section": "Como surgem? Por que árvores filogenéticas são sempre uma hipótese?",
     "text": "Como surgem? Por que árvores filogenéticas são sempre uma hipótese?\n\n\\[\nN_r = (2n - 3)!! = 15\n\\]"
   },
@@ -266,35 +266,35 @@
   {
     "objectID": "aulas/aula1_phylogenetic_trees/slides.html#por-que-árvores-filogenéticas-são-sempre-uma-hipótese",
     "href": "aulas/aula1_phylogenetic_trees/slides.html#por-que-árvores-filogenéticas-são-sempre-uma-hipótese",
-    "title": "Árvores filogenéticas: de onde vem, do que se alimentam, como são e onde vivem",
+    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
     "section": "Por que árvores filogenéticas são sempre uma hipótese?",
     "text": "Por que árvores filogenéticas são sempre uma hipótese?\n\n\n\nEspécies ((n))\nÁrvores enraizadas ((N_r))\n\n\n\n\n10\n34.459.425\n\n\n20\n8.200.794.532.637.891.559.375\n\n\n30\n(4,95 ^{38})\n\n\n50\n(2,75 ^{76})\n\n\n100\n(3,35 ^{184})\n\n\n\n\\[\nN_r = (2n-3)!!\n\\]"
   },
   {
     "objectID": "aulas/aula1_phylogenetic_trees/slides.html#quem-são",
     "href": "aulas/aula1_phylogenetic_trees/slides.html#quem-são",
-    "title": "Árvores filogenéticas: de onde vem, do que se alimentam, como são e onde vivem",
+    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
     "section": "Quem são?",
     "text": "Quem são?\nToda árvore bifurcada com n tips (pontas) vai apresentar as seguintes características\n\nO número de nós é \\(n-1\\)\nO número total de nós é \\(2n-1\\)\nCada tip tem um único ramo\nO único nó que não aprensenta um ramo “parental” é o nó raiz"
   },
   {
     "objectID": "aulas/aula1_phylogenetic_trees/slides.html#a-anatomia-de-uma-árvore-filogenética",
     "href": "aulas/aula1_phylogenetic_trees/slides.html#a-anatomia-de-uma-árvore-filogenética",
-    "title": "Árvores filogenéticas: de onde vem, do que se alimentam, como são e onde vivem",
+    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
     "section": "A anatomia de uma árvore filogenética?",
     "text": "A anatomia de uma árvore filogenética?\nQual a diferença entre essas arvores"
   },
   {
     "objectID": "aulas/aula1_phylogenetic_trees/slides.html#formatos-operacionais",
     "href": "aulas/aula1_phylogenetic_trees/slides.html#formatos-operacionais",
-    "title": "Árvores filogenéticas: de onde vem, do que se alimentam, como são e onde vivem",
+    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
     "section": "Formatos operacionais",
     "text": "Formatos operacionais\n\n\nPrincipais formatos\n\nNewick\nTópico explicativo 2\n\n\nTraduzindo para o formato"
   },
   {
     "objectID": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-mini-quiz",
     "href": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-mini-quiz",
-    "title": "Árvores filogenéticas: de onde vem, do que se alimentam, como são e onde vivem",
+    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
     "section": "Árvores filogenéticas: mini quiz",
     "text": "Árvores filogenéticas: mini quiz"
   },
@@ -367,7 +367,7 @@
   {
     "objectID": "aulas/aula1_phylogenetic_trees/index.html#sec-exercicios",
     "href": "aulas/aula1_phylogenetic_trees/index.html#sec-exercicios",
-    "title": "Anatomia das árvores 🌳 (filogenéticas)",
+    "title": "Árvores 🌳 filogenéticas",
     "section": "Exercícios para praticar",
     "text": "Exercícios para praticar\n\nSimule uma árvore filogenética e mapeie todos os ancestrais de todos os tips, ou seja, desde o tempo zero até a raiz.\n\n\n\nClique para ver a resolução do exercício\nset.seed(42)\n\n\n\nSimule uma filogenia com 50 espécies. Após a simulação insira mais 4 espécies na filogenia. Faça esses inserções de duas formas. Uma, inserindo na metade do ramo de qualquer outra espécie já presente, outra inserindo em um nó que liga pelo menos 10 espécies.\n\n\n\nClique para ver a resolução do exercício\nset.seed(42)\n\n\n\nUtilizando a mesma árvore simulada no exercício anterior. Calcule o comprimento do ramo que leva até o tip de cada espécie. O que esse ramo indica em termos de informação evolutiva?\n\n\n\nClique para ver a resolução do exercício\nset.seed(42)\n\n\n\nReferências e recursos utilizados nesta aula\n\nPacote treethinking contendo alguns quizes em relação a estrutura de árvores filogenéticas \nMaterial do Nick Matzke com uma introdução ao pensamento filogenético e interpretação de árvores\nExplicação simples e com exemplos pequenos sore como funciona o método de verossimilhança (likelihood)",
     "crumbs": [
@@ -388,5 +388,194 @@
     "title": "Inferência de processos evolutivos a partir de filogenias",
     "section": "Slides da aula",
     "text": "Slides da aula\nAqui você encontra os slides apresentados em sala de aula sobre esse tópico\nTela cheia 📺"
+  },
+  {
+    "objectID": "aulas/aula3_descricao-padroes_II/index.html",
+    "href": "aulas/aula3_descricao-padroes_II/index.html",
+    "title": "Inferência de processos evolutivos a partir de filogenias",
+    "section": "",
+    "text": "Note\n\n\n\nEm construção…"
+  },
+  {
+    "objectID": "aulas/aula3_descricao-padroes_II/index.html#slides-da-aula",
+    "href": "aulas/aula3_descricao-padroes_II/index.html#slides-da-aula",
+    "title": "Inferência de processos evolutivos a partir de filogenias",
+    "section": "Slides da aula",
+    "text": "Slides da aula\nAqui você encontra os slides apresentados em sala de aula sobre esse tópico\nTela cheia 📺"
+  },
+  {
+    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#o-que-são",
+    "href": "aulas/aula1_phylogenetic_trees/slides.html#o-que-são",
+    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
+    "section": "O que são?",
+    "text": "O que são?"
+  },
+  {
+    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#arvores-filogenéticas-o-que-são",
+    "href": "aulas/aula1_phylogenetic_trees/slides.html#arvores-filogenéticas-o-que-são",
+    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
+    "section": "Arvores filogenéticas: O que são?",
+    "text": "Arvores filogenéticas: O que são?"
+  },
+  {
+    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-o-que-são",
+    "href": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-o-que-são",
+    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
+    "section": "Árvores filogenéticas: o que são?",
+    "text": "Árvores filogenéticas: o que são?\n\n\n\n\n\n\n\n“I think\nCase must be that one generation then should be as many living as now. To do this & to have many species in same genus (as is) requires extinction.\nThus between A & B immense gap of relation. C & B the finest gradation, B & D rather greater distinction. Thus genera would be formed—bearing relation to ancient types with several extinct forms…”\n— Charles Darwin, Caderno de anotações B (1837)"
+  },
+  {
+    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-o-que-são-1",
+    "href": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-o-que-são-1",
+    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
+    "section": "Árvores filogenéticas: o que são?",
+    "text": "Árvores filogenéticas: o que são?\n\n\n\n\n\n\n\n“I think\nCase must be that one generation then should be as many living as now. To do this & to have many species in same genus (as is) requires extinction.\nThus between A & B immense gap of relation. C & B the finest gradation, B & D rather greater distinction. Thus genera would be formed—bearing relation to ancient types with several extinct forms…”\n— Charles Darwin, Caderno de anotações B (1837)"
+  },
+  {
+    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-o-que-são-2",
+    "href": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-o-que-são-2",
+    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
+    "section": "Árvores filogenéticas: o que são?",
+    "text": "Árvores filogenéticas: o que são?\n\n\n\n\n\n\n\n\n\n\n\n\n“Wealth of species in the context of evolution.”\n— Ernst Haeckel, General Morphology of Organisms (1866)"
+  },
+  {
+    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas",
+    "href": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas",
+    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
+    "section": "Árvores filogenéticas",
+    "text": "Árvores filogenéticas"
+  },
+  {
+    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-o-que-são-que-informações-retiramos",
+    "href": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-o-que-são-que-informações-retiramos",
+    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
+    "section": "Árvores filogenéticas: o que são? Que informações retiramos?",
+    "text": "Árvores filogenéticas: o que são? Que informações retiramos?"
+  },
+  {
+    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#anatomia-das-árvores-filogenéticas-quem-são",
+    "href": "aulas/aula1_phylogenetic_trees/slides.html#anatomia-das-árvores-filogenéticas-quem-são",
+    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
+    "section": "Anatomia das árvores filogenéticas: quem são?",
+    "text": "Anatomia das árvores filogenéticas: quem são?\nToda árvore bifurcada com n tips (pontas) vai apresentar as seguintes características\n\nO número de nós é \\(n-1\\)\nO número total de nós é \\(2n-1\\)\nCada tip tem um único ramo\nO único nó que não aprensenta um ramo “parental” é o nó raiz"
+  },
+  {
+    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-como-surgem",
+    "href": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-como-surgem",
+    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
+    "section": "Árvores filogenéticas: como surgem?",
+    "text": "Árvores filogenéticas: como surgem?"
+  },
+  {
+    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-como-surgem-1",
+    "href": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-como-surgem-1",
+    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
+    "section": "Árvores filogenéticas: como surgem?",
+    "text": "Árvores filogenéticas: como surgem?"
+  },
+  {
+    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-como-surgem-2",
+    "href": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-como-surgem-2",
+    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
+    "section": "Árvores filogenéticas: como surgem?",
+    "text": "Árvores filogenéticas: como surgem?"
+  },
+  {
+    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-como-surgem-modelo",
+    "href": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-como-surgem-modelo",
+    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
+    "section": "Árvores filogenéticas: como surgem (Modelo)?",
+    "text": "Árvores filogenéticas: como surgem (Modelo)?"
+  },
+  {
+    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-como-surgem-3",
+    "href": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-como-surgem-3",
+    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
+    "section": "Árvores filogenéticas: como surgem?",
+    "text": "Árvores filogenéticas: como surgem?"
+  },
+  {
+    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#anatomia-das-árvores-filogenéticas-como-descrever",
+    "href": "aulas/aula1_phylogenetic_trees/slides.html#anatomia-das-árvores-filogenéticas-como-descrever",
+    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
+    "section": "Anatomia das árvores filogenéticas: como descrever?",
+    "text": "Anatomia das árvores filogenéticas: como descrever?\nToda árvore bifurcada com n tips (pontas) vai apresentar as seguintes características\n\nO número de nós é \\(n-1\\)\nO número total de nós é \\(2n-1\\)\nCada tip tem um único ramo\nO único nó que não aprensenta um ramo “parental” é o nó raiz"
+  },
+  {
+    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-como-surgem-modelo-1",
+    "href": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-como-surgem-modelo-1",
+    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
+    "section": "Árvores filogenéticas: como surgem (Modelo)?",
+    "text": "Árvores filogenéticas: como surgem (Modelo)?"
+  },
+  {
+    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-como-surgem-modelo-2",
+    "href": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-como-surgem-modelo-2",
+    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
+    "section": "Árvores filogenéticas: como surgem (Modelo)?",
+    "text": "Árvores filogenéticas: como surgem (Modelo)?"
+  },
+  {
+    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-como-surgem-modelo-3",
+    "href": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-como-surgem-modelo-3",
+    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
+    "section": "Árvores filogenéticas: como surgem (Modelo)?",
+    "text": "Árvores filogenéticas: como surgem (Modelo)?"
+  },
+  {
+    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-como-surgem-4",
+    "href": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-como-surgem-4",
+    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
+    "section": "Árvores filogenéticas: como surgem?",
+    "text": "Árvores filogenéticas: como surgem?"
+  },
+  {
+    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-como-surgem-5",
+    "href": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-como-surgem-5",
+    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
+    "section": "Árvores filogenéticas: como surgem?",
+    "text": "Árvores filogenéticas: como surgem?"
+  },
+  {
+    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-como-surgem-6",
+    "href": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-como-surgem-6",
+    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
+    "section": "Árvores filogenéticas: como surgem?",
+    "text": "Árvores filogenéticas: como surgem?"
+  },
+  {
+    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-como-surgem-7",
+    "href": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-como-surgem-7",
+    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
+    "section": "Árvores filogenéticas: como surgem?",
+    "text": "Árvores filogenéticas: como surgem?"
+  },
+  {
+    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-como-surgem-8",
+    "href": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-como-surgem-8",
+    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
+    "section": "Árvores filogenéticas: como surgem?",
+    "text": "Árvores filogenéticas: como surgem?"
+  },
+  {
+    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-como-surgem-9",
+    "href": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-como-surgem-9",
+    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
+    "section": "Árvores filogenéticas: como surgem?",
+    "text": "Árvores filogenéticas: como surgem?"
+  },
+  {
+    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-como-surgem-10",
+    "href": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-como-surgem-10",
+    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
+    "section": "Árvores filogenéticas: como surgem?",
+    "text": "Árvores filogenéticas: como surgem?"
+  },
+  {
+    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-como-surgem-11",
+    "href": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-como-surgem-11",
+    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
+    "section": "Árvores filogenéticas: como surgem?",
+    "text": "Árvores filogenéticas: como surgem?"
   }
 ]

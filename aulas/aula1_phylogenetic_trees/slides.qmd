@@ -1,46 +1,177 @@
 ---
-title: "Árvores filogenéticas: de onde vem, do que se alimentam, como são e onde vivem"
+title: "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem"
 format: 
   qmdrslides-revealjs:
     chalkboard: true
     slide-number: true
 ---
 
-## Árvores filogenéticas: de onde vem e do que se alimentam?
+## Arvores filogenéticas: O que são?
+
+::: {layout-align="center"}
+![](images/tattoos_darwin_tree.png){width="100%"}
+:::
+
+## Árvores filogenéticas: o que são?
 
 :::: {.columns}
 
-::: {.column width="50%"}
-#### Dois ingredientes básicos 
+::: {.column width="35%"}
+<div style="display:flex; align-items:flex-start; justify-content:center; height:100%; margin-top:-20px;">
 
-- Dados (principalmente moleculares)
-- Um modelo generativo de evolução (como o dado observado é criado?)
+![](images/sketch_Darwin.png){width=100%}
 
-#### Resultado
-- Uma estrutura que relaciona os taxons e suas distâncias  
+</div>
 :::
 
-::: {.column width="50%"}
+::: {.column width="65%"}
 
-![](images/ana_maria.jpg){width=100%}
+> "I think
+>
+> Case must be that one generation then should be as many living as now. To do this & to have many species in same genus (as is) requires extinction.
+>
+> Thus between A & B immense gap of relation. C & B the finest gradation, B & D rather greater distinction. Thus genera would be formed—bearing relation to ancient types with several extinct forms…"
+>
+> — **Charles Darwin**, *Caderno de anotações B* (1837)
+
 :::
 
 ::::
 
-## Árvores filogenéticas: de onde vem e do que se alimentam? {background-image="images/ingredientes_arvore.png" background-size="cover" background-position="center"}
+## Árvores filogenéticas: o que são?
 
 :::: {.columns}
 
-::: {.column width="50%"}
+::: {.column width="35%"}
 
-- Dados (principalmente moleculares)
-- Um modelo generativo de evolução (como o dado observado é criado?)
+<div style="text-align:center;">
+
+![](images/darwin_phylogeny.png){width=80%}
+
+</div>
+
+:::
+
+::: {.column width="65%"}
+
+> "I think
+>
+> Case must be that one generation then should be as many living as now. To do this & to have many species in same genus (as is) requires extinction.
+>
+> Thus between A & B immense gap of relation. C & B the finest gradation, B & D rather greater distinction. Thus genera would be formed—bearing relation to ancient types with several extinct forms…"
+>
+> — **Charles Darwin**, *Caderno de anotações B* (1837)
+:::
+
+::::
+
+## Árvores filogenéticas: o que são?
+
+:::: {.columns}
+
+::: {.column width="35%"}
+
+<div style="position:relative; width:100%; height:350px;">
+
+<div class="fragment fade-out" data-fragment-index="1"
+     style="position:absolute; inset:0; display:flex; justify-content:center; align-items:flex-start;">
+
+![](images/Haeckel_phylo.png){width=100%}
+
+</div>
+
+<div class="fragment current-visible" data-fragment-index="1"
+     style="position:absolute; inset:0; display:flex; justify-content:center; align-items:flex-start;">
+
+![](images/phylo_trees_modern.png){width=90%}
+
+</div>
+</div>
+
+:::
+
+::: {.column width="65%"}
+
+
+> "Wealth of species in the context of evolution."
+>
+> — **Ernst Haeckel**, *General Morphology of Organisms* (1866)
 
 :::
 
 ::::
 
-## Quem são?
+
+## Árvores filogenéticas: como surgem?
+
+![](images/arvores_como_surgem_1.png){fig-align="center" width="100%"}
+
+
+## Árvores filogenéticas: como surgem?
+
+![](images/arvores_como_surgem_2.png){fig-align="center" width="100%"}
+
+## Árvores filogenéticas: como surgem? 
+
+![](images/arvores_como_surgem_3.png){fig-align="center" width="100%"}
+
+
+## Árvores filogenéticas: como surgem (Modelo)?
+
+![](images/arvores_como_surgem_4.png){fig-align="center" width="100%"}
+
+## Árvores filogenéticas: como surgem (Modelo)?
+
+![](images/arvores_como_surgem_5.png){fig-align="center" width="100%"}
+
+## Árvores filogenéticas: como surgem (Modelo)?
+
+![](images/arvores_como_surgem_6.png){fig-align="center" width="100%"}
+
+## Árvores filogenéticas: como surgem (Modelo)?
+
+![](images/arvores_como_surgem_7.png){fig-align="center" width="100%"}
+
+## Árvores filogenéticas: como surgem?
+
+![](images/arvores_como_surgem_8.png){fig-align="center" width="100%"}
+
+## Árvores filogenéticas: como surgem?
+
+![](images/arvores_como_surgem_9.png){fig-align="center" width="100%"}
+
+## Árvores filogenéticas: como surgem?
+
+![](images/arvores_como_surgem_10.png){fig-align="center" width="80%"}
+
+## Árvores filogenéticas: como surgem?
+
+![](images/arvores_como_surgem_11.png){fig-align="center" width="80%"}
+
+## Árvores filogenéticas: como surgem?
+
+![](images/arvores_como_surgem_12.png){fig-align="center" width="90%"}
+
+## Árvores filogenéticas: como surgem?
+
+![](images/arvores_como_surgem_13.png){fig-align="center" width="80%"}
+
+## Árvores filogenéticas: como surgem?
+
+![](images/arvores_como_surgem_14.png){fig-align="center" width="80%"}
+
+## Árvores filogenéticas: como surgem?
+
+![](images/arvores_como_surgem_15.png){fig-align="center" width="80%"}
+
+## Árvores filogenéticas: como surgem?
+:::: {.columns}
+
+::: {.column}
+![](images/arvores_como_surgem_16.png){fig-align="center" width="100%"}
+:::
+::::
+## Anatomia das árvores filogenéticas: como descrever?
 
 Toda árvore bifurcada com n tips (pontas) vai apresentar as seguintes 
     características
@@ -90,8 +221,6 @@ $$
 N_r = (2n-3)!!
 $$
 
-
-## Como surgem? {background-image="images/tree1.png" background-size="cover" background-position="center"}
 
 ## Como surgem? {background-image="images/tree5.png" background-size="cover" background-position="center"}
 
