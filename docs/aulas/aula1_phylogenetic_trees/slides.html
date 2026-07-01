@@ -6,7 +6,7 @@
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../../site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-234273d1456647dabc34a594ac50e507.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-a7440e06365d60c4f92a61b2f7544c2e.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.7.32">
@@ -29,8 +29,72 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
+    /* CSS for syntax highlighting */
+    html { -webkit-text-size-adjust: 100%; }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        background-color: #2a211c;
+        color: #bdae9d;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #bdae9d;  padding-left: 4px; }
+    div.sourceCode
+      { color: #bdae9d; background-color: #2a211c; }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ffff00; } /* Alert */
+    code span.an { color: #0066ff; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { } /* Attribute */
+    code span.bn { color: #44aa43; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #43a8ed; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #049b0a; } /* Char */
+    code span.cn { } /* Constant */
+    code span.co { color: #0066ff; font-weight: bold; font-style: italic; } /* Comment */
+    code span.do { color: #0066ff; font-style: italic; } /* Documentation */
+    code span.dt { text-decoration: underline; } /* DataType */
+    code span.dv { color: #44aa43; } /* DecVal */
+    code span.er { color: #ffff00; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #44aa43; } /* Float */
+    code span.fu { color: #ff9358; font-weight: bold; } /* Function */
+    code span.im { } /* Import */
+    code span.in { color: #0066ff; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #43a8ed; font-weight: bold; } /* Keyword */
+    code span.op { } /* Operator */
+    code span.pp { font-weight: bold; } /* Preprocessor */
+    code span.sc { color: #049b0a; } /* SpecialChar */
+    code span.ss { color: #049b0a; } /* SpecialString */
+    code span.st { color: #049b0a; } /* String */
+    code span.va { } /* Variable */
+    code span.vs { color: #049b0a; } /* VerbatimString */
+    code span.wa { color: #ffff00; font-weight: bold; } /* Warning */
   </style>
-  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto-6d2d4946eb9c2dbf845cbfd8844d1d54.css">
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto-6384821f323436685c600638bbb43fb4.css">
   <link href="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -255,15 +319,55 @@
 <h2>Árvores filogenéticas: como surgem?</h2>
 
 <img data-src="images/arvores_como_surgem_15.png" class="quarto-figure quarto-figure-center r-stretch" style="width:80.0%"></section>
-<section id="árvores-filogenéticas-como-surgem-11" class="slide level2">
-<h2>Árvores filogenéticas: como surgem?</h2>
+<section id="árvores-filogenéticas-como-surgem---resumindo" class="slide level2">
+<h2>Árvores filogenéticas: como surgem - Resumindo</h2>
+
+<img data-src="images/arvores_como_surgem_1.png" class="quarto-figure quarto-figure-center r-stretch" style="width:40.0%"></section>
+<section id="anatomia-das-árvores-filogenéticas-componentes" class="slide level2">
+<h2>Anatomia das árvores filogenéticas: componentes</h2>
+<!-- desenho da árvore aqui: aqui vai o sketch da árvore -->
+</section>
+<section id="anatomia-das-árvores-filogenéticas-componentes-1" class="slide level2">
+<h2>Anatomia das árvores filogenéticas: componentes</h2>
+
+<img data-src="images/graph_tree_dunn.png" class="quarto-figure quarto-figure-center r-stretch" style="width:100.0%"></section>
+<section id="anatomia-das-árvores-filogenéticas-tipos-de-árvores" class="slide level2">
+<h2>Anatomia das árvores filogenéticas: tipos de árvores</h2>
+
+<img data-src="images/clado_filo_crono.png" class="quarto-figure quarto-figure-center r-stretch" style="width:100.0%"></section>
+<section id="anatomia-das-árvores-filogenéticas-tipos-de-árvores-1" class="slide level2">
+<h2>Anatomia das árvores filogenéticas: tipos de árvores</h2>
+
+<img data-src="images/phylo_politomias.png" class="quarto-figure quarto-figure-center r-stretch" style="width:100.0%"></section>
+<section id="anatomia-das-árvores-filogenéticas-extraindo-informações" class="slide level2">
+<h2>Anatomia das árvores filogenéticas: extraindo informações</h2>
 <div class="columns">
-<div class="column">
+<div class="column" style="width:55%;">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="images/arvores_como_surgem_16.png" class="quarto-figure quarto-figure-center" style="width:100.0%"></p>
+<p><img data-src="images/phylo_toy_ex.png" class="quarto-figure quarto-figure-center" style="width:100.0%"></p>
 </figure>
 </div>
+</div><div class="column" style="width:45%;">
+<!-- Espaço reservado para aparecer texto ou anotações depois -->
+</div></div>
+</section>
+<section id="anatomia-das-árvores-filogenéticas-extraindo-informações-1" class="slide level2">
+<h2>Anatomia das árvores filogenéticas: extraindo informações</h2>
+<div class="columns">
+<div class="column" style="width:55%;">
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1" data-code-line-numbers="2|5|8-12"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a></a><span class="co"># representação em newick</span></span>
+<span id="cb1-2"><a></a>newick_text <span class="ot">&lt;-</span> <span class="st">"(((A,B),(C,D)),E);"</span></span>
+<span id="cb1-3"><a></a></span>
+<span id="cb1-4"><a></a><span class="co"># leitura da árvore</span></span>
+<span id="cb1-5"><a></a>phylo_tree <span class="ot">&lt;-</span> ape<span class="sc">::</span><span class="fu">read.tree</span>(<span class="at">text =</span> newick_text)</span>
+<span id="cb1-6"><a></a></span>
+<span id="cb1-7"><a></a><span class="co"># Vizualizando a árvore</span></span>
+<span id="cb1-8"><a></a><span class="fu">plot</span>(phylo_tree)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div><div class="column" style="width:45%;">
+
 </div></div>
 </section>
 <section id="anatomia-das-árvores-filogenéticas-como-descrever" class="slide level2">
@@ -276,94 +380,8 @@
 <li class="fragment">O único nó que não aprensenta um ramo “parental” é o nó <strong>raiz</strong></li>
 </ol>
 </section>
-<section id="como-surgem-por-que-árvores-filogenéticas-são-sempre-uma-hipótese" class="slide level2" data-background-image="images/ordenar_monstros.png" data-background-size="cover" data-background-position="center">
-<h2>Como surgem? Por que árvores filogenéticas são <strong>sempre</strong> uma hipótese?</h2>
-</section>
-<section id="como-surgem-por-que-árvores-filogenéticas-são-sempre-uma-hipótese-1" class="slide level2" data-background-image="images/ordenar_monstros.png" data-background-size="cover" data-background-position="center">
-<h2>Como surgem? Por que árvores filogenéticas são <strong>sempre</strong> uma hipótese?</h2>
-<div style="display:flex; justify-content:center; align-items:center; height:70vh;">
-<p><span class="math display">\[
-N_r = (2n - 3)!!
-\]</span></p>
-</div>
-</section>
-<section id="como-surgem-por-que-árvores-filogenéticas-são-sempre-uma-hipótese-2" class="slide level2" data-background-image="images/ordenar_monstros.png" data-background-size="cover" data-background-position="center">
-<h2>Como surgem? Por que árvores filogenéticas são <strong>sempre</strong> uma hipótese?</h2>
-<div style="display:flex; justify-content:center; align-items:center; height:70vh;">
-<p><span class="math display">\[
-N_r = (2n - 3)!! = 15
-\]</span></p>
-</div>
-</section>
-<section id="por-que-árvores-filogenéticas-são-sempre-uma-hipótese" class="slide level2">
-<h2>Por que árvores filogenéticas são <strong>sempre</strong> uma hipótese?</h2>
-<table class="caption-top">
-<thead>
-<tr class="header">
-<th style="text-align: center;">Espécies ((n))</th>
-<th style="text-align: right;">Árvores enraizadas ((N_r))</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: center;">10</td>
-<td style="text-align: right;">34.459.425</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">20</td>
-<td style="text-align: right;">8.200.794.532.637.891.559.375</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">30</td>
-<td style="text-align: right;">(4,95 ^{38})</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">50</td>
-<td style="text-align: right;">(2,75 ^{76})</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">100</td>
-<td style="text-align: right;">(3,35 ^{184})</td>
-</tr>
-</tbody>
-</table>
-<p><span class="math display">\[
-N_r = (2n-3)!!
-\]</span></p>
-</section>
-<section id="como-surgem" class="slide level2" data-background-image="images/tree5.png" data-background-size="cover" data-background-position="center">
-<h2>Como surgem?</h2>
-</section>
-<section id="como-surgem-likelihood" class="slide level2" data-background-image="images/ML_tree.png" data-background-size="cover" data-background-position="center">
-<h2>Como surgem? Likelihood</h2>
-</section>
-<section id="como-surgem-likelihood-1" class="slide level2" data-background-image="images/ML_tree1.png" data-background-size="cover" data-background-position="center">
-<h2>Como surgem? Likelihood</h2>
-</section>
-<section id="como-surgem-likelihood-2" class="slide level2" data-background-image="images/ML_tree2.png" data-background-size="cover" data-background-position="center">
-<h2>Como surgem? Likelihood</h2>
-</section>
-<section id="a-anatomia-de-uma-árvore-filogenética" class="slide level2">
-<h2>A anatomia de uma árvore filogenética?</h2>
-<h3 id="qual-a-diferença-entre-essas-arvores">Qual a diferença entre essas arvores</h3>
-<!-- figura com árvores em diferentes formatos aqui mas com a mesma topologia -->
-</section>
-<section id="tipos-de-árvore" class="slide level2">
-<h2>Tipos de árvore</h2>
-</section>
-<section id="formatos-operacionais" class="slide level2">
-<h2>Formatos operacionais</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<h3 id="principais-formatos">Principais formatos</h3>
-<ul>
-<li>Newick</li>
-<li>Tópico explicativo 2</li>
-</ul>
-</div><div class="column" style="width:50%;">
-<h3 id="traduzindo-para-o-formato">Traduzindo para o formato</h3>
-<textarea style="width: 100%; height: 350px; font-size: 1rem; padding: 10px; border-radius: 5px; border: 1px solid #ccc;" placeholder="Digite suas anotações aqui durante a apresentação..."></textarea>
-</div></div>
+<section id="anatomia-das-árvores-filogenéticas-como-descrever-1" class="slide level2">
+<h2>Anatomia das árvores filogenéticas: como descrever?</h2>
 </section>
 <section id="árvores-filogenéticas-mini-quiz" class="slide level2">
 <h2>Árvores filogenéticas: mini quiz</h2>
@@ -592,6 +610,44 @@ N_r = (2n-3)!!
         ]
       });
     </script>
+    
+    <script>
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+      // slide changes (different for each slide format).
+      (function () {
+        // dispatch for htmlwidgets
+        function fireSlideEnter() {
+          const event = window.document.createEvent("Event");
+          event.initEvent("slideenter", true, true);
+          window.document.dispatchEvent(event);
+        }
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+          fireSlideEnter();
+
+          // dispatch for shiny
+          if (window.jQuery) {
+            if (previousSlide) {
+              window.jQuery(previousSlide).trigger("hidden");
+            }
+            if (currentSlide) {
+              window.jQuery(currentSlide).trigger("shown");
+            }
+          }
+        }
+
+        // hookup for slidy
+        if (window.w3c_slidy) {
+          window.w3c_slidy.add_observer(function (slide_num) {
+            // slide_num starts at position 1
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+          });
+        }
+
+      })();
+    </script>
+
     <script id="quarto-html-after-body" type="application/javascript">
       window.document.addEventListener("DOMContentLoaded", function (event) {
         const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")

@@ -61,7 +61,7 @@
     "href": "index.html",
     "title": "Ecologia filogenética ECMVS 2026-1",
     "section": "",
-    "text": "Dia\nData\nTópico\nDescrição\nRoteiros e códigos\nSlides\nLeituras\n\n\n\n\nDia 1\n05/07\nÁrvores filogenéticas\nTipos de árvores, estrutura de árvores filogenéticas, processamento e manejo de árvores, fontes secundárias para árvores\n💻\n📽\n📚\n\n\nDia 2\n06/07\nDescrição de padrões I: filogenias e atributos\n\n💻\n📽\n📚\n\n\nDia 3\n07/07\nDescrição de padrões II: integrando filogenias em ecologia\n\n\n\n\n\n\nDia 4\n08/07\nInferências I: filogenias para evitar erros\n\n\n\n\n\n\nDia 5\n09/07\nInferências II: filogenias para entender processos",
+    "text": "Dia\nData\nTópico\nDescrição\nRoteiros e códigos\nSlides\nLeituras\n\n\n\n\nDia 1\n05/07\nÁrvores filogenéticas\nTipos de árvores, estrutura de árvores filogenéticas, processamento e manejo de árvores, fontes secundárias para árvores\n💻\n📽\n📚\n\n\nDia 2\n06/07\nDescrição de padrões I: filogenias e atributos\nModelo Browniano de evolução, sinal filogenético,\n💻\n📽\n📚\n\n\nDia 3\n07/07\nDescrição de padrões II: diversificação e métricas de diversidade\nModelo Birth-Death, estimando diversificação, estimando diversidade\n\n\n\n\n\nDia 3\n07/07 - manhã\nInferências II: macroevolução e macroecologia\nReconstruindo histórias passadas, processos históricos em escala regional e local\n\n\n\n\n\nDia 4\n08/07\na definir\n\n\n\n\n\n\nDia 4\n09/07 -\na definir",
     "crumbs": [
       "Informações sobre o curso",
       "Cronograma do curso"
@@ -577,5 +577,75 @@
     "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
     "section": "Árvores filogenéticas: como surgem?",
     "text": "Árvores filogenéticas: como surgem?"
+  },
+  {
+    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-como-surgem---resumindo",
+    "href": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-como-surgem---resumindo",
+    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
+    "section": "Árvores filogenéticas: como surgem - Resumindo",
+    "text": "Árvores filogenéticas: como surgem - Resumindo"
+  },
+  {
+    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#anatomia-das-árvores-filogenéticas-componentes",
+    "href": "aulas/aula1_phylogenetic_trees/slides.html#anatomia-das-árvores-filogenéticas-componentes",
+    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
+    "section": "Anatomia das árvores filogenéticas: componentes",
+    "text": "Anatomia das árvores filogenéticas: componentes"
+  },
+  {
+    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#anatomia-das-árvores-filogenéticas-componentes-1",
+    "href": "aulas/aula1_phylogenetic_trees/slides.html#anatomia-das-árvores-filogenéticas-componentes-1",
+    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
+    "section": "Anatomia das árvores filogenéticas: componentes",
+    "text": "Anatomia das árvores filogenéticas: componentes"
+  },
+  {
+    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#anatomia-das-árvores-filogenéticas-tipos-de-árvores",
+    "href": "aulas/aula1_phylogenetic_trees/slides.html#anatomia-das-árvores-filogenéticas-tipos-de-árvores",
+    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
+    "section": "Anatomia das árvores filogenéticas: tipos de árvores",
+    "text": "Anatomia das árvores filogenéticas: tipos de árvores"
+  },
+  {
+    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#anatomia-das-árvores-filogenéticas-como-descrever-1",
+    "href": "aulas/aula1_phylogenetic_trees/slides.html#anatomia-das-árvores-filogenéticas-como-descrever-1",
+    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
+    "section": "Anatomia das árvores filogenéticas: como descrever?",
+    "text": "Anatomia das árvores filogenéticas: como descrever?"
+  },
+  {
+    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#anatomia-das-árvores-filogenéticas-tipos-de-árvores-1",
+    "href": "aulas/aula1_phylogenetic_trees/slides.html#anatomia-das-árvores-filogenéticas-tipos-de-árvores-1",
+    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
+    "section": "Anatomia das árvores filogenéticas: tipos de árvores",
+    "text": "Anatomia das árvores filogenéticas: tipos de árvores"
+  },
+  {
+    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#anatomia-das-árvores-filogenéticas-tipos-de-árvores-2",
+    "href": "aulas/aula1_phylogenetic_trees/slides.html#anatomia-das-árvores-filogenéticas-tipos-de-árvores-2",
+    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
+    "section": "Anatomia das árvores filogenéticas: tipos de árvores",
+    "text": "Anatomia das árvores filogenéticas: tipos de árvores\n\n# Define the newick text that includes the tip labels and \n# tree topology\nnewick_text = \"(((A,B),(C,D)),E);\"\n\n# Create an ape phylo object from the tree text\nphylo_tree = read.tree( text=newick_text )\n\n# Plot the newick_tree phylo object using the ggtree library\n# Draw the tree\nggtree(phylo_tree ) +\n  # Add the node numbers\n  geom_text2(aes(label=node), col=\"gray\", nudge_x=0.1 ) +  \n  # Add the tip labels\n  geom_tiplab( aes(label=label), offset=0.3, col=\"black\") +\n  # Add points on nodes\n  geom_nodepoint(col=\"gray\") +                              \n  geom_tippoint(col=\"gray\")"
+  },
+  {
+    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#anatomia-das-árvores-filogenéticsa-extraindo-informações",
+    "href": "aulas/aula1_phylogenetic_trees/slides.html#anatomia-das-árvores-filogenéticsa-extraindo-informações",
+    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
+    "section": "Anatomia das árvores filogenéticsa: extraindo informações",
+    "text": "Anatomia das árvores filogenéticsa: extraindo informações"
+  },
+  {
+    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#anatomia-das-árvores-filogenéticas-extraindo-informações",
+    "href": "aulas/aula1_phylogenetic_trees/slides.html#anatomia-das-árvores-filogenéticas-extraindo-informações",
+    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
+    "section": "Anatomia das árvores filogenéticas: extraindo informações",
+    "text": "Anatomia das árvores filogenéticas: extraindo informações"
+  },
+  {
+    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#anatomia-das-árvores-filogenéticas-extraindo-informações-1",
+    "href": "aulas/aula1_phylogenetic_trees/slides.html#anatomia-das-árvores-filogenéticas-extraindo-informações-1",
+    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
+    "section": "Anatomia das árvores filogenéticas: extraindo informações",
+    "text": "Anatomia das árvores filogenéticas: extraindo informações\n\n\n\n# representação em newick\nnewick_text &lt;- \"(((A,B),(C,D)),E);\"\n\n# leitura da árvore\nphylo_tree &lt;- ape::read.tree(text = newick_text)\n\n# Vizualizando a árvore\nplot(phylo_tree)"
   }
 ]
