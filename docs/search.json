@@ -499,7 +499,7 @@
     "href": "aulas/aula1_phylogenetic_trees/slides.html#anatomia-das-árvores-filogenéticas-como-descrever",
     "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
     "section": "Anatomia das árvores filogenéticas: como descrever?",
-    "text": "Anatomia das árvores filogenéticas: como descrever?\nToda árvore bifurcada com n tips (pontas) vai apresentar as seguintes características\n\nO número de nós é \\(n-1\\)\nO número total de nós é \\(2n-1\\)\nCada tip tem um único ramo\nO único nó que não aprensenta um ramo “parental” é o nó raiz"
+    "text": "Anatomia das árvores filogenéticas: como descrever?\nInformação de tempo\n\n\n\n# representação em newick\nnewick_text &lt;- \"(((A:1,B:1):1,(C:1,D:1):1):1,E:3):1;\"\n\n# leitura da árvore\nphylo_tree &lt;- ape::read.tree(text = newick_text)\n\n# Vizualizando a árvore\nplot(phylo_tree)\nape::axisPhylo()\n\n# Inserindo nós na filogenia \nphylo_tree &lt;- ape::makeNodeLabel(phylo_tree, \n                                 method = \"number\",\n                                 prefix = \"Node\")\n\n# Vizualizando novamente a árvore\nape::plot.phylo(phylo_tree, type = \"phylogram\", \n                show.tip.label = T,\n                show.node.label = T)\nape::axisPhylo()"
   },
   {
     "objectID": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-como-surgem-modelo-1",
@@ -611,7 +611,7 @@
     "href": "aulas/aula1_phylogenetic_trees/slides.html#anatomia-das-árvores-filogenéticas-como-descrever-1",
     "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
     "section": "Anatomia das árvores filogenéticas: como descrever?",
-    "text": "Anatomia das árvores filogenéticas: como descrever?"
+    "text": "Anatomia das árvores filogenéticas: como descrever?\nToda árvore bifurcada com n tips (pontas) vai apresentar as seguintes características\n\nO número de nós é \\(n-1\\)\nO número total de nós é \\(2n-1\\)\nCada tip tem um único ramo\nO único nó que não aprensenta um ramo “parental” é o nó raiz"
   },
   {
     "objectID": "aulas/aula1_phylogenetic_trees/slides.html#anatomia-das-árvores-filogenéticas-tipos-de-árvores-1",
@@ -647,5 +647,72 @@
     "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
     "section": "Anatomia das árvores filogenéticas: extraindo informações",
     "text": "Anatomia das árvores filogenéticas: extraindo informações\n\n\n\n# representação em newick\nnewick_text &lt;- \"(((A,B),(C,D)),E);\"\n\n# leitura da árvore\nphylo_tree &lt;- ape::read.tree(text = newick_text)\n\n# Vizualizando a árvore\nplot(phylo_tree)"
+  },
+  {
+    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#anatomia-das-árvores-filogenéticas-extraindo-informações-a-mão",
+    "href": "aulas/aula1_phylogenetic_trees/slides.html#anatomia-das-árvores-filogenéticas-extraindo-informações-a-mão",
+    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
+    "section": "Anatomia das árvores filogenéticas: extraindo informações (a mão)",
+    "text": "Anatomia das árvores filogenéticas: extraindo informações (a mão)"
+  },
+  {
+    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#anatomia-das-árvores-filogenéticas-como-são-no-computador",
+    "href": "aulas/aula1_phylogenetic_trees/slides.html#anatomia-das-árvores-filogenéticas-como-são-no-computador",
+    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
+    "section": "Anatomia das árvores filogenéticas: como são (no computador)",
+    "text": "Anatomia das árvores filogenéticas: como são (no computador)\n\n\n\n# representação em newick\nnewick_text &lt;- \"(((A,B),(C,D)),E);\"\n\n# leitura da árvore\nphylo_tree &lt;- ape::read.tree(text = newick_text)\n\n# Vizualizando a árvore\nplot(phylo_tree)"
+  },
+  {
+    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-onde-vivem-1",
+    "href": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-onde-vivem-1",
+    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
+    "section": "Árvores filogenéticas: onde vivem?",
+    "text": "Árvores filogenéticas: onde vivem?"
+  },
+  {
+    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-como-lidar-com-a-incompletude-de-dados",
+    "href": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-como-lidar-com-a-incompletude-de-dados",
+    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
+    "section": "Árvores filogenéticas: como lidar com a incompletude de dados?",
+    "text": "Árvores filogenéticas: como lidar com a incompletude de dados?"
+  },
+  {
+    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-como-lidar-com-a-incompletude-de-dados-1",
+    "href": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-como-lidar-com-a-incompletude-de-dados-1",
+    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
+    "section": "Árvores filogenéticas: como lidar com a incompletude de dados?",
+    "text": "Árvores filogenéticas: como lidar com a incompletude de dados?"
+  },
+  {
+    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-como-lidar-com-a-incompletude-de-dados-2",
+    "href": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-como-lidar-com-a-incompletude-de-dados-2",
+    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
+    "section": "Árvores filogenéticas: como lidar com a incompletude de dados?",
+    "text": "Árvores filogenéticas: como lidar com a incompletude de dados?"
+  },
+  {
+    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-como-lidar-com-a-incompletude-de-dados-3",
+    "href": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-como-lidar-com-a-incompletude-de-dados-3",
+    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
+    "section": "Árvores filogenéticas: como lidar com a incompletude de dados?",
+    "text": "Árvores filogenéticas: como lidar com a incompletude de dados?"
+  },
+  {
+    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-como-lidar-com-a-incompletude-de-dados-4",
+    "href": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-como-lidar-com-a-incompletude-de-dados-4",
+    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
+    "section": "Árvores filogenéticas: como lidar com a incompletude de dados?",
+    "text": "Árvores filogenéticas: como lidar com a incompletude de dados?"
+  },
+  {
+    "objectID": "aulas/aula1_phylogenetic_trees/index.html#slides-da-aula-e-arquivos-de-apoio",
+    "href": "aulas/aula1_phylogenetic_trees/index.html#slides-da-aula-e-arquivos-de-apoio",
+    "title": "Árvores 🌳 filogenéticas",
+    "section": "Slides da aula e arquivos de apoio",
+    "text": "Slides da aula e arquivos de apoio\n 📥 Download dos scripts \nAqui você encontra os slides apresentados em aula sobre esse tópico\nTela cheia 📺",
+    "crumbs": [
+      "Materiais por dia",
+      "Aula 1 - Árvores filogenéticas"
+    ]
   }
 ]

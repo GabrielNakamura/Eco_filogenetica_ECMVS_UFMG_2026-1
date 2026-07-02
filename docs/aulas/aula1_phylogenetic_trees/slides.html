@@ -339,8 +339,8 @@
 <h2>Anatomia das árvores filogenéticas: tipos de árvores</h2>
 
 <img data-src="images/phylo_politomias.png" class="quarto-figure quarto-figure-center r-stretch" style="width:100.0%"></section>
-<section id="anatomia-das-árvores-filogenéticas-extraindo-informações" class="slide level2">
-<h2>Anatomia das árvores filogenéticas: extraindo informações</h2>
+<section id="anatomia-das-árvores-filogenéticas-extraindo-informações-a-mão" class="slide level2">
+<h2>Anatomia das árvores filogenéticas: extraindo informações (a mão)</h2>
 <div class="columns">
 <div class="column" style="width:55%;">
 <div class="quarto-figure quarto-figure-center">
@@ -352,12 +352,12 @@
 <!-- Espaço reservado para aparecer texto ou anotações depois -->
 </div></div>
 </section>
-<section id="anatomia-das-árvores-filogenéticas-extraindo-informações-1" class="slide level2">
-<h2>Anatomia das árvores filogenéticas: extraindo informações</h2>
+<section id="anatomia-das-árvores-filogenéticas-como-são-no-computador" class="slide level2">
+<h2>Anatomia das árvores filogenéticas: como são (no computador)</h2>
 <div class="columns">
 <div class="column" style="width:55%;">
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1" data-code-line-numbers="2|5|8-12"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a></a><span class="co"># representação em newick</span></span>
+<div class="sourceCode cell-code" id="cb1" data-code-line-numbers="2|5|8"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a></a><span class="co"># representação em newick</span></span>
 <span id="cb1-2"><a></a>newick_text <span class="ot">&lt;-</span> <span class="st">"(((A,B),(C,D)),E);"</span></span>
 <span id="cb1-3"><a></a></span>
 <span id="cb1-4"><a></a><span class="co"># leitura da árvore</span></span>
@@ -372,6 +372,37 @@
 </section>
 <section id="anatomia-das-árvores-filogenéticas-como-descrever" class="slide level2">
 <h2>Anatomia das árvores filogenéticas: como descrever?</h2>
+<p>Informação de tempo</p>
+<div class="columns">
+<div class="column" style="width:55%;">
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2" data-code-line-numbers="2|5|8-12"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a></a><span class="co"># representação em newick</span></span>
+<span id="cb2-2"><a></a>newick_text <span class="ot">&lt;-</span> <span class="st">"(((A:1,B:1):1,(C:1,D:1):1):1,E:3):1;"</span></span>
+<span id="cb2-3"><a></a></span>
+<span id="cb2-4"><a></a><span class="co"># leitura da árvore</span></span>
+<span id="cb2-5"><a></a>phylo_tree <span class="ot">&lt;-</span> ape<span class="sc">::</span><span class="fu">read.tree</span>(<span class="at">text =</span> newick_text)</span>
+<span id="cb2-6"><a></a></span>
+<span id="cb2-7"><a></a><span class="co"># Vizualizando a árvore</span></span>
+<span id="cb2-8"><a></a><span class="fu">plot</span>(phylo_tree)</span>
+<span id="cb2-9"><a></a>ape<span class="sc">::</span><span class="fu">axisPhylo</span>()</span>
+<span id="cb2-10"><a></a></span>
+<span id="cb2-11"><a></a><span class="co"># Inserindo nós na filogenia </span></span>
+<span id="cb2-12"><a></a>phylo_tree <span class="ot">&lt;-</span> ape<span class="sc">::</span><span class="fu">makeNodeLabel</span>(phylo_tree, </span>
+<span id="cb2-13"><a></a>                                 <span class="at">method =</span> <span class="st">"number"</span>,</span>
+<span id="cb2-14"><a></a>                                 <span class="at">prefix =</span> <span class="st">"Node"</span>)</span>
+<span id="cb2-15"><a></a></span>
+<span id="cb2-16"><a></a><span class="co"># Vizualizando novamente a árvore</span></span>
+<span id="cb2-17"><a></a>ape<span class="sc">::</span><span class="fu">plot.phylo</span>(phylo_tree, <span class="at">type =</span> <span class="st">"phylogram"</span>, </span>
+<span id="cb2-18"><a></a>                <span class="at">show.tip.label =</span> T,</span>
+<span id="cb2-19"><a></a>                <span class="at">show.node.label =</span> T)</span>
+<span id="cb2-20"><a></a>ape<span class="sc">::</span><span class="fu">axisPhylo</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div><div class="column" style="width:45%;">
+
+</div></div>
+</section>
+<section id="anatomia-das-árvores-filogenéticas-como-descrever-1" class="slide level2">
+<h2>Anatomia das árvores filogenéticas: como descrever?</h2>
 <p>Toda árvore bifurcada com n tips (pontas) vai apresentar as seguintes características</p>
 <ol type="1">
 <li class="fragment">O número de nós é <span class="math inline">\(n-1\)</span></li>
@@ -380,16 +411,41 @@
 <li class="fragment">O único nó que não aprensenta um ramo “parental” é o nó <strong>raiz</strong></li>
 </ol>
 </section>
-<section id="anatomia-das-árvores-filogenéticas-como-descrever-1" class="slide level2">
-<h2>Anatomia das árvores filogenéticas: como descrever?</h2>
+<section id="árvores-filogenéticas-onde-vivem" class="slide level2">
+<h2>Árvores filogenéticas: onde vivem?</h2>
+<iframe src="https://vertlife.org/" width="100%" height="600" style="border:1px solid #ccc; border-radius:8px;">
+</iframe>
+</section>
+<section id="árvores-filogenéticas-onde-vivem-1" class="slide level2">
+<h2>Árvores filogenéticas: onde vivem?</h2>
+<iframe src="https://vertlife.org/" width="100%" height="600" style="border:1px solid #ccc; border-radius:8px;">
+</iframe>
+</section>
+<section id="árvores-filogenéticas-como-lidar-com-a-incompletude-de-dados" class="slide level2">
+<h2>Árvores filogenéticas: como lidar com a incompletude de dados?</h2>
+
+<img data-src="images/insercao_phylogenetic.jpg" class="quarto-figure quarto-figure-center r-stretch" style="width:70.0%"></section>
+<section id="árvores-filogenéticas-como-lidar-com-a-incompletude-de-dados-1" class="slide level2">
+<h2>Árvores filogenéticas: como lidar com a incompletude de dados?</h2>
+
+<img data-src="images/insercao_geographic.jpg" class="quarto-figure quarto-figure-center r-stretch" style="width:70.0%"></section>
+<section id="árvores-filogenéticas-como-lidar-com-a-incompletude-de-dados-2" class="slide level2">
+<h2>Árvores filogenéticas: como lidar com a incompletude de dados?</h2>
+
+<img data-src="images/insercao_exemplos_metodo.jpg" class="quarto-figure quarto-figure-center r-stretch" style="width:100.0%"></section>
+<section id="árvores-filogenéticas-como-lidar-com-a-incompletude-de-dados-3" class="slide level2">
+<h2>Árvores filogenéticas: como lidar com a incompletude de dados?</h2>
+
+<img data-src="images/pacotes_insercao_filo.png" class="quarto-figure quarto-figure-center r-stretch" style="width:90.0%"></section>
+<section id="árvores-filogenéticas-como-lidar-com-a-incompletude-de-dados-4" class="slide level2">
+<h2>Árvores filogenéticas: como lidar com a incompletude de dados?</h2>
+<iframe src="https://bioinfo.inf.ufg.br/sunplin/" width="100%" height="500px" style="border: 1px solid #ccc; border-radius: 8px;">
+</iframe>
 </section>
 <section id="árvores-filogenéticas-mini-quiz" class="slide level2">
 <h2>Árvores filogenéticas: mini quiz</h2>
 <iframe src="https://klash.shinyapps.io/tree_thinking/" width="100%" height="500px" style="border: 1px solid #ccc; border-radius: 8px;">
 </iframe>
-</section>
-<section id="árvores-filogenéticas-onde-vivem" class="slide level2">
-<h2>Árvores filogenéticas: onde vivem?</h2>
 
 
 </section>

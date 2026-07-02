@@ -117,7 +117,20 @@ set.seed(42)
 - Explicação simples e com exemplos pequenos sore como funciona o 
 [método de verossimilhança (likelihood)](https://joelvelasco.net/teaching/129/foster01-idiotslikelihood.pdf)
 
-## Slides da aula 
+## Slides da aula e arquivos de apoio
+
+<a href="arquivos/slides.pdf"
+   download
+   style="
+     display:inline-block;
+     padding:12px 24px;
+     background:#0d6efd;
+     color:white;
+     text-decoration:none;
+     border-radius:8px;
+     font-weight:bold;">
+    📥 Download dos scripts
+</a>
 
 Aqui você encontra os slides apresentados em aula sobre esse tópico
 

@@ -186,7 +186,7 @@ format:
 
 ![](images/phylo_politomias.png){fig-align="center" width="100%"}
 
-## Anatomia das árvores filogenéticas: extraindo informações
+## Anatomia das árvores filogenéticas: extraindo informações (a mão)
 
 :::: {.columns}
 
@@ -204,14 +204,14 @@ format:
 
 ::::
 
-## Anatomia das árvores filogenéticas: extraindo informações
+## Anatomia das árvores filogenéticas: como são (no computador)
 
 :::: {.columns}
 
 ::: {.column width="55%"}
 
 ```{r, eval=FALSE, echo=TRUE}
-#| code-line-numbers: "2|5|8-12"
+#| code-line-numbers: "2|5|8"
 # representação em newick
 newick_text <- "(((A,B),(C,D)),E);"
 
@@ -233,6 +233,49 @@ plot(phylo_tree)
 
 ## Anatomia das árvores filogenéticas: como descrever?
 
+Informação de tempo
+
+:::: {.columns}
+
+::: {.column width="55%"}
+
+```{r, eval=FALSE, echo=TRUE}
+#| code-line-numbers: "2|5|8-12"
+# representação em newick
+newick_text <- "(((A:1,B:1):1,(C:1,D:1):1):1,E:3):1;"
+
+# leitura da árvore
+phylo_tree <- ape::read.tree(text = newick_text)
+
+# Vizualizando a árvore
+plot(phylo_tree)
+ape::axisPhylo()
+
+# Inserindo nós na filogenia 
+phylo_tree <- ape::makeNodeLabel(phylo_tree, 
+                                 method = "number",
+                                 prefix = "Node")
+
+# Vizualizando novamente a árvore
+ape::plot.phylo(phylo_tree, type = "phylogram", 
+                show.tip.label = T,
+                show.node.label = T)
+ape::axisPhylo()
+
+
+```
+
+:::
+
+::: {.column width="45%"}
+
+:::
+
+::::
+
+
+## Anatomia das árvores filogenéticas: como descrever?
+
 Toda árvore bifurcada com n tips (pontas) vai apresentar as seguintes 
     características
 
@@ -243,14 +286,51 @@ Toda árvore bifurcada com n tips (pontas) vai apresentar as seguintes
 4. O único nó que não aprensenta um ramo "parental" é o nó **raiz**
 :::
 
+## Árvores filogenéticas: onde vivem?
 
-## Anatomia das árvores filogenéticas: como descrever?
+<iframe
+  src="https://vertlife.org/"
+  width="100%"
+  height="600"
+  style="border:1px solid #ccc; border-radius:8px;">
+</iframe>
+
+## Árvores filogenéticas: onde vivem?
+
+<iframe
+  src="https://vertlife.org/"
+  width="100%"
+  height="600"
+  style="border:1px solid #ccc; border-radius:8px;">
+</iframe>
+
+## Árvores filogenéticas: como lidar com a incompletude de dados?
+
+![](images/insercao_phylogenetic.jpg){fig-align="center" width="70%"}
+
+## Árvores filogenéticas: como lidar com a incompletude de dados?
+
+![](images/insercao_geographic.jpg){fig-align="center" width="70%"}
+
+## Árvores filogenéticas: como lidar com a incompletude de dados?
+
+![](images/insercao_exemplos_metodo.jpg){fig-align="center" width="100%"}
+
+## Árvores filogenéticas: como lidar com a incompletude de dados?
+
+![](images/pacotes_insercao_filo.png){fig-align="center" width="90%"}
+
+## Árvores filogenéticas: como lidar com a incompletude de dados?
+
+<iframe src="https://bioinfo.inf.ufg.br/sunplin/" width="100%" height="500px" style="border: 1px solid #ccc; border-radius: 8px;"></iframe>
 
 
 ## Árvores filogenéticas: mini quiz
 
 <iframe src="https://klash.shinyapps.io/tree_thinking/" width="100%" height="500px" style="border: 1px solid #ccc; border-radius: 8px;"></iframe>
 
-## Árvores filogenéticas: onde vivem?
+
+
+
 
 
