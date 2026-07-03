@@ -1,395 +1,5 @@
 [
   {
-    "objectID": "aulas/aula1_phylogenetic_trees/Aula1_phylo_trees.html",
-    "href": "aulas/aula1_phylogenetic_trees/Aula1_phylo_trees.html",
-    "title": "Árvores",
-    "section": "",
-    "text": "[Tela cheia]()\n\n\n\n\n\n\nMaterial de apoio ✍️"
-  },
-  {
-    "objectID": "aulas/aula1_phylogenetic_trees/Aula1_phylo_trees.html#as-árvores",
-    "href": "aulas/aula1_phylogenetic_trees/Aula1_phylo_trees.html#as-árvores",
-    "title": "Árvores",
-    "section": "",
-    "text": "[Tela cheia]()\n\n\n\n\n\n\nMaterial de apoio ✍️"
-  },
-  {
-    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#anatomia-de-uma-árvore",
-    "href": "aulas/aula1_phylogenetic_trees/slides.html#anatomia-de-uma-árvore",
-    "title": "Árvores filogenéticas",
-    "section": "Anatomia de uma árvore",
-    "text": "Anatomia de uma árvore\n\nRamos\nNós\nMais um tanto de coisas"
-  },
-  {
-    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#tipos-de-árvore",
-    "href": "aulas/aula1_phylogenetic_trees/slides.html#tipos-de-árvore",
-    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
-    "section": "Tipos de árvore",
-    "text": "Tipos de árvore"
-  },
-  {
-    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#formatos",
-    "href": "aulas/aula1_phylogenetic_trees/slides.html#formatos",
-    "title": "Árvores filogenéticas: de onde vem, do que se alimentam, como são e onde vivem",
-    "section": "Formatos",
-    "text": "Formatos"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Sobre o curso",
-    "section": "",
-    "text": "O conteúdo nesse sítio tem como objetivo servir como material de apoio para a disciplina **Tópicos Especiais - Métodos e técnicas em ecologia, conservação e manejo da vida silvestre - Diversidade Funcional e filogenética de comunidades, parte da grade de disciplinas oferecidas no PPG Ecologia, Conservação e Manejo da Vida Silvestre da Universidade Federal de Minas Gerais, ministrada por mim, Gabriel Nakamura e pelo Rafa Leitão.\nEspecificamente, aqui você irá encontrar os materiais para a segunda semana da disciplina, onde, apesar do nome oficial ser Diversidade Filogenética, iremos abordar menos sobre isso, e mais sobre o que gera, de onde vem, e como podemos utilizar alguns métodos filogenéticos para responder questões em ecologia e macroevolução. Este curso não tem como intuito apresentar uma lista exaustiva de métricas e métodos, mas sim fornecer as bases teóricas e metodológicas para que os estudantes possam eles mesmos chegarem nas melhores alternativas para representar e responder suas questões.\nPara uma visão geral dos temas, horários e conteúdos veja esta página.",
-    "crumbs": [
-      "Informações sobre o curso",
-      "Apresentação"
-    ]
-  },
-  {
-    "objectID": "about.html#professores",
-    "href": "about.html#professores",
-    "title": "Sobre o curso",
-    "section": "Professores",
-    "text": "Professores\n\n\n\n\nRafa Leitão\n\n\n\nRafa é professor Adjunto do Departamento de Genética, Ecologia e Evolução (GEE/ICB) da Universidade Federal de Minas Gerais (UFMG) e orientador permanente do Programa de Pós-Graduação em Ecologia, Conservação e Manejo de Vida Silvestre (ECMVS-UFMG). Doutor em Biologia de Água Doce pelo Instituto Nacional de Pesquisas da Amazônia (BADPI-INPA) e em ‘Ecosystèmes’ pela Universidade de Montpellier (ESA-UM, França). Bacharel em Ciências Biológicas e mestre em Ecologia pela Universidade Federal do Rio de Janeiro (UFRJ). Atua principalmente nas áreas de ecologia de comunidades, diversidade funcional, conservação de ecossistemas aquáticos, interações interespecíficas e ictiologia.\n\n\n\n\n\n\n\nGabriel Nakamura\n\n\n\nGabriel é professor no Departamento de Genética, Ecologia e Evolução da UFMG e credenciado como membro permanente do programa de pós-graduação em Ecologia, Conservação e Manejo da Vida Silvestre. Tem graduação em Ciências Biológicas (licenciatura plena, UFMS), mestrado em Ecologia e Conservação (UFMS) e doutorado em Ecologia (UFRGS). Minha pesquisa busca compreender como processos históricos (especiação, extinção, dispersão) e ecológicos geram e moldam a biodiversidade no tempo profundo. Atuo principalmente no desenvolvimento de ferramentas numéricas para quantificar padrões e processos macroecológicos e macroevolutivos. Tenho experiência em métodos quantitativos, simulações, ecologia de comunidades e reprodutibilidade em pesquisa. Me interesso também por vieses no conhecimento biológico e na produção científica, sobretudo na comparação entre norte e sul globais, visando promover equidade, diversidade e inclusão na ciência. Fui pesquisador em biogeografia computacional na Texas AM University. Sou editor associado dos periódicos Austral Ecology e Perspectives in Ecology and Conservation e pesquisador do INCT - Ecologia, Evolução e Conservação da Biodiversidade. Mais informações em minha página profissional",
-    "crumbs": [
-      "Informações sobre o curso",
-      "Apresentação"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Ecologia filogenética ECMVS 2026-1",
-    "section": "",
-    "text": "Dia\nData\nTópico\nDescrição\nRoteiros e códigos\nSlides\nLeituras\n\n\n\n\nDia 1\n05/07\nÁrvores filogenéticas\nTipos de árvores, estrutura de árvores filogenéticas, processamento e manejo de árvores, fontes secundárias para árvores\n💻\n📽\n📚\n\n\nDia 2\n06/07\nDescrição de padrões I: filogenias e atributos\nModelo Browniano de evolução, sinal filogenético,\n💻\n📽\n📚\n\n\nDia 3\n07/07\nDescrição de padrões II: diversificação e métricas de diversidade\nModelo Birth-Death, estimando diversificação, estimando diversidade\n\n\n\n\n\nDia 3\n07/07 - manhã\nInferências II: macroevolução e macroecologia\nReconstruindo histórias passadas, processos históricos em escala regional e local\n\n\n\n\n\nDia 4\n08/07\na definir\n\n\n\n\n\n\nDia 4\n09/07 -\na definir",
-    "crumbs": [
-      "Informações sobre o curso",
-      "Cronograma do curso"
-    ]
-  },
-  {
-    "objectID": "aulas/aula2_descricao-padroes_I/Aula2_processos_evolutivos_filo.html",
-    "href": "aulas/aula2_descricao-padroes_I/Aula2_processos_evolutivos_filo.html",
-    "title": "Processos evolutivos",
-    "section": "",
-    "text": "Filogenias como preditoras"
-  },
-  {
-    "objectID": "aulas/aula2_descricao-padroes_I/Aula2_processos_evolutivos_filo.html#processos-evolutivos",
-    "href": "aulas/aula2_descricao-padroes_I/Aula2_processos_evolutivos_filo.html#processos-evolutivos",
-    "title": "Processos evolutivos",
-    "section": "",
-    "text": "Filogenias como preditoras"
-  },
-  {
-    "objectID": "aulas/aula1_phylogenetic_trees/index.html",
-    "href": "aulas/aula1_phylogenetic_trees/index.html",
-    "title": "Árvores 🌳 filogenéticas",
-    "section": "",
-    "text": "Note\n\n\n\nEm construção…",
-    "crumbs": [
-      "Materiais por dia",
-      "Aula 1 - Árvores filogenéticas"
-    ]
-  },
-  {
-    "objectID": "aulas/aula1_phylogenetic_trees/index.html#árvores-filogenéticas",
-    "href": "aulas/aula1_phylogenetic_trees/index.html#árvores-filogenéticas",
-    "title": "Árvores 🌳 filogenéticas",
-    "section": "Árvores filogenéticas",
-    "text": "Árvores filogenéticas\nNessa seção iremos compreender como identificar as principais estruturas de uma árvore filogenética, extrair informações referentes a identidade dos tips, nós, ramos e suas respectivas idades.\nAo fim dessa aula você deve ser capaz de identificar os principais elementos que compõe uma árvore filogenética, extrair suas informações, editar as árvores, interoperabilizar os formatos existentes e dominar funções básicas de plotagem de árvores.",
-    "crumbs": [
-      "Materiais por dia",
-      "Aula 1 - Árvores filogenéticas"
-    ]
-  },
-  {
-    "objectID": "aulas/aula1_phylogenetic_trees/index.html#formatos-manejáveis-das-árvores-filogenéticas",
-    "href": "aulas/aula1_phylogenetic_trees/index.html#formatos-manejáveis-das-árvores-filogenéticas",
-    "title": "Árvores 🌳 filogenéticas",
-    "section": "Formatos manejáveis das árvores filogenéticas",
-    "text": "Formatos manejáveis das árvores filogenéticas\nPara essa prática utilizaremos os seguintes pacotes:\n\nlibrary(geiger)\nlibrary(ape)\nlibrary(phytools)",
-    "crumbs": [
-      "Materiais por dia",
-      "Aula 1 - Árvores filogenéticas"
-    ]
-  },
-  {
-    "objectID": "aulas/aula1_phylogenetic_trees/index.html#manejo-e-processamento-das-árvores",
-    "href": "aulas/aula1_phylogenetic_trees/index.html#manejo-e-processamento-das-árvores",
-    "title": "Árvores 🌳 filogenéticas",
-    "section": "Manejo e processamento das árvores",
-    "text": "Manejo e processamento das árvores",
-    "crumbs": [
-      "Materiais por dia",
-      "Aula 1 - Árvores filogenéticas"
-    ]
-  },
-  {
-    "objectID": "aulas/aula1_phylogenetic_trees/index.html#slides-da-aula",
-    "href": "aulas/aula1_phylogenetic_trees/index.html#slides-da-aula",
-    "title": "Árvores 🌳 filogenéticas",
-    "section": "Slides da aula",
-    "text": "Slides da aula\nAqui você encontra os slides apresentados em aula sobre esse tópico\nTela cheia 📺",
-    "crumbs": [
-      "Materiais por dia",
-      "Aula 1 - Árvores filogenéticas"
-    ]
-  },
-  {
-    "objectID": "aulas/aula1_phylogenetic_trees/index.html#exercícios-para-praticar",
-    "href": "aulas/aula1_phylogenetic_trees/index.html#exercícios-para-praticar",
-    "title": "Anatomia das árvores 🌳 (filogenéticas)",
-    "section": "Exercícios para praticar",
-    "text": "Exercícios para praticar\n\nSimule uma árvore filogenética e mapeie todos os ancestrais de todos os tips, ou seja, desde o tempo zero até a raiz.\n\n\n\nClique para ver o código de simulação\n# O SEU CÓDIGO VAI AQUI DENTRO:\n\n# Exemplo: Simulação de Caminhada Aleatória (Stochastic Process)\nset.seed(42)\ndados &lt;- data.frame(Tempo = 1:100, Valor = cumsum(rnorm(100)))\n\n\n\nSimule uma filogenia com 50 espécies. Após a simulação insira mais 4 espécies na filogenia. Faça esses inserções de duas formas. Uma, inserindo na metade do ramo de qualquer outra espécie já presente, outra inserindo em um nó que liga pelo menos 10 espécies.\n\n\nReferências e recursos utilizados nesta aula\n\nPacote treethinking contendo alguns quizes em relação a estrutura de árvores filogenéticas\nShiny app phylomapper %% checar se isso entra%%\nMaterial do Nick Matzke com uma introdução ao pensamento filogenético e interpretação de árvores\nExplicação simples e com exemplos pequenos sore como funciona o método de verossimilhança (likelihood)",
-    "crumbs": [
-      "Materiais por dia",
-      "Aula 1 - Árvores filogenéticas"
-    ]
-  },
-  {
-    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-de-onde-vem-e-do-que-se-alimentam",
-    "href": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-de-onde-vem-e-do-que-se-alimentam",
-    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
-    "section": "Árvores filogenéticas: de onde vem e do que se alimentam?",
-    "text": "Árvores filogenéticas: de onde vem e do que se alimentam?\n\n\n\nDados (principalmente moleculares)\nUm modelo generativo que representa o processo de evolução (como o dado observado é criado?)"
-  },
-  {
-    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filongéticas-como-são",
-    "href": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filongéticas-como-são",
-    "title": "Árvores filogenéticas: de onde vem, do que se alimentam, como são e onde vivem",
-    "section": "Árvores filongéticas: como são?",
-    "text": "Árvores filongéticas: como são?"
-  },
-  {
-    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-onde-vivem",
-    "href": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-onde-vivem",
-    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
-    "section": "Árvores filogenéticas: onde vivem?",
-    "text": "Árvores filogenéticas: onde vivem?"
-  },
-  {
-    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#como-surgem-1",
-    "href": "aulas/aula1_phylogenetic_trees/slides.html#como-surgem-1",
-    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
-    "section": "Como surgem?",
-    "text": "Como surgem?"
-  },
-  {
-    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#como-surgem-2",
-    "href": "aulas/aula1_phylogenetic_trees/slides.html#como-surgem-2",
-    "title": "Árvores filogenéticas: de onde vem, do que se alimentam, como são e onde vivem",
-    "section": "Como surgem?",
-    "text": "Como surgem?"
-  },
-  {
-    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#como-surgem-likelihood",
-    "href": "aulas/aula1_phylogenetic_trees/slides.html#como-surgem-likelihood",
-    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
-    "section": "Como surgem? Likelihood",
-    "text": "Como surgem? Likelihood"
-  },
-  {
-    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#como-surgem-likelihood-1",
-    "href": "aulas/aula1_phylogenetic_trees/slides.html#como-surgem-likelihood-1",
-    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
-    "section": "Como surgem? Likelihood",
-    "text": "Como surgem? Likelihood"
-  },
-  {
-    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#como-surgem-likelihood-2",
-    "href": "aulas/aula1_phylogenetic_trees/slides.html#como-surgem-likelihood-2",
-    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
-    "section": "Como surgem? Likelihood",
-    "text": "Como surgem? Likelihood"
-  },
-  {
-    "objectID": "aulas/aula1_phylogenetic_trees/index.html#diferentes-formas-de-representar-a-estrutura-de-árvores",
-    "href": "aulas/aula1_phylogenetic_trees/index.html#diferentes-formas-de-representar-a-estrutura-de-árvores",
-    "title": "Árvores 🌳 filogenéticas",
-    "section": "Diferentes formas de representar a estrutura de árvores",
-    "text": "Diferentes formas de representar a estrutura de árvores\nExistem algumas situações que o formato da informação da estrutura da árvore não é muito amigável para manipulação nem para compreensão de seus detalhes, por exemplo, verificar quem são todos os descendentes e os clados filhos de um determinado ancestral. Para tornar essa tarefa menos complicada podemos transformar a árvore em formatos mais amigáveis para manipulação, por exemplo, data frames.\n\nlibrary(tidytree)\n\nO pacote tidytree possibilita manipular a estrutura da árvore filogenética seguindo o paradigma de programação funcional utilizado em pacotes mais recentes como tidiverse e dplyr",
-    "crumbs": [
-      "Materiais por dia",
-      "Aula 1 - Árvores filogenéticas"
-    ]
-  },
-  {
-    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-de-onde-vem-e-do-que-se-alimentam-1",
-    "href": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-de-onde-vem-e-do-que-se-alimentam-1",
-    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
-    "section": "Árvores filogenéticas: de onde vem e do que se alimentam?",
-    "text": "Árvores filogenéticas: de onde vem e do que se alimentam?\n\n\n\nDados (principalmente moleculares)\nUm modelo generativo que representa o processo de evolução (como o dado observado é criado?)"
-  },
-  {
-    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#como-surgem",
-    "href": "aulas/aula1_phylogenetic_trees/slides.html#como-surgem",
-    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
-    "section": "Como surgem?",
-    "text": "Como surgem?"
-  },
-  {
-    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#como-surgem-por-que-árvores-filogenéticas-são-sempre-uma-hipótese",
-    "href": "aulas/aula1_phylogenetic_trees/slides.html#como-surgem-por-que-árvores-filogenéticas-são-sempre-uma-hipótese",
-    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
-    "section": "Como surgem? Por que árvores filogenéticas são sempre uma hipótese?",
-    "text": "Como surgem? Por que árvores filogenéticas são sempre uma hipótese?"
-  },
-  {
-    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#section",
-    "href": "aulas/aula1_phylogenetic_trees/slides.html#section",
-    "title": "Árvores filogenéticas: de onde vem, do que se alimentam, como são e onde vivem",
-    "section": "",
-    "text": "\\[\nN_r = (2n - 3)!!\n\\]"
-  },
-  {
-    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#como-surgem-por-que-árvores-filogenéticas-são-sempre-uma-hipótese-1",
-    "href": "aulas/aula1_phylogenetic_trees/slides.html#como-surgem-por-que-árvores-filogenéticas-são-sempre-uma-hipótese-1",
-    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
-    "section": "Como surgem? Por que árvores filogenéticas são sempre uma hipótese?",
-    "text": "Como surgem? Por que árvores filogenéticas são sempre uma hipótese?\n\n\\[\nN_r = (2n - 3)!!\n\\]"
-  },
-  {
-    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#como-surgem-por-que-árvores-filogenéticas-são-sempre-uma-hipótese-2",
-    "href": "aulas/aula1_phylogenetic_trees/slides.html#como-surgem-por-que-árvores-filogenéticas-são-sempre-uma-hipótese-2",
-    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
-    "section": "Como surgem? Por que árvores filogenéticas são sempre uma hipótese?",
-    "text": "Como surgem? Por que árvores filogenéticas são sempre uma hipótese?\n\n\\[\nN_r = (2n - 3)!! = 15\n\\]"
-  },
-  {
-    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#como-surgem-por-que-árvores-filogenéticas-são-sempre-uma-hipótese-3",
-    "href": "aulas/aula1_phylogenetic_trees/slides.html#como-surgem-por-que-árvores-filogenéticas-são-sempre-uma-hipótese-3",
-    "title": "Árvores filogenéticas: de onde vem, do que se alimentam, como são e onde vivem",
-    "section": "Como surgem? Por que árvores filogenéticas são sempre uma hipótese?",
-    "text": "Como surgem? Por que árvores filogenéticas são sempre uma hipótese?\n\n\n\nEspécies ((n))\nÁrvores enraizadas ((N_r))\n\n\n\n\n10\n34.459.425\n\n\n20\n8.200.794.532.637.891.559.375\n\n\n30\n(4,95 ^{38})\n\n\n50\n(2,75 ^{76})\n\n\n100\n(3,35 ^{184})\n\n\n\n\\[\nN_r = (2n-3)!!\n\\]"
-  },
-  {
-    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#por-que-árvores-filogenéticas-são-sempre-uma-hipótese",
-    "href": "aulas/aula1_phylogenetic_trees/slides.html#por-que-árvores-filogenéticas-são-sempre-uma-hipótese",
-    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
-    "section": "Por que árvores filogenéticas são sempre uma hipótese?",
-    "text": "Por que árvores filogenéticas são sempre uma hipótese?\n\n\n\nEspécies ((n))\nÁrvores enraizadas ((N_r))\n\n\n\n\n10\n34.459.425\n\n\n20\n8.200.794.532.637.891.559.375\n\n\n30\n(4,95 ^{38})\n\n\n50\n(2,75 ^{76})\n\n\n100\n(3,35 ^{184})\n\n\n\n\\[\nN_r = (2n-3)!!\n\\]"
-  },
-  {
-    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#quem-são",
-    "href": "aulas/aula1_phylogenetic_trees/slides.html#quem-são",
-    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
-    "section": "Quem são?",
-    "text": "Quem são?\nToda árvore bifurcada com n tips (pontas) vai apresentar as seguintes características\n\nO número de nós é \\(n-1\\)\nO número total de nós é \\(2n-1\\)\nCada tip tem um único ramo\nO único nó que não aprensenta um ramo “parental” é o nó raiz"
-  },
-  {
-    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#a-anatomia-de-uma-árvore-filogenética",
-    "href": "aulas/aula1_phylogenetic_trees/slides.html#a-anatomia-de-uma-árvore-filogenética",
-    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
-    "section": "A anatomia de uma árvore filogenética?",
-    "text": "A anatomia de uma árvore filogenética?\nQual a diferença entre essas arvores"
-  },
-  {
-    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#formatos-operacionais",
-    "href": "aulas/aula1_phylogenetic_trees/slides.html#formatos-operacionais",
-    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
-    "section": "Formatos operacionais",
-    "text": "Formatos operacionais\n\n\nPrincipais formatos\n\nNewick\nTópico explicativo 2\n\n\nTraduzindo para o formato"
-  },
-  {
-    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-mini-quiz",
-    "href": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-mini-quiz",
-    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
-    "section": "Árvores filogenéticas: mini quiz",
-    "text": "Árvores filogenéticas: mini quiz"
-  },
-  {
-    "objectID": "links.html",
-    "href": "links.html",
-    "title": "Links para materiais",
-    "section": "",
-    "text": "Aqui vocês irão encontrar links para materiais abertos sobre ecologia filogenética e outros assuntos relacionados.",
-    "crumbs": [
-      "Informações sobre o curso",
-      "Links para materiais úteis"
-    ]
-  },
-  {
-    "objectID": "links.html#livros-e-materiais-didáticos",
-    "href": "links.html#livros-e-materiais-didáticos",
-    "title": "Links para materiais",
-    "section": "Livros e materiais didáticos",
-    "text": "Livros e materiais didáticos\n\nPhylogenetic Biology por Cassey Dunn",
-    "crumbs": [
-      "Informações sobre o curso",
-      "Links para materiais úteis"
-    ]
-  },
-  {
-    "objectID": "links.html#ferramental",
-    "href": "links.html#ferramental",
-    "title": "Links para materiais",
-    "section": "Ferramental",
-    "text": "Ferramental\n\nCRAN Task View: Phylogenetics: compilado de pacotes em R voltados para filogenômica, ecologia filogenética, macroevolução e outros assuntos relacionados.",
-    "crumbs": [
-      "Informações sobre o curso",
-      "Links para materiais úteis"
-    ]
-  },
-  {
-    "objectID": "aulas/aula1_phylogenetic_trees/index.html#recursos",
-    "href": "aulas/aula1_phylogenetic_trees/index.html#recursos",
-    "title": "Anatomia das árvores 🌳 (filogenéticas)",
-    "section": "Recursos",
-    "text": "Recursos\nLista com alguns recursos que podem ser utilizados na disciplina de ecologia filogenética ou macroecologia filogenética. - Livro do Luke Harmon sobre método comparativo - site utilizado como modelo para de layout para site da disciplina - Livro do Nate Swenson - Phylogenetic Ecology como base para organização do conteúdo, principalmente a sequência e os eixos apresentados - Cassey Dunn book - very very good source of information on phylogenies and phylogenetic inference - Special issue in Phil Transactions B on phylogenetic models - Figure tree by Darwin in On the origin of species",
-    "crumbs": [
-      "Materiais por dia",
-      "Aula 1 - Árvores filogenéticas"
-    ]
-  },
-  {
-    "objectID": "aulas/aula1_phylogenetic_trees/index.html#aula-1---compreendendo-filogenias",
-    "href": "aulas/aula1_phylogenetic_trees/index.html#aula-1---compreendendo-filogenias",
-    "title": "Anatomia das árvores 🌳 (filogenéticas)",
-    "section": "Aula 1 - Compreendendo filogenias",
-    "text": "Aula 1 - Compreendendo filogenias\n\nObjetivo\nIntroduzir conceitualmente e operacionalmente filogenias em um contexto de estudos evolutivos, ecológicos, biogeográficos, macroecologicos e integrativo destes temas.\n\n\nConteúdo\nNessa aula apresentarei o significado das filogenias, o que elas representam e que tipo de informações conseguimos extrair a partir delas. Apresentarei também, brevemente, como as filogenias podem ser criadas, levando em conta principalmente informações moleculares com métodos de inferência de máxima verossimilhança. Por fim apresentarei como as filogenias podem ser operacionalizadas, ou seja, representadas de modo que possamos processá-las e manipulá-las como um dado/informação. Como podemos extrair as informações que vimos conceitualmente a partir das estruturas de dados de filogenias, quais bases de dados podem ser utilizadas.\n\n\nAtividades\n\nQuizz com o app treethinking de autoria do Klaus Schliep\nExercícios envolvendo manipulação e processamento de dados filogenéticos\nSimulação de árvores filogenéticas utilizando utilizando modelos de birth-death com o pacote geiger",
-    "crumbs": [
-      "Materiais por dia",
-      "Aula 1 - Árvores filogenéticas"
-    ]
-  },
-  {
-    "objectID": "about.html#recursos-e-referências",
-    "href": "about.html#recursos-e-referências",
-    "title": "Sobre o curso",
-    "section": "Recursos e referências",
-    "text": "Recursos e referências\nLista com alguns recursos que podem ser utilizados na disciplina de ecologia filogenética ou macroecologia filogenética. - Livro do Luke Harmon sobre método comparativo - site utilizado como modelo para de layout para site da disciplina - Livro do Nate Swenson - Phylogenetic Ecology como base para organização do conteúdo, principalmente a sequência e os eixos apresentados - Cassey Dunn book - very very good source of information on phylogenies and phylogenetic inference - Special issue in Phil Transactions B on phylogenetic models - Figure tree by Darwin in On the origin of species",
-    "crumbs": [
-      "Informações sobre o curso",
-      "Apresentação"
-    ]
-  },
-  {
-    "objectID": "aulas/aula1_phylogenetic_trees/index.html#sec-exercicios",
-    "href": "aulas/aula1_phylogenetic_trees/index.html#sec-exercicios",
-    "title": "Árvores 🌳 filogenéticas",
-    "section": "Exercícios para praticar",
-    "text": "Exercícios para praticar\n\nSimule uma árvore filogenética e mapeie todos os ancestrais de todos os tips, ou seja, desde o tempo zero até a raiz.\n\n\n\nClique para ver a resolução do exercício\nset.seed(42)\n\n\n\nSimule uma filogenia com 50 espécies. Após a simulação insira mais 4 espécies na filogenia. Faça esses inserções de duas formas. Uma, inserindo na metade do ramo de qualquer outra espécie já presente, outra inserindo em um nó que liga pelo menos 10 espécies.\n\n\n\nClique para ver a resolução do exercício\nset.seed(42)\n\n\n\nUtilizando a mesma árvore simulada no exercício anterior. Calcule o comprimento do ramo que leva até o tip de cada espécie. O que esse ramo indica em termos de informação evolutiva?\n\n\n\nClique para ver a resolução do exercício\nset.seed(42)\n\n\n\nReferências e recursos utilizados nesta aula\n\nPacote treethinking contendo alguns quizes em relação a estrutura de árvores filogenéticas \nMaterial do Nick Matzke com uma introdução ao pensamento filogenético e interpretação de árvores\nExplicação simples e com exemplos pequenos sore como funciona o método de verossimilhança (likelihood)",
-    "crumbs": [
-      "Materiais por dia",
-      "Aula 1 - Árvores filogenéticas"
-    ]
-  },
-  {
-    "objectID": "aulas/aula2_descricao-padroes_I/index.html",
-    "href": "aulas/aula2_descricao-padroes_I/index.html",
-    "title": "Inferência de processos evolutivos a partir de filogenias",
-    "section": "",
-    "text": "Note\n\n\n\nEm construção…"
-  },
-  {
-    "objectID": "aulas/aula2_descricao-padroes_I/index.html#slides-da-aula",
-    "href": "aulas/aula2_descricao-padroes_I/index.html#slides-da-aula",
-    "title": "Inferência de processos evolutivos a partir de filogenias",
-    "section": "Slides da aula",
-    "text": "Slides da aula\nAqui você encontra os slides apresentados em sala de aula sobre esse tópico\nTela cheia 📺"
-  },
-  {
     "objectID": "aulas/aula3_descricao-padroes_II/index.html",
     "href": "aulas/aula3_descricao-padroes_II/index.html",
     "title": "Inferência de processos evolutivos a partir de filogenias",
@@ -404,11 +14,123 @@
     "text": "Slides da aula\nAqui você encontra os slides apresentados em sala de aula sobre esse tópico\nTela cheia 📺"
   },
   {
-    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#o-que-são",
-    "href": "aulas/aula1_phylogenetic_trees/slides.html#o-que-são",
-    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
-    "section": "O que são?",
-    "text": "O que são?"
+    "objectID": "aulas/aula0_intro_inferencia/slides.html#macroecologia-macroevolutiva-algumas-questões",
+    "href": "aulas/aula0_intro_inferencia/slides.html#macroecologia-macroevolutiva-algumas-questões",
+    "title": "Ecologia evolutiva",
+    "section": "(Macro)Ecologia (Macro)evolutiva: algumas questões",
+    "text": "(Macro)Ecologia (Macro)evolutiva: algumas questões"
+  },
+  {
+    "objectID": "aulas/aula0_intro_inferencia/slides.html#filogenia-como-fonte-de-confusão",
+    "href": "aulas/aula0_intro_inferencia/slides.html#filogenia-como-fonte-de-confusão",
+    "title": "Ecologia evolutiva",
+    "section": "Filogenia como fonte de “confusão””",
+    "text": "Filogenia como fonte de “confusão””"
+  },
+  {
+    "objectID": "aulas/aula0_intro_inferencia/slides.html#filogenia-como-fonte-de-confusão-1",
+    "href": "aulas/aula0_intro_inferencia/slides.html#filogenia-como-fonte-de-confusão-1",
+    "title": "Ecologia evolutiva",
+    "section": "Filogenia como fonte de “confusão””",
+    "text": "Filogenia como fonte de “confusão””"
+  },
+  {
+    "objectID": "aulas/aula0_intro_inferencia/slides.html#filogenias-como-proxy-de-padrões-e-processos",
+    "href": "aulas/aula0_intro_inferencia/slides.html#filogenias-como-proxy-de-padrões-e-processos",
+    "title": "Ecologia evolutiva",
+    "section": "Filogenias como “proxy” de padrões e processos",
+    "text": "Filogenias como “proxy” de padrões e processos"
+  },
+  {
+    "objectID": "aulas/aula0_intro_inferencia/slides.html#filogenias-como-proxy-de-padrões-e-processos-1",
+    "href": "aulas/aula0_intro_inferencia/slides.html#filogenias-como-proxy-de-padrões-e-processos-1",
+    "title": "Ecologia evolutiva",
+    "section": "Filogenias como “proxy” de padrões e processos",
+    "text": "Filogenias como “proxy” de padrões e processos"
+  },
+  {
+    "objectID": "aulas/aula0_intro_inferencia/slides.html#filogenias-como-fonte-de-informação-de-processos-históricos",
+    "href": "aulas/aula0_intro_inferencia/slides.html#filogenias-como-fonte-de-informação-de-processos-históricos",
+    "title": "Ecologia evolutiva",
+    "section": "Filogenias como fonte de informação de processos históricos",
+    "text": "Filogenias como fonte de informação de processos históricos"
+  },
+  {
+    "objectID": "aulas/aula0_intro_inferencia/slides.html#tentativa-de-compreender-o-passado",
+    "href": "aulas/aula0_intro_inferencia/slides.html#tentativa-de-compreender-o-passado",
+    "title": "Ecologia evolutiva",
+    "section": "Tentativa de compreender o passado",
+    "text": "Tentativa de compreender o passado"
+  },
+  {
+    "objectID": "aulas/aula0_intro_inferencia/slides.html#tentativa-de-compreender-o-passado-1",
+    "href": "aulas/aula0_intro_inferencia/slides.html#tentativa-de-compreender-o-passado-1",
+    "title": "Ecologia evolutiva",
+    "section": "Tentativa de compreender o passado",
+    "text": "Tentativa de compreender o passado"
+  },
+  {
+    "objectID": "aulas/aula0_intro_inferencia/slides.html#ferramentas-de-inferência-para-entender-o-passado-um-pequeno-parênteses",
+    "href": "aulas/aula0_intro_inferencia/slides.html#ferramentas-de-inferência-para-entender-o-passado-um-pequeno-parênteses",
+    "title": "Ecologia evolutiva",
+    "section": "Ferramentas de inferência para entender o passado (um pequeno parênteses)",
+    "text": "Ferramentas de inferência para entender o passado (um pequeno parênteses)"
+  },
+  {
+    "objectID": "aulas/aula0_intro_inferencia/slides.html#uma-brevíssima-explicação-sobre-likelihood",
+    "href": "aulas/aula0_intro_inferencia/slides.html#uma-brevíssima-explicação-sobre-likelihood",
+    "title": "Ecologia evolutiva",
+    "section": "Uma brevíssima explicação sobre likelihood",
+    "text": "Uma brevíssima explicação sobre likelihood"
+  },
+  {
+    "objectID": "aulas/aula0_intro_inferencia/slides.html#uma-brevíssima-explicação-sobre-likelihood-1",
+    "href": "aulas/aula0_intro_inferencia/slides.html#uma-brevíssima-explicação-sobre-likelihood-1",
+    "title": "Ecologia evolutiva",
+    "section": "Uma brevíssima explicação sobre likelihood",
+    "text": "Uma brevíssima explicação sobre likelihood"
+  },
+  {
+    "objectID": "aulas/aula0_intro_inferencia/slides.html#uma-brevíssima-explicação-sobre-likelihood-2",
+    "href": "aulas/aula0_intro_inferencia/slides.html#uma-brevíssima-explicação-sobre-likelihood-2",
+    "title": "Ecologia evolutiva",
+    "section": "Uma brevíssima explicação sobre likelihood",
+    "text": "Uma brevíssima explicação sobre likelihood"
+  },
+  {
+    "objectID": "aulas/aula0_intro_inferencia/slides.html#uma-brevíssima-explicação-sobre-likelihood-3",
+    "href": "aulas/aula0_intro_inferencia/slides.html#uma-brevíssima-explicação-sobre-likelihood-3",
+    "title": "Ecologia evolutiva",
+    "section": "Uma brevíssima explicação sobre likelihood",
+    "text": "Uma brevíssima explicação sobre likelihood"
+  },
+  {
+    "objectID": "aulas/aula0_intro_inferencia/slides.html#uma-brevíssima-explicação-sobre-likelihood-4",
+    "href": "aulas/aula0_intro_inferencia/slides.html#uma-brevíssima-explicação-sobre-likelihood-4",
+    "title": "Ecologia evolutiva",
+    "section": "Uma brevíssima explicação sobre likelihood",
+    "text": "Uma brevíssima explicação sobre likelihood"
+  },
+  {
+    "objectID": "aulas/aula0_intro_inferencia/slides.html#uma-brevíssima-explicação-sobre-likelihood-5",
+    "href": "aulas/aula0_intro_inferencia/slides.html#uma-brevíssima-explicação-sobre-likelihood-5",
+    "title": "Ecologia evolutiva",
+    "section": "Uma brevíssima explicação sobre likelihood",
+    "text": "Uma brevíssima explicação sobre likelihood"
+  },
+  {
+    "objectID": "aulas/aula0_intro_inferencia/slides.html#uma-brevíssima-explicação-sobre-likelihood-6",
+    "href": "aulas/aula0_intro_inferencia/slides.html#uma-brevíssima-explicação-sobre-likelihood-6",
+    "title": "Ecologia evolutiva",
+    "section": "Uma brevíssima explicação sobre likelihood",
+    "text": "Uma brevíssima explicação sobre likelihood"
+  },
+  {
+    "objectID": "aulas/aula0_intro_inferencia/slides.html#uma-brevíssima-explicação-sobre-likelihood-7",
+    "href": "aulas/aula0_intro_inferencia/slides.html#uma-brevíssima-explicação-sobre-likelihood-7",
+    "title": "Ecologia evolutiva",
+    "section": "Uma brevíssima explicação sobre likelihood",
+    "text": "Uma brevíssima explicação sobre likelihood"
   },
   {
     "objectID": "aulas/aula1_phylogenetic_trees/slides.html#arvores-filogenéticas-o-que-são",
@@ -439,27 +161,6 @@
     "text": "Árvores filogenéticas: o que são?\n\n\n\n\n\n\n\n\n\n\n\n\n“Wealth of species in the context of evolution.”\n— Ernst Haeckel, General Morphology of Organisms (1866)"
   },
   {
-    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas",
-    "href": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas",
-    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
-    "section": "Árvores filogenéticas",
-    "text": "Árvores filogenéticas"
-  },
-  {
-    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-o-que-são-que-informações-retiramos",
-    "href": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-o-que-são-que-informações-retiramos",
-    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
-    "section": "Árvores filogenéticas: o que são? Que informações retiramos?",
-    "text": "Árvores filogenéticas: o que são? Que informações retiramos?"
-  },
-  {
-    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#anatomia-das-árvores-filogenéticas-quem-são",
-    "href": "aulas/aula1_phylogenetic_trees/slides.html#anatomia-das-árvores-filogenéticas-quem-são",
-    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
-    "section": "Anatomia das árvores filogenéticas: quem são?",
-    "text": "Anatomia das árvores filogenéticas: quem são?\nToda árvore bifurcada com n tips (pontas) vai apresentar as seguintes características\n\nO número de nós é \\(n-1\\)\nO número total de nós é \\(2n-1\\)\nCada tip tem um único ramo\nO único nó que não aprensenta um ramo “parental” é o nó raiz"
-  },
-  {
     "objectID": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-como-surgem",
     "href": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-como-surgem",
     "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
@@ -488,20 +189,6 @@
     "text": "Árvores filogenéticas: como surgem (Modelo)?"
   },
   {
-    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-como-surgem-3",
-    "href": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-como-surgem-3",
-    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
-    "section": "Árvores filogenéticas: como surgem?",
-    "text": "Árvores filogenéticas: como surgem?"
-  },
-  {
-    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#anatomia-das-árvores-filogenéticas-como-descrever",
-    "href": "aulas/aula1_phylogenetic_trees/slides.html#anatomia-das-árvores-filogenéticas-como-descrever",
-    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
-    "section": "Anatomia das árvores filogenéticas: como descrever?",
-    "text": "Anatomia das árvores filogenéticas: como descrever?\nInformação de tempo\n\n\n\n# representação em newick\nnewick_text &lt;- \"(((A:1,B:1):1,(C:1,D:1):1):1,E:3):1;\"\n\n# leitura da árvore\nphylo_tree &lt;- ape::read.tree(text = newick_text)\n\n# Vizualizando a árvore\nplot(phylo_tree)\nape::axisPhylo()\n\n# Inserindo nós na filogenia \nphylo_tree &lt;- ape::makeNodeLabel(phylo_tree, \n                                 method = \"number\",\n                                 prefix = \"Node\")\n\n# Vizualizando novamente a árvore\nape::plot.phylo(phylo_tree, type = \"phylogram\", \n                show.tip.label = T,\n                show.node.label = T)\nape::axisPhylo()"
-  },
-  {
     "objectID": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-como-surgem-modelo-1",
     "href": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-como-surgem-modelo-1",
     "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
@@ -521,6 +208,13 @@
     "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
     "section": "Árvores filogenéticas: como surgem (Modelo)?",
     "text": "Árvores filogenéticas: como surgem (Modelo)?"
+  },
+  {
+    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-como-surgem-3",
+    "href": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-como-surgem-3",
+    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
+    "section": "Árvores filogenéticas: como surgem?",
+    "text": "Árvores filogenéticas: como surgem?"
   },
   {
     "objectID": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-como-surgem-4",
@@ -572,13 +266,6 @@
     "text": "Árvores filogenéticas: como surgem?"
   },
   {
-    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-como-surgem-11",
-    "href": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-como-surgem-11",
-    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
-    "section": "Árvores filogenéticas: como surgem?",
-    "text": "Árvores filogenéticas: como surgem?"
-  },
-  {
     "objectID": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-como-surgem---resumindo",
     "href": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-como-surgem---resumindo",
     "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
@@ -607,46 +294,11 @@
     "text": "Anatomia das árvores filogenéticas: tipos de árvores"
   },
   {
-    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#anatomia-das-árvores-filogenéticas-como-descrever-1",
-    "href": "aulas/aula1_phylogenetic_trees/slides.html#anatomia-das-árvores-filogenéticas-como-descrever-1",
-    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
-    "section": "Anatomia das árvores filogenéticas: como descrever?",
-    "text": "Anatomia das árvores filogenéticas: como descrever?\nToda árvore bifurcada com n tips (pontas) vai apresentar as seguintes características\n\nO número de nós é \\(n-1\\)\nO número total de nós é \\(2n-1\\)\nCada tip tem um único ramo\nO único nó que não aprensenta um ramo “parental” é o nó raiz"
-  },
-  {
     "objectID": "aulas/aula1_phylogenetic_trees/slides.html#anatomia-das-árvores-filogenéticas-tipos-de-árvores-1",
     "href": "aulas/aula1_phylogenetic_trees/slides.html#anatomia-das-árvores-filogenéticas-tipos-de-árvores-1",
     "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
     "section": "Anatomia das árvores filogenéticas: tipos de árvores",
     "text": "Anatomia das árvores filogenéticas: tipos de árvores"
-  },
-  {
-    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#anatomia-das-árvores-filogenéticas-tipos-de-árvores-2",
-    "href": "aulas/aula1_phylogenetic_trees/slides.html#anatomia-das-árvores-filogenéticas-tipos-de-árvores-2",
-    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
-    "section": "Anatomia das árvores filogenéticas: tipos de árvores",
-    "text": "Anatomia das árvores filogenéticas: tipos de árvores\n\n# Define the newick text that includes the tip labels and \n# tree topology\nnewick_text = \"(((A,B),(C,D)),E);\"\n\n# Create an ape phylo object from the tree text\nphylo_tree = read.tree( text=newick_text )\n\n# Plot the newick_tree phylo object using the ggtree library\n# Draw the tree\nggtree(phylo_tree ) +\n  # Add the node numbers\n  geom_text2(aes(label=node), col=\"gray\", nudge_x=0.1 ) +  \n  # Add the tip labels\n  geom_tiplab( aes(label=label), offset=0.3, col=\"black\") +\n  # Add points on nodes\n  geom_nodepoint(col=\"gray\") +                              \n  geom_tippoint(col=\"gray\")"
-  },
-  {
-    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#anatomia-das-árvores-filogenéticsa-extraindo-informações",
-    "href": "aulas/aula1_phylogenetic_trees/slides.html#anatomia-das-árvores-filogenéticsa-extraindo-informações",
-    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
-    "section": "Anatomia das árvores filogenéticsa: extraindo informações",
-    "text": "Anatomia das árvores filogenéticsa: extraindo informações"
-  },
-  {
-    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#anatomia-das-árvores-filogenéticas-extraindo-informações",
-    "href": "aulas/aula1_phylogenetic_trees/slides.html#anatomia-das-árvores-filogenéticas-extraindo-informações",
-    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
-    "section": "Anatomia das árvores filogenéticas: extraindo informações",
-    "text": "Anatomia das árvores filogenéticas: extraindo informações"
-  },
-  {
-    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#anatomia-das-árvores-filogenéticas-extraindo-informações-1",
-    "href": "aulas/aula1_phylogenetic_trees/slides.html#anatomia-das-árvores-filogenéticas-extraindo-informações-1",
-    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
-    "section": "Anatomia das árvores filogenéticas: extraindo informações",
-    "text": "Anatomia das árvores filogenéticas: extraindo informações\n\n\n\n# representação em newick\nnewick_text &lt;- \"(((A,B),(C,D)),E);\"\n\n# leitura da árvore\nphylo_tree &lt;- ape::read.tree(text = newick_text)\n\n# Vizualizando a árvore\nplot(phylo_tree)"
   },
   {
     "objectID": "aulas/aula1_phylogenetic_trees/slides.html#anatomia-das-árvores-filogenéticas-extraindo-informações-a-mão",
@@ -661,6 +313,27 @@
     "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
     "section": "Anatomia das árvores filogenéticas: como são (no computador)",
     "text": "Anatomia das árvores filogenéticas: como são (no computador)\n\n\n\n# representação em newick\nnewick_text &lt;- \"(((A,B),(C,D)),E);\"\n\n# leitura da árvore\nphylo_tree &lt;- ape::read.tree(text = newick_text)\n\n# Vizualizando a árvore\nplot(phylo_tree)"
+  },
+  {
+    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#anatomia-das-árvores-filogenéticas-como-descrever",
+    "href": "aulas/aula1_phylogenetic_trees/slides.html#anatomia-das-árvores-filogenéticas-como-descrever",
+    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
+    "section": "Anatomia das árvores filogenéticas: como descrever?",
+    "text": "Anatomia das árvores filogenéticas: como descrever?\nInformação de tempo\n\n\n\n# representação em newick\nnewick_text &lt;- \"(((A:1,B:1):1,(C:1,D:1):1):1,E:3):1;\"\n\n# leitura da árvore\nphylo_tree &lt;- ape::read.tree(text = newick_text)\n\n# Vizualizando a árvore\nplot(phylo_tree)\nape::axisPhylo()\n\n# Inserindo nós na filogenia \nphylo_tree &lt;- ape::makeNodeLabel(phylo_tree, \n                                 method = \"number\",\n                                 prefix = \"Node\")\n\n# Vizualizando novamente a árvore\nape::plot.phylo(phylo_tree, type = \"phylogram\", \n                show.tip.label = T,\n                show.node.label = T)\nape::axisPhylo()"
+  },
+  {
+    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#anatomia-das-árvores-filogenéticas-como-descrever-1",
+    "href": "aulas/aula1_phylogenetic_trees/slides.html#anatomia-das-árvores-filogenéticas-como-descrever-1",
+    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
+    "section": "Anatomia das árvores filogenéticas: como descrever?",
+    "text": "Anatomia das árvores filogenéticas: como descrever?\nToda árvore bifurcada com n tips (pontas) vai apresentar as seguintes características\n\nO número de nós é \\(n-1\\)\nO número total de nós é \\(2n-1\\)\nCada tip tem um único ramo\nO único nó que não aprensenta um ramo “parental” é o nó raiz"
+  },
+  {
+    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-onde-vivem",
+    "href": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-onde-vivem",
+    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
+    "section": "Árvores filogenéticas: onde vivem?",
+    "text": "Árvores filogenéticas: onde vivem?"
   },
   {
     "objectID": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-onde-vivem-1",
@@ -705,6 +378,170 @@
     "text": "Árvores filogenéticas: como lidar com a incompletude de dados?"
   },
   {
+    "objectID": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-mini-quiz",
+    "href": "aulas/aula1_phylogenetic_trees/slides.html#árvores-filogenéticas-mini-quiz",
+    "title": "Árvores 🌳 filogenéticas: o que são, do que se alimentam, e onde vivem",
+    "section": "Árvores filogenéticas: mini quiz",
+    "text": "Árvores filogenéticas: mini quiz"
+  },
+  {
+    "objectID": "links.html",
+    "href": "links.html",
+    "title": "Links para materiais",
+    "section": "",
+    "text": "Aqui vocês irão encontrar links para materiais abertos sobre ecologia filogenética e outros assuntos relacionados.",
+    "crumbs": [
+      "Informações sobre o curso",
+      "Links para materiais úteis"
+    ]
+  },
+  {
+    "objectID": "links.html#livros-e-materiais-didáticos",
+    "href": "links.html#livros-e-materiais-didáticos",
+    "title": "Links para materiais",
+    "section": "Livros e materiais didáticos",
+    "text": "Livros e materiais didáticos\n\nPhylogenetic Biology por Cassey Dunn",
+    "crumbs": [
+      "Informações sobre o curso",
+      "Links para materiais úteis"
+    ]
+  },
+  {
+    "objectID": "links.html#ferramental",
+    "href": "links.html#ferramental",
+    "title": "Links para materiais",
+    "section": "Ferramental",
+    "text": "Ferramental\n\nCRAN Task View: Phylogenetics: compilado de pacotes em R voltados para filogenômica, ecologia filogenética, macroevolução e outros assuntos relacionados.",
+    "crumbs": [
+      "Informações sobre o curso",
+      "Links para materiais úteis"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Ecologia filogenética ECMVS 2026-1",
+    "section": "",
+    "text": "Dia\nData\nTópico\nDescrição\nRoteiros e códigos\nSlides\nLeituras\n\n\n\n\nDia 1\n05/07\nIntrodução a ecologia evolutiva\nÁrvores filogenéticas\nQuestões e métodos em ecologia evolutiva, Tipos de árvores, estrutura de árvores filogenéticas, processamento e manejo de árvores, fontes secundárias para árvores\n💻\n📽\n📚\n\n\nDia 2\n06/07\nDescrição de padrões I: filogenias e atributos\nModelo Browniano de evolução, sinal filogenético,\n💻\n📽\n📚\n\n\nDia 3\n07/07\nDescrição de padrões II: diversificação e métricas de diversidade\nModelo Birth-Death, estimando diversificação, estimando diversidade\n\n\n\n\n\nDia 3\n07/07 - manhã\nInferências II: macroevolução e macroecologia\nReconstruindo histórias passadas, processos históricos em escala regional e local\n\n\n\n\n\nDia 4\n08/07\na definir\n\n\n\n\n\n\nDia 4\n09/07 -\na definir",
+    "crumbs": [
+      "Informações sobre o curso",
+      "Cronograma do curso"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Sobre o curso",
+    "section": "",
+    "text": "O conteúdo nesse sítio tem como objetivo servir como material de apoio para a disciplina **Tópicos Especiais - Métodos e técnicas em ecologia, conservação e manejo da vida silvestre - Diversidade Funcional e filogenética de comunidades, parte da grade de disciplinas oferecidas no PPG Ecologia, Conservação e Manejo da Vida Silvestre da Universidade Federal de Minas Gerais, ministrada por mim, Gabriel Nakamura e pelo Rafa Leitão.\nEspecificamente, aqui você irá encontrar os materiais para a segunda semana da disciplina, onde, apesar do nome oficial ser Diversidade Filogenética, iremos abordar menos sobre isso, e mais sobre o que gera, de onde vem, e como podemos utilizar alguns métodos filogenéticos para responder questões em ecologia e macroevolução. Este curso não tem como intuito apresentar uma lista exaustiva de métricas e métodos, mas sim fornecer as bases teóricas e metodológicas para que os estudantes possam eles mesmos chegarem nas melhores alternativas para representar e responder suas questões.\nPara uma visão geral dos temas, horários e conteúdos veja esta página.",
+    "crumbs": [
+      "Informações sobre o curso",
+      "Apresentação"
+    ]
+  },
+  {
+    "objectID": "about.html#professores",
+    "href": "about.html#professores",
+    "title": "Sobre o curso",
+    "section": "Professores",
+    "text": "Professores\n\n\n\n\nRafa Leitão\n\n\n\nRafa é professor Adjunto do Departamento de Genética, Ecologia e Evolução (GEE/ICB) da Universidade Federal de Minas Gerais (UFMG) e orientador permanente do Programa de Pós-Graduação em Ecologia, Conservação e Manejo de Vida Silvestre (ECMVS-UFMG). Doutor em Biologia de Água Doce pelo Instituto Nacional de Pesquisas da Amazônia (BADPI-INPA) e em ‘Ecosystèmes’ pela Universidade de Montpellier (ESA-UM, França). Bacharel em Ciências Biológicas e mestre em Ecologia pela Universidade Federal do Rio de Janeiro (UFRJ). Atua principalmente nas áreas de ecologia de comunidades, diversidade funcional, conservação de ecossistemas aquáticos, interações interespecíficas e ictiologia.\n\n\n\n\n\n\n\nGabriel Nakamura\n\n\n\nGabriel é professor no Departamento de Genética, Ecologia e Evolução da UFMG e credenciado como membro permanente do programa de pós-graduação em Ecologia, Conservação e Manejo da Vida Silvestre. Tem graduação em Ciências Biológicas (licenciatura plena, UFMS), mestrado em Ecologia e Conservação (UFMS) e doutorado em Ecologia (UFRGS). Minha pesquisa busca compreender como processos históricos (especiação, extinção, dispersão) e ecológicos geram e moldam a biodiversidade no tempo profundo. Atuo principalmente no desenvolvimento de ferramentas numéricas para quantificar padrões e processos macroecológicos e macroevolutivos. Tenho experiência em métodos quantitativos, simulações, ecologia de comunidades e reprodutibilidade em pesquisa. Me interesso também por vieses no conhecimento biológico e na produção científica, sobretudo na comparação entre norte e sul globais, visando promover equidade, diversidade e inclusão na ciência. Fui pesquisador em biogeografia computacional na Texas AM University. Sou editor associado dos periódicos Austral Ecology e Perspectives in Ecology and Conservation e pesquisador do INCT - Ecologia, Evolução e Conservação da Biodiversidade. Mais informações em minha página profissional",
+    "crumbs": [
+      "Informações sobre o curso",
+      "Apresentação"
+    ]
+  },
+  {
+    "objectID": "about.html#recursos-e-referências",
+    "href": "about.html#recursos-e-referências",
+    "title": "Sobre o curso",
+    "section": "Recursos e referências",
+    "text": "Recursos e referências\nLista com alguns recursos que podem ser utilizados na disciplina de ecologia filogenética ou macroecologia filogenética. - Livro do Luke Harmon sobre método comparativo - site utilizado como modelo para de layout para site da disciplina - Livro do Nate Swenson - Phylogenetic Ecology como base para organização do conteúdo, principalmente a sequência e os eixos apresentados - Cassey Dunn book - very very good source of information on phylogenies and phylogenetic inference - Special issue in Phil Transactions B on phylogenetic models - Figure tree by Darwin in On the origin of species",
+    "crumbs": [
+      "Informações sobre o curso",
+      "Apresentação"
+    ]
+  },
+  {
+    "objectID": "aulas/aula2_descricao-padroes_I/index.html",
+    "href": "aulas/aula2_descricao-padroes_I/index.html",
+    "title": "Inferência de processos evolutivos a partir de filogenias",
+    "section": "",
+    "text": "Note\n\n\n\nEm construção…"
+  },
+  {
+    "objectID": "aulas/aula2_descricao-padroes_I/index.html#slides-da-aula",
+    "href": "aulas/aula2_descricao-padroes_I/index.html#slides-da-aula",
+    "title": "Inferência de processos evolutivos a partir de filogenias",
+    "section": "Slides da aula",
+    "text": "Slides da aula\nAqui você encontra os slides apresentados em sala de aula sobre esse tópico\nTela cheia 📺"
+  },
+  {
+    "objectID": "aulas/aula1_phylogenetic_trees/index.html",
+    "href": "aulas/aula1_phylogenetic_trees/index.html",
+    "title": "Árvores 🌳 filogenéticas",
+    "section": "",
+    "text": "Note\n\n\n\nEm construção…",
+    "crumbs": [
+      "Materiais por dia",
+      "Aula 1 - Árvores filogenéticas"
+    ]
+  },
+  {
+    "objectID": "aulas/aula1_phylogenetic_trees/index.html#árvores-filogenéticas",
+    "href": "aulas/aula1_phylogenetic_trees/index.html#árvores-filogenéticas",
+    "title": "Árvores 🌳 filogenéticas",
+    "section": "Árvores filogenéticas",
+    "text": "Árvores filogenéticas\nNessa seção iremos compreender como identificar as principais estruturas de uma árvore filogenética, extrair informações referentes a identidade dos tips, nós, ramos e suas respectivas idades.\nAo fim dessa aula você deve ser capaz de identificar os principais elementos que compõe uma árvore filogenética, extrair suas informações, editar as árvores, interoperabilizar os formatos existentes e dominar funções básicas de plotagem de árvores.",
+    "crumbs": [
+      "Materiais por dia",
+      "Aula 1 - Árvores filogenéticas"
+    ]
+  },
+  {
+    "objectID": "aulas/aula1_phylogenetic_trees/index.html#formatos-manejáveis-das-árvores-filogenéticas",
+    "href": "aulas/aula1_phylogenetic_trees/index.html#formatos-manejáveis-das-árvores-filogenéticas",
+    "title": "Árvores 🌳 filogenéticas",
+    "section": "Formatos manejáveis das árvores filogenéticas",
+    "text": "Formatos manejáveis das árvores filogenéticas\nPara essa prática utilizaremos os seguintes pacotes:\n\nlibrary(geiger)\nlibrary(ape)\nlibrary(phytools)",
+    "crumbs": [
+      "Materiais por dia",
+      "Aula 1 - Árvores filogenéticas"
+    ]
+  },
+  {
+    "objectID": "aulas/aula1_phylogenetic_trees/index.html#manejo-e-processamento-das-árvores",
+    "href": "aulas/aula1_phylogenetic_trees/index.html#manejo-e-processamento-das-árvores",
+    "title": "Árvores 🌳 filogenéticas",
+    "section": "Manejo e processamento das árvores",
+    "text": "Manejo e processamento das árvores",
+    "crumbs": [
+      "Materiais por dia",
+      "Aula 1 - Árvores filogenéticas"
+    ]
+  },
+  {
+    "objectID": "aulas/aula1_phylogenetic_trees/index.html#diferentes-formas-de-representar-a-estrutura-de-árvores",
+    "href": "aulas/aula1_phylogenetic_trees/index.html#diferentes-formas-de-representar-a-estrutura-de-árvores",
+    "title": "Árvores 🌳 filogenéticas",
+    "section": "Diferentes formas de representar a estrutura de árvores",
+    "text": "Diferentes formas de representar a estrutura de árvores\nExistem algumas situações que o formato da informação da estrutura da árvore não é muito amigável para manipulação nem para compreensão de seus detalhes, por exemplo, verificar quem são todos os descendentes e os clados filhos de um determinado ancestral. Para tornar essa tarefa menos complicada podemos transformar a árvore em formatos mais amigáveis para manipulação, por exemplo, data frames.\n\nlibrary(tidytree)\n\nO pacote tidytree possibilita manipular a estrutura da árvore filogenética seguindo o paradigma de programação funcional utilizado em pacotes mais recentes como tidiverse e dplyr",
+    "crumbs": [
+      "Materiais por dia",
+      "Aula 1 - Árvores filogenéticas"
+    ]
+  },
+  {
+    "objectID": "aulas/aula1_phylogenetic_trees/index.html#sec-exercicios",
+    "href": "aulas/aula1_phylogenetic_trees/index.html#sec-exercicios",
+    "title": "Árvores 🌳 filogenéticas",
+    "section": "Exercícios para praticar",
+    "text": "Exercícios para praticar\n\nSimule uma árvore filogenética e mapeie todos os ancestrais de todos os tips, ou seja, desde o tempo zero até a raiz.\n\n\n\nClique para ver a resolução do exercício\nset.seed(42)\n\n\n\nSimule uma filogenia com 50 espécies. Após a simulação insira mais 4 espécies na filogenia. Faça esses inserções de duas formas. Uma, inserindo na metade do ramo de qualquer outra espécie já presente, outra inserindo em um nó que liga pelo menos 10 espécies.\n\n\n\nClique para ver a resolução do exercício\nset.seed(42)\n\n\n\nUtilizando a mesma árvore simulada no exercício anterior. Calcule o comprimento do ramo que leva até o tip de cada espécie. O que esse ramo indica em termos de informação evolutiva?\n\n\n\nClique para ver a resolução do exercício\nset.seed(42)\n\n\n\nReferências e recursos utilizados nesta aula\n\nPacote treethinking contendo alguns quizes em relação a estrutura de árvores filogenéticas \nMaterial do Nick Matzke com uma introdução ao pensamento filogenético e interpretação de árvores\nExplicação simples e com exemplos pequenos sore como funciona o método de verossimilhança (likelihood)",
+    "crumbs": [
+      "Materiais por dia",
+      "Aula 1 - Árvores filogenéticas"
+    ]
+  },
+  {
     "objectID": "aulas/aula1_phylogenetic_trees/index.html#slides-da-aula-e-arquivos-de-apoio",
     "href": "aulas/aula1_phylogenetic_trees/index.html#slides-da-aula-e-arquivos-de-apoio",
     "title": "Árvores 🌳 filogenéticas",
@@ -713,6 +550,28 @@
     "crumbs": [
       "Materiais por dia",
       "Aula 1 - Árvores filogenéticas"
+    ]
+  },
+  {
+    "objectID": "aulas/aula0_intro_inferencia/index.html",
+    "href": "aulas/aula0_intro_inferencia/index.html",
+    "title": "Introdução a ecologia filogenética",
+    "section": "",
+    "text": "Note\n\n\n\nEm construção…",
+    "crumbs": [
+      "Materiais por dia",
+      "Aula 0 - Introdução e escopo da ecologia evolutiva (nessa disciplina)"
+    ]
+  },
+  {
+    "objectID": "aulas/aula0_intro_inferencia/index.html#slides-da-aula-e-arquivos-de-apoio",
+    "href": "aulas/aula0_intro_inferencia/index.html#slides-da-aula-e-arquivos-de-apoio",
+    "title": "Introdução a ecologia filogenética",
+    "section": "Slides da aula e arquivos de apoio",
+    "text": "Slides da aula e arquivos de apoio\nAqui você encontra os slides apresentados em aula sobre esse tópico\nTela cheia 📺",
+    "crumbs": [
+      "Materiais por dia",
+      "Aula 0 - Introdução e escopo da ecologia evolutiva (nessa disciplina)"
     ]
   }
 ]

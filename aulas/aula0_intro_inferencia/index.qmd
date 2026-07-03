@@ -1,0 +1,39 @@
+---
+title: "Introdução a ecologia filogenética"
+format:
+  html:
+    code-copy: true
+    code-tools:
+      source: true
+      toggle: true # Opcional: esconde o botão de ocultar/mostrar códigos se não quiser
+---
+
+::: callout-note
+Em construção...
+:::
+
+### Objetivo
+
+Apresentar as principais questões abordadas no campo de Ecologia Filogenética, sua importância e possibilidades de uso.
+
+### Conteúdo
+
+Programa de pesquisa em Ecologia Filogenética, métodos comparativos e macroevolução
+
+### Referências e recursos utilizados nesta aula
+
+-   Materiais online do [Liam Revell com explicações sobre PIC](https://lukejharmon.github.io/ilhabela/instruction/2015/07/02/phylogenetic-independent-contrasts/)
+-   Explicação simples e com exemplos pequenos sore como funciona o [método de verossimilhança (likelihood)](https://joelvelasco.net/teaching/129/foster01-idiotslikelihood.pdf)
+- [Van Dijk et al. 2021](https://academic.oup.com/biolinnean/article-abstract/134/1/57/6297962?login=false)
+- [Jetz et al. 2014](https://www.cell.com/current-biology/fulltext/S0960-9822(14)00270-X?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS096098221400270X%3Fshowall%3Dtrue)
+- [Crouch et al. 2018](https://nsojournals.onlinelibrary.wiley.com/doi/10.1111/ecog.03927)
+
+## Slides da aula e arquivos de apoio
+
+Aqui você encontra os slides apresentados em aula sobre esse tópico
+
+[Tela cheia 📺](slides.qmd)
+
+```{=html}
+<iframe class="slide-deck" src="slides.html" height="420" width="750" style="border: 1px solid #2e3846;"></iframe>
+```

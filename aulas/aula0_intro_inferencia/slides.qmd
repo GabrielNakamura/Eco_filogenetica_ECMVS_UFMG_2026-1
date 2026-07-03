@@ -1,0 +1,78 @@
+---
+title: "Ecologia evolutiva"
+format: 
+  qmdrslides-revealjs:
+    chalkboard: true
+    slide-number: true
+    highlight-style: espresso
+---
+
+## (Macro)Ecologia (Macro)evolutiva: algumas questões
+
+## Filogenia como fonte de "confusão""
+
+![](images/inferencia_errada_lm.png){fig-align="center" width="100%"}
+
+## Filogenia como fonte de "confusão""
+
+![](images/inferencia_errada_3.png){fig-align="center" width="100%"}
+
+## Filogenias como "proxy" de **padrões** e processos
+
+![](images/filogenias_proxy.jpg){fig-align="center" width="80%"}
+
+## Filogenias como "proxy" de padrões e **processos**
+
+![](images/inferencia_processos2.jpg){fig-align="center" width="100%"}
+
+## Filogenias como fonte de informação de processos históricos
+
+![](images/inferencia_processos1.png){fig-align="center" width="100%"}
+
+## Tentativa de compreender o passado
+
+![](images/pikaia.jpg){fig-align="center" width="100%"}
+
+## Tentativa de compreender o passado
+
+![](images/wonderful_life_gould.png){fig-align="center" width="100%"}
+
+## Ferramentas de inferência para entender o passado (um pequeno parênteses)
+
+
+
+## Uma brevíssima explicação sobre likelihood
+
+![](images/lik_1.png){fig-align="center" width="100%"}
+
+## Uma brevíssima explicação sobre likelihood
+
+![](images/lik_2.png){fig-align="center" width="100%"}
+
+## Uma brevíssima explicação sobre likelihood
+
+![](images/lik_3.png){fig-align="center" width="100%"}
+
+## Uma brevíssima explicação sobre likelihood
+
+![](images/lik_4.png){fig-align="center" width="100%"}
+
+## Uma brevíssima explicação sobre likelihood
+
+![](images/lik_5.png){fig-align="center" width="100%"}
+
+## Uma brevíssima explicação sobre likelihood
+
+![](images/lik_5.png){fig-align="center" width="100%"}
+
+## Uma brevíssima explicação sobre likelihood
+
+![](images/lik_6.png){fig-align="center" width="100%"}
+
+## Uma brevíssima explicação sobre likelihood
+
+![](images/lik_7.png){fig-align="center" width="100%"}
+
+
+
+
