@@ -38,7 +38,7 @@ website:
           - text: "Aula 1 - Árvores filogenéticas"
             href: aulas/aula1_phylogenetic_trees/index.qmd
           - text: "Aula 2 - Evolução como fator de 'confusão'"
-            href: aulas/Aula2_processos_evolutivos_filo.qmd
+            href: aulas/aula2_descricao-padroes_I/index.qmd
           - text: "Aula 3 - Processos evolutivos"
             href: aulas/Aula2_processos_evolutivos_filo.qmd
 format:

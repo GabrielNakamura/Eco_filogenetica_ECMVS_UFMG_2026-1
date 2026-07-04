@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-html/tabby.min.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-a7440e06365d60c4f92a61b2f7544c2e.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<meta name="shinylive:serviceworker_dir" content="../..">
+<script src="../../site_libs/quarto-contrib/shinylive-0.9.1/shinylive/load-shinylive-sw.js" type="module"></script>
+<script src="../../site_libs/quarto-contrib/shinylive-0.9.1/shinylive/run-python-blocks.js" type="module"></script>
+<link href="../../site_libs/quarto-contrib/shinylive-0.9.1/shinylive/shinylive.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/shinylive-quarto-css/shinylive-quarto.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.7.32">
+
+  <title>Ecologia Filogenética 2026/1 – Filogenias como ‘problema’</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/reveal.css">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+    /* CSS for syntax highlighting */
+    html { -webkit-text-size-adjust: 100%; }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        background-color: #2a211c;
+        color: #bdae9d;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #bdae9d;  padding-left: 4px; }
+    div.sourceCode
+      { color: #bdae9d; background-color: #2a211c; }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ffff00; } /* Alert */
+    code span.an { color: #0066ff; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { } /* Attribute */
+    code span.bn { color: #44aa43; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #43a8ed; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #049b0a; } /* Char */
+    code span.cn { } /* Constant */
+    code span.co { color: #0066ff; font-weight: bold; font-style: italic; } /* Comment */
+    code span.do { color: #0066ff; font-style: italic; } /* Documentation */
+    code span.dt { text-decoration: underline; } /* DataType */
+    code span.dv { color: #44aa43; } /* DecVal */
+    code span.er { color: #ffff00; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #44aa43; } /* Float */
+    code span.fu { color: #ff9358; font-weight: bold; } /* Function */
+    code span.im { } /* Import */
+    code span.in { color: #0066ff; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #43a8ed; font-weight: bold; } /* Keyword */
+    code span.op { } /* Operator */
+    code span.pp { font-weight: bold; } /* Preprocessor */
+    code span.sc { color: #049b0a; } /* SpecialChar */
+    code span.ss { color: #049b0a; } /* SpecialString */
+    code span.st { color: #049b0a; } /* String */
+    code span.va { } /* Variable */
+    code span.vs { color: #049b0a; } /* VerbatimString */
+    code span.wa { color: #ffff00; font-weight: bold; } /* Warning */
+  </style>
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto-6384821f323436685c600638bbb43fb4.css">
+  <link href="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="../../site_libs/revealjs/plugin/reveal-chalkboard/font-awesome/css/all.css" rel="stylesheet">
+  <link href="../../site_libs/revealjs/plugin/reveal-chalkboard/style.css" rel="stylesheet">
+  <link href="../../site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+</head>
+<body class="quarto-light">
+<div style="display:none;"></div>
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide" data-background-color="#f8f5f0" data-background-image="../../site_libs/quarto-contrib/quarto-project/qmdr/qmdrslides/Title_Page_Burguess.jpg" data-background-size="contain" class="quarto-title-block center">
+  <h1 class="title">Filogenias como ‘problema’</h1>
+  <p class="subtitle">Ecologia Filogenética <br> PPG ECMVS 2026-1</p>
+
+<div class="quarto-title-authors">
+</div>
+
+</section>
+<section id="relação-entre-atributos" class="slide level2">
+<h2>Relação entre atributos</h2>
+</section>
+<section id="será-que-estamos-corretos" class="slide level2">
+<h2>Será que estamos corretos?</h2>
+</section>
+<section id="título-do-meu-slide-com-app" class="slide level2">
+<h2>Título do meu Slide com App</h2>
+<div class="sourceCode" id="cb1" data-engine="r"><pre class="sourceCode numberSource shinylive-r number-lines code-with-copy"><code class="sourceCode"><span id="cb1-1"><a></a>#| '!! shinylive warning !!': |</span>
+<span id="cb1-2"><a></a>#|   shinylive does not work in self-contained HTML documents.</span>
+<span id="cb1-3"><a></a>#|   Please set `embed-resources: false` in your metadata.</span>
+<span id="cb1-4"><a></a>#| standalone: true</span>
+<span id="cb1-5"><a></a>#| viewerHeight: 600</span>
+<span id="cb1-6"><a></a></span>
+<span id="cb1-7"><a></a>library(shiny)</span>
+<span id="cb1-8"><a></a>library(phytools)</span>
+<span id="cb1-9"><a></a>library(nlme) # Necessário para rodar a função gls() e corBrownian()</span>
+<span id="cb1-10"><a></a></span>
+<span id="cb1-11"><a></a># Define UI</span>
+<span id="cb1-12"><a></a>ui &lt;- fluidPage(</span>
+<span id="cb1-13"><a></a>  titlePanel("Modelagem Evolutiva por Movimento Browniano, PIC e PGLS"),</span>
+<span id="cb1-14"><a></a>  </span>
+<span id="cb1-15"><a></a>  sidebarLayout(</span>
+<span id="cb1-16"><a></a>    sidebarPanel(</span>
+<span id="cb1-17"><a></a>      sliderInput("n_lines", "Número de Espécies (Linhagens):", min = 6, max = 25, value = 12, step = 1),</span>
+<span id="cb1-18"><a></a>      checkboxInput("show_mean", "Mostrar Média Geral Final (Modelos Lineares)", value = FALSE),</span>
+<span id="cb1-19"><a></a>      hr(),</span>
+<span id="cb1-20"><a></a>      sliderInput("rho", "Rho de Grafen (Distorção do Tempo):", min = 0.1, max = 3.0, value = 1.0, step = 0.1),</span>
+<span id="cb1-21"><a></a>      p(tags$small("rho = 1: Padrão | rho &lt; 1: Nós próximos à raiz | rho &gt; 1: Nós próximos às pontas")),</span>
+<span id="cb1-22"><a></a>      hr(),</span>
+<span id="cb1-23"><a></a>      sliderInput("sig2_1", "Taxa de Evolução Painel 1 (sigma^2):", min = 0.01, max = 0.5, value = 0.02, step = 0.01),</span>
+<span id="cb1-24"><a></a>      sliderInput("sig2_2", "Taxa de Evolução Painel 2 (sigma^2):", min = 0.01, max = 0.5, value = 0.10, step = 0.01),</span>
+<span id="cb1-25"><a></a>      sliderInput("sig2_3", "Taxa de Evolução Painel 3 (sigma^2):", min = 0.01, max = 0.5, value = 0.40, step = 0.01),</span>
+<span id="cb1-26"><a></a>      hr(),</span>
+<span id="cb1-27"><a></a>      actionButton("go", "Simular Tudo")</span>
+<span id="cb1-28"><a></a>    ),</span>
+<span id="cb1-29"><a></a>    </span>
+<span id="cb1-30"><a></a>    mainPanel(</span>
+<span id="cb1-31"><a></a>      tabsetPanel(</span>
+<span id="cb1-32"><a></a>        tabPanel("Modelos Evolutivos", </span>
+<span id="cb1-33"><a></a>                 plotOutput("bmPlot", height = "1050px")</span>
+<span id="cb1-34"><a></a>        ),</span>
+<span id="cb1-35"><a></a>        tabPanel("Relação de Atributos &amp; PIC", </span>
+<span id="cb1-36"><a></a>                 plotOutput("picPlot", height = "500px")</span>
+<span id="cb1-37"><a></a>        ),</span>
+<span id="cb1-38"><a></a>        tabPanel("Relação de Atributos &amp; PGLS", </span>
+<span id="cb1-39"><a></a>                 plotOutput("traitPlot", height = "950px")</span>
+<span id="cb1-40"><a></a>        )</span>
+<span id="cb1-41"><a></a>      )</span>
+<span id="cb1-42"><a></a>    )</span>
+<span id="cb1-43"><a></a>  )</span>
+<span id="cb1-44"><a></a>)</span>
+<span id="cb1-45"><a></a></span>
+<span id="cb1-46"><a></a># Define Server</span>
+<span id="cb1-47"><a></a>server &lt;- function(input, output, session) {</span>
+<span id="cb1-48"><a></a>  </span>
+<span id="cb1-49"><a></a>  # Bloco Reativo Principal de Simulação</span>
+<span id="cb1-50"><a></a>  sim_data &lt;- eventReactive(c(input$go, input$n_lines, input$rho, input$sig2_1, input$sig2_2, input$sig2_3), {</span>
+<span id="cb1-51"><a></a>    lines &lt;- input$n_lines</span>
+<span id="cb1-52"><a></a>    steps &lt;- 100 </span>
+<span id="cb1-53"><a></a>    </span>
+<span id="cb1-54"><a></a>    # 1. Gerar árvore e aplicar distorção de Grafen via compute.brlen (pacote ape)</span>
+<span id="cb1-55"><a></a>    raw_tree &lt;- pbtree(n = lines, scale = 1, quiet = TRUE)</span>
+<span id="cb1-56"><a></a>    raw_tree &lt;- rotateNodes(raw_tree, "all") </span>
+<span id="cb1-57"><a></a>    </span>
+<span id="cb1-58"><a></a>    distorted_tree &lt;- compute.brlen(raw_tree, method = "Grafen", power = input$rho)</span>
+<span id="cb1-59"><a></a>    distorted_tree$edge.length &lt;- distorted_tree$edge.length / max(nodeHeights(distorted_tree))</span>
+<span id="cb1-60"><a></a>    </span>
+<span id="cb1-61"><a></a>    # 2. Simulações Independentes Lineares (Aba 1)</span>
+<span id="cb1-62"><a></a>    mat1 &lt;- replicate(lines, c(0, cumsum(rnorm(steps, mean = 0, sd = sqrt(input$sig2_1)))))</span>
+<span id="cb1-63"><a></a>    mat2 &lt;- replicate(lines, c(0, cumsum(rnorm(steps, mean = 0, sd = sqrt(input$sig2_2)))))</span>
+<span id="cb1-64"><a></a>    mat3 &lt;- replicate(lines, c(0, cumsum(rnorm(steps, mean = 0, sd = sqrt(input$sig2_3)))))</span>
+<span id="cb1-65"><a></a>    </span>
+<span id="cb1-66"><a></a>    colnames(mat1) &lt;- distorted_tree$tip.label</span>
+<span id="cb1-67"><a></a>    colnames(mat2) &lt;- distorted_tree$tip.label</span>
+<span id="cb1-68"><a></a>    colnames(mat3) &lt;- distorted_tree$tip.label</span>
+<span id="cb1-69"><a></a>    </span>
+<span id="cb1-70"><a></a>    # 3. Simulações Filogenéticas (Atributo A)</span>
+<span id="cb1-71"><a></a>    phy_sim1_A &lt;- fastBM(distorted_tree, sig2 = input$sig2_1, internal = TRUE)</span>
+<span id="cb1-72"><a></a>    phy_sim2_A &lt;- fastBM(distorted_tree, sig2 = input$sig2_2, internal = TRUE)</span>
+<span id="cb1-73"><a></a>    phy_sim3_A &lt;- fastBM(distorted_tree, sig2 = input$sig2_3, internal = TRUE)</span>
+<span id="cb1-74"><a></a>    </span>
+<span id="cb1-75"><a></a>    # 4. Simulação de um SEGUNDO Atributo Independente (Atributo B)</span>
+<span id="cb1-76"><a></a>    phy_sim1_B &lt;- fastBM(distorted_tree, sig2 = input$sig2_1, internal = TRUE)</span>
+<span id="cb1-77"><a></a>    phy_sim2_B &lt;- fastBM(distorted_tree, sig2 = input$sig2_2, internal = TRUE)</span>
+<span id="cb1-78"><a></a>    phy_sim3_B &lt;- fastBM(distorted_tree, sig2 = input$sig2_3, internal = TRUE)</span>
+<span id="cb1-79"><a></a>    </span>
+<span id="cb1-80"><a></a>    y_limits_global &lt;- range(c(mat1, mat2, max(mat3), phy_sim1_A, phy_sim2_A, phy_sim3_A))</span>
+<span id="cb1-81"><a></a>    x_limits_linear &lt;- c(0, steps * 1.15)</span>
+<span id="cb1-82"><a></a>    </span>
+<span id="cb1-83"><a></a>    return(list(</span>
+<span id="cb1-84"><a></a>      tree = distorted_tree, steps = steps, </span>
+<span id="cb1-85"><a></a>      x_limits_linear = x_limits_linear, y_limits_global = y_limits_global,</span>
+<span id="cb1-86"><a></a>      mat1 = mat1, mat2 = mat2, mat3 = mat3,</span>
+<span id="cb1-87"><a></a>      phy_sim1_A = phy_sim1_A, phy_sim2_A = phy_sim2_A, phy_sim3_A = phy_sim3_A,</span>
+<span id="cb1-88"><a></a>      phy_sim1_B = phy_sim1_B, phy_sim2_B = phy_sim2_B, phy_sim3_B = phy_sim3_B</span>
+<span id="cb1-89"><a></a>    ))</span>
+<span id="cb1-90"><a></a>  })</span>
+<span id="cb1-91"><a></a>  </span>
+<span id="cb1-92"><a></a>  # --- RENDERIZAÇÃO ABA 1: PAINÉIS EVOLUTIVOS COMPÓSITOS ---</span>
+<span id="cb1-93"><a></a>  output$bmPlot &lt;- renderPlot({</span>
+<span id="cb1-94"><a></a>    d &lt;- sim_data()</span>
+<span id="cb1-95"><a></a>    n_tips &lt;- length(d$tree$tip.label)</span>
+<span id="cb1-96"><a></a>    lineage_colors &lt;- rainbow(n_tips, alpha = 0.8)</span>
+<span id="cb1-97"><a></a>    names(lineage_colors) &lt;- d$tree$tip.label</span>
+<span id="cb1-98"><a></a>    </span>
+<span id="cb1-99"><a></a>    layout(matrix(1:9, nrow = 3, byrow = TRUE))</span>
+<span id="cb1-100"><a></a>    </span>
+<span id="cb1-101"><a></a>    # Linha 1: Modelos Lineares</span>
+<span id="cb1-102"><a></a>    par(mar = c(4, 4.5, 3, 1.5))</span>
+<span id="cb1-103"><a></a>    draw_linear_panel &lt;- function(mat, sig2_val) {</span>
+<span id="cb1-104"><a></a>      plot(0:d$steps, mat[, 1], type = "n", xlim = d$x_limits_linear, ylim = d$y_limits_global, </span>
+<span id="cb1-105"><a></a>           xlab = "Gerações", ylab = if(sig2_val == input$sig2_1) "Valor do Traço" else "", </span>
+<span id="cb1-106"><a></a>           main = paste("Linear (sig2 =", sig2_val, ")"), las = 1)</span>
+<span id="cb1-107"><a></a>      grid(col = "lightgray", lty = "dotted")</span>
+<span id="cb1-108"><a></a>      for(tip in d$tree$tip.label) {</span>
+<span id="cb1-109"><a></a>        lines(0:d$steps, mat[, tip], col = lineage_colors[tip], lwd = 1.3)</span>
+<span id="cb1-110"><a></a>        points(d$steps, mat[nrow(mat), tip], pch = 21, bg = lineage_colors[tip], col = "white", cex = 1.3)</span>
+<span id="cb1-111"><a></a>        text(d$steps, mat[nrow(mat), tip], labels = tip, pos = 4, cex = 0.9, col = "black")</span>
+<span id="cb1-112"><a></a>      }</span>
+<span id="cb1-113"><a></a>      if (input$show_mean) abline(h = mean(mat[nrow(mat), ]), col = "black", lwd = 2.5, lty = "dashed")</span>
+<span id="cb1-114"><a></a>    }</span>
+<span id="cb1-115"><a></a>    draw_linear_panel(d$mat1, input$sig2_1)</span>
+<span id="cb1-116"><a></a>    draw_linear_panel(d$mat2, input$sig2_2)</span>
+<span id="cb1-117"><a></a>    draw_linear_panel(d$mat3, input$sig2_3)</span>
+<span id="cb1-118"><a></a>    </span>
+<span id="cb1-119"><a></a>    # Linha 2: Árvores Filogenéticas Clássicas</span>
+<span id="cb1-120"><a></a>    par(mar = c(4, 2, 4, 3.5))</span>
+<span id="cb1-121"><a></a>    draw_phylo_panel &lt;- function(phy_sim, sig2_val) {</span>
+<span id="cb1-122"><a></a>      tips_only &lt;- phy_sim[d$tree$tip.label]</span>
+<span id="cb1-123"><a></a>      cmap &lt;- contMap(d$tree, tips_only, plot = FALSE)</span>
+<span id="cb1-124"><a></a>      cmap &lt;- setMap(cmap, c("darkgray", "lightgray", "darkgray")) </span>
+<span id="cb1-125"><a></a>      plot(cmap, type = "phylogram", direction = "rightwards", fsize = 1.0, lwd = 2, </span>
+<span id="cb1-126"><a></a>           main = paste("Árvore (sig2 =", sig2_val, ")"), legend = FALSE, mar = c(4, 2, 4, 3.5))</span>
+<span id="cb1-127"><a></a>      tiplabels(pch = 21, bg = lineage_colors[d$tree$tip.label], col = "white", cex = 1.5)</span>
+<span id="cb1-128"><a></a>      axisPhylo(side = 1)</span>
+<span id="cb1-129"><a></a>    }</span>
+<span id="cb1-130"><a></a>    draw_phylo_panel(d$phy_sim1_A, input$sig2_1)</span>
+<span id="cb1-131"><a></a>    draw_phylo_panel(d$phy_sim2_A, input$sig2_2)</span>
+<span id="cb1-132"><a></a>    draw_phylo_panel(d$phy_sim3_A, input$sig2_3)</span>
+<span id="cb1-133"><a></a>    </span>
+<span id="cb1-134"><a></a>    # Linha 3: Fenogramas</span>
+<span id="cb1-135"><a></a>    par(mar = c(4.5, 4.5, 3, 1.5))</span>
+<span id="cb1-136"><a></a>    draw_phenogram_panel &lt;- function(phy_sim, sig2_val) {</span>
+<span id="cb1-137"><a></a>      local_y_limits &lt;- range(phy_sim)</span>
+<span id="cb1-138"><a></a>      phenogram(d$tree, phy_sim, ylim = local_y_limits, </span>
+<span id="cb1-139"><a></a>                xlab = "Tempo Histórico", ylab = if(sig2_val == input$sig2_1) "Valor do Traço" else "", </span>
+<span id="cb1-140"><a></a>                main = paste("Fenograma Zoom (sig2 =", sig2_val, ")"), colors = "darkslateblue", las = 1, fsize = 0.9)</span>
+<span id="cb1-141"><a></a>      for(tip in d$tree$tip.label) {</span>
+<span id="cb1-142"><a></a>        points(1.0, phy_sim[tip], pch = 21, bg = lineage_colors[tip], col = "white", cex = 1.3)</span>
+<span id="cb1-143"><a></a>      }</span>
+<span id="cb1-144"><a></a>    }</span>
+<span id="cb1-145"><a></a>    draw_phenogram_panel(d$phy_sim1_A, input$sig2_1)</span>
+<span id="cb1-146"><a></a>    draw_phenogram_panel(d$phy_sim2_A, input$sig2_2)</span>
+<span id="cb1-147"><a></a>    draw_phenogram_panel(d$phy_sim3_A, input$sig2_3)</span>
+<span id="cb1-148"><a></a>  })</span>
+<span id="cb1-149"><a></a>  </span>
+<span id="cb1-150"><a></a>  # --- RENDERIZAÇÃO ABA 2: CONTRASTES FILOGENÉTICOS INDEPENDENTES (PIC) ---</span>
+<span id="cb1-151"><a></a>  output$picPlot &lt;- renderPlot({</span>
+<span id="cb1-152"><a></a>    d &lt;- sim_data()</span>
+<span id="cb1-153"><a></a>    </span>
+<span id="cb1-154"><a></a>    # Configura o layout: 1 linha por 3 colunas para os três sigmas</span>
+<span id="cb1-155"><a></a>    layout(matrix(1:3, nrow = 1))</span>
+<span id="cb1-156"><a></a>    par(mar = c(5, 5, 4, 1.5))</span>
+<span id="cb1-157"><a></a>    </span>
+<span id="cb1-158"><a></a>    draw_pic_panel &lt;- function(phy_A, phy_B, sig2_val) {</span>
+<span id="cb1-159"><a></a>      x_vals &lt;- phy_A[d$tree$tip.label]</span>
+<span id="cb1-160"><a></a>      y_vals &lt;- phy_B[d$tree$tip.label]</span>
+<span id="cb1-161"><a></a>      </span>
+<span id="cb1-162"><a></a>      # Calcular os contrastes independentes (PIC) utilizando a função nativa pic() do pacote ape</span>
+<span id="cb1-163"><a></a>      pic_X &lt;- pic(x_vals, d$tree)</span>
+<span id="cb1-164"><a></a>      pic_Y &lt;- pic(y_vals, d$tree)</span>
+<span id="cb1-165"><a></a>      </span>
+<span id="cb1-166"><a></a>      # Ajustar modelo linear passando OBRIGATORIAMENTE pela origem (Y ~ X - 1 ou Y ~ X + 0)</span>
+<span id="cb1-167"><a></a>      pic_fit &lt;- lm(pic_Y ~ pic_X + 0)</span>
+<span id="cb1-168"><a></a>      pic_summary &lt;- summary(pic_fit)</span>
+<span id="cb1-169"><a></a>      </span>
+<span id="cb1-170"><a></a>      beta_pic &lt;- round(pic_summary$coefficients[1, 1], 4)</span>
+<span id="cb1-171"><a></a>      p_pic &lt;- round(pic_summary$coefficients[1, 4], 4)</span>
+<span id="cb1-172"><a></a>      </span>
+<span id="cb1-173"><a></a>      # Gerar gráfico de dispersão dos contrastes</span>
+<span id="cb1-174"><a></a>      plot(pic_X, pic_Y, xlab = "Contrastes do Atributo X", ylab = "Contrastes do Atributo Y",</span>
+<span id="cb1-175"><a></a>           main = paste("Regressão via PIC\nsigma^2 =", sig2_val), las = 1,</span>
+<span id="cb1-176"><a></a>           pch = 21, bg = "forestgreen", col = "darkgreen", cex = 1.5)</span>
+<span id="cb1-177"><a></a>      grid(col = "lightgray", lty = "dotted")</span>
+<span id="cb1-178"><a></a>      </span>
+<span id="cb1-179"><a></a>      # Força a linha de regressão a cruzar o ponto central (0,0)</span>
+<span id="cb1-180"><a></a>      abline(pic_fit, col = "darkgreen", lwd = 2.5)</span>
+<span id="cb1-181"><a></a>      abline(h = 0, v = 0, col = "gray", lty = "dashed", lwd = 0.8) # Linhas de referência da origem</span>
+<span id="cb1-182"><a></a>      </span>
+<span id="cb1-183"><a></a>      # Anotação com os parâmetros estatísticos do PIC</span>
+<span id="cb1-184"><a></a>      mtext(paste0("PIC (Regressão na Origem):\nBeta = ", beta_pic, "\nP-valor = ", p_pic), </span>
+<span id="cb1-185"><a></a>            side = 3, line = -3, cex = 0.9, col = "darkgreen", font = 2, adj = 0.05)</span>
+<span id="cb1-186"><a></a>    }</span>
+<span id="cb1-187"><a></a>    </span>
+<span id="cb1-188"><a></a>    draw_pic_panel(d$phy_sim1_A, d$phy_sim1_B, input$sig2_1)</span>
+<span id="cb1-189"><a></a>    draw_pic_panel(d$phy_sim2_A, d$phy_sim2_B, input$sig2_2)</span>
+<span id="cb1-190"><a></a>    draw_pic_panel(d$phy_sim3_A, d$phy_sim3_B, input$sig2_3)</span>
+<span id="cb1-191"><a></a>  })</span>
+<span id="cb1-192"><a></a>  </span>
+<span id="cb1-193"><a></a>  # --- RENDERIZAÇÃO ABA 3: GLM CLÁSSICO vs PGLS (FILOGENÉTICO) ---</span>
+<span id="cb1-194"><a></a>  output$traitPlot &lt;- renderPlot({</span>
+<span id="cb1-195"><a></a>    d &lt;- sim_data()</span>
+<span id="cb1-196"><a></a>    n_tips &lt;- length(d$tree$tip.label)</span>
+<span id="cb1-197"><a></a>    lineage_colors &lt;- rainbow(n_tips, alpha = 0.8)</span>
+<span id="cb1-198"><a></a>    names(lineage_colors) &lt;- d$tree$tip.label</span>
+<span id="cb1-199"><a></a>    </span>
+<span id="cb1-200"><a></a>    layout(matrix(1:6, nrow = 2, byrow = TRUE))</span>
+<span id="cb1-201"><a></a>    </span>
+<span id="cb1-202"><a></a>    # Sub-rotina para o GLM clássico</span>
+<span id="cb1-203"><a></a>    draw_glm_panel &lt;- function(phy_A, phy_B, sig2_val) {</span>
+<span id="cb1-204"><a></a>      par(mar = c(4.5, 5, 4, 1.5))</span>
+<span id="cb1-205"><a></a>      x_vals &lt;- phy_A[d$tree$tip.label]</span>
+<span id="cb1-206"><a></a>      y_vals &lt;- phy_B[d$tree$tip.label]</span>
+<span id="cb1-207"><a></a>      </span>
+<span id="cb1-208"><a></a>      df_data &lt;- data.frame(X = x_vals, Y = y_vals)</span>
+<span id="cb1-209"><a></a>      glm_fit &lt;- glm(Y ~ X, data = df_data, family = gaussian)</span>
+<span id="cb1-210"><a></a>      glm_summary &lt;- summary(glm_fit)</span>
+<span id="cb1-211"><a></a>      </span>
+<span id="cb1-212"><a></a>      beta_val &lt;- round(glm_summary$coefficients[2, 1], 4) </span>
+<span id="cb1-213"><a></a>      p_val &lt;- round(glm_summary$coefficients[2, 4], 4)    </span>
+<span id="cb1-214"><a></a>      </span>
+<span id="cb1-215"><a></a>      lambda_X &lt;- round(phylosig(d$tree, x_vals, method = "lambda")$lambda, 3)</span>
+<span id="cb1-216"><a></a>      lambda_Y &lt;- round(phylosig(d$tree, y_vals, method = "lambda")$lambda, 3)</span>
+<span id="cb1-217"><a></a>      </span>
+<span id="cb1-218"><a></a>      plot(x_vals, y_vals, type = "n", xlab = "Atributo X", ylab = "Atributo Y",</span>
+<span id="cb1-219"><a></a>           main = paste("GLM Tradicional (Normal)\nsigma^2 =", sig2_val), las = 1)</span>
+<span id="cb1-220"><a></a>      grid(col = "lightgray", lty = "dotted")</span>
+<span id="cb1-221"><a></a>      abline(glm_fit, col = "darkred", lwd = 2.5, lty = "dashed")</span>
+<span id="cb1-222"><a></a>      </span>
+<span id="cb1-223"><a></a>      for(tip in d$tree$tip.label) {</span>
+<span id="cb1-224"><a></a>        points(x_vals[tip], y_vals[tip], pch = 21, bg = lineage_colors[tip], col = "white", cex = 1.6)</span>
+<span id="cb1-225"><a></a>        text(x_vals[tip], y_vals[tip], labels = tip, pos = 4, cex = 0.85, col = "darkgray")</span>
+<span id="cb1-226"><a></a>      }</span>
+<span id="cb1-227"><a></a>      </span>
+<span id="cb1-228"><a></a>      mtext(paste0("GLM: Beta = ", </span>
+<span id="cb1-229"><a></a>                   beta_val, </span>
+<span id="cb1-230"><a></a>                   " | P-valor = ", </span>
+<span id="cb1-231"><a></a>                   p_val, </span>
+<span id="cb1-232"><a></a>                   "\nSinal Filo: Lambda X = ", </span>
+<span id="cb1-233"><a></a>                   lambda_X, </span>
+<span id="cb1-234"><a></a>                   " | Lambda Y = ",</span>
+<span id="cb1-235"><a></a>                   lambda_Y), </span>
+<span id="cb1-236"><a></a>            side = 3, </span>
+<span id="cb1-237"><a></a>            line = -3,</span>
+<span id="cb1-238"><a></a>            cex = 0.8, </span>
+<span id="cb1-239"><a></a>            col = "darkred",</span>
+<span id="cb1-240"><a></a>            font = 2, </span>
+<span id="cb1-241"><a></a>            adj = 0.02)</span>
+<span id="cb1-242"><a></a>    }</span>
+<span id="cb1-243"><a></a>    </span>
+<span id="cb1-244"><a></a>    # Sub-rotina para o PGLS filogenético</span>
+<span id="cb1-245"><a></a>    draw_pgls_panel &lt;- </span>
+<span id="cb1-246"><a></a>      function(phy_A, phy_B, sig2_val) {</span>
+<span id="cb1-247"><a></a>      par(mar = c(4.5, 5, 4, 1.5))</span>
+<span id="cb1-248"><a></a>        x_vals &lt;- phy_A[d$tree$tip.label]</span>
+<span id="cb1-249"><a></a>        y_vals &lt;- phy_B[d$tree$tip.label]</span>
+<span id="cb1-250"><a></a>        df_data &lt;- data.frame(X = x_vals, Y = y_vals)</span>
+<span id="cb1-251"><a></a>        rownames(df_data) &lt;- d$tree$tip.label</span>
+<span id="cb1-252"><a></a>        bm_cor &lt;- corBrownian(phy = d$tree)</span>
+<span id="cb1-253"><a></a>        pgls_fit &lt;- gls(Y ~ X, data = df_data, correlation = bm_cor, method = "ML")</span>
+<span id="cb1-254"><a></a>        pgls_summary &lt;- summary(pgls_fit)</span>
+<span id="cb1-255"><a></a>        beta_pgls &lt;- round(pgls_summary$coefficients[2], 4)</span>
+<span id="cb1-256"><a></a>        p_pgls &lt;- round(pgls_summary$tTable[2, 4], 4)</span>
+<span id="cb1-257"><a></a>        plot(x_vals, y_vals, </span>
+<span id="cb1-258"><a></a>             type = "n", xlab = "Atributo X",</span>
+<span id="cb1-259"><a></a>             ylab = "Atributo Y", </span>
+<span id="cb1-260"><a></a>             main = paste("PGLS (corBrownian)\nsigma^2 =", sig2_val),</span>
+<span id="cb1-261"><a></a>             las = 1)</span>
+<span id="cb1-262"><a></a>        grid(col = "lightgray", lty = "dotted")</span>
+<span id="cb1-263"><a></a>        abline(a = pgls_summary$coefficients[1], b = pgls_summary$coefficients[2], col = "darkblue", lwd = 2.5)</span>
+<span id="cb1-264"><a></a>        for(tip in d$tree$tip.label) {</span>
+<span id="cb1-265"><a></a>          points(x_vals[tip], y_vals[tip], pch = 21, bg = lineage_colors[tip], col = "white", cex = 1.6)</span>
+<span id="cb1-266"><a></a>          text(x_vals[tip], y_vals[tip], labels = tip, pos = 4, cex = 0.85, col = "darkgray")</span>
+<span id="cb1-267"><a></a>        }</span>
+<span id="cb1-268"><a></a>        mtext(paste0("PGLS (BM): Beta = ", beta_pgls, " | P-valor = ", p_pgls), </span>
+<span id="cb1-269"><a></a>              side = 3, line = -2, cex = 0.85, col = "darkblue", font = 2, adj = 0.02)</span>
+<span id="cb1-270"><a></a>      }</span>
+<span id="cb1-271"><a></a>    # Executa as sublinhas do PGLS</span>
+<span id="cb1-272"><a></a>    draw_glm_panel(d$phy_sim1_A, d$phy_sim1_B, input$sig2_1)</span>
+<span id="cb1-273"><a></a>    draw_glm_panel(d$phy_sim2_A, d$phy_sim2_B, input$sig2_2)</span>
+<span id="cb1-274"><a></a>    draw_glm_panel(d$phy_sim3_A, d$phy_sim3_B, input$sig2_3)</span>
+<span id="cb1-275"><a></a>    draw_pgls_panel(d$phy_sim1_A, d$phy_sim1_B, input$sig2_1)</span>
+<span id="cb1-276"><a></a>    draw_pgls_panel(d$phy_sim2_A, d$phy_sim2_B, input$sig2_2)</span>
+<span id="cb1-277"><a></a>    draw_pgls_panel(d$phy_sim3_A, d$phy_sim3_B, input$sig2_3)</span>
+<span id="cb1-278"><a></a>  }</span>
+<span id="cb1-279"><a></a>  )</span>
+<span id="cb1-280"><a></a>  }</span>
+<span id="cb1-281"><a></a></span>
+<span id="cb1-282"><a></a>shinyApp(ui = ui, server = server)      </span>
+<span id="cb1-283"><a></a></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+
+
+</section>
+    </div>
+  <div class="quarto-auto-generated-content" style="display: none;">
+<div class="footer footer-default">
+<p>Eco Filogenética UFMG</p>
+</div>
+</div></div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="../../site_libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="../../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="../../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="../../site_libs/revealjs/plugin/reveal-chalkboard/plugin.js"></script>
+  <script src="../../site_libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="../../site_libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="../../site_libs/revealjs/plugin/search/search.js"></script>
+  <script src="../../site_libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="../../site_libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': true,
+'previewLinksAuto': false,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'jumpToSlide': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"8\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":false},
+'chalkboard': {"buttons":true},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: false,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: false,
+
+        // Display the page number of the current slide
+        slideNumber: 'c/t',
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: false,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'fade',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'none',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1600,
+
+        height: 900,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        math: {
+          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, QuartoSupport,
+
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    <script id="quarto-html-after-body" type="application/javascript">
+      window.document.addEventListener("DOMContentLoaded", function (event) {
+        const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+        tabsets.forEach(function(tabset) {
+          const tabby = new Tabby('#' + tabset.id);
+        });
+        const isCodeAnnotation = (el) => {
+          for (const clz of el.classList) {
+            if (clz.startsWith('code-annotation-')) {                     
+              return true;
+            }
+          }
+          return false;
+        }
+        const onCopySuccess = function(e) {
+          // button target
+          const button = e.trigger;
+          // don't keep focus
+          button.blur();
+          // flash "checked"
+          button.classList.add('code-copy-button-checked');
+          var currentTitle = button.getAttribute("title");
+          button.setAttribute("title", "Copied!");
+          let tooltip;
+          if (window.bootstrap) {
+            button.setAttribute("data-bs-toggle", "tooltip");
+            button.setAttribute("data-bs-placement", "left");
+            button.setAttribute("data-bs-title", "Copied!");
+            tooltip = new bootstrap.Tooltip(button, 
+              { trigger: "manual", 
+                customClass: "code-copy-button-tooltip",
+                offset: [0, -8]});
+            tooltip.show();    
+          }
+          setTimeout(function() {
+            if (tooltip) {
+              tooltip.hide();
+              button.removeAttribute("data-bs-title");
+              button.removeAttribute("data-bs-toggle");
+              button.removeAttribute("data-bs-placement");
+            }
+            button.setAttribute("title", currentTitle);
+            button.classList.remove('code-copy-button-checked');
+          }, 1000);
+          // clear code selection
+          e.clearSelection();
+        }
+        const getTextToCopy = function(trigger) {
+            const codeEl = trigger.previousElementSibling.cloneNode(true);
+            for (const childEl of codeEl.children) {
+              if (isCodeAnnotation(childEl)) {
+                childEl.remove();
+              }
+            }
+            return codeEl.innerText;
+        }
+        const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+          text: getTextToCopy
+        });
+        clipboard.on('success', onCopySuccess);
+        if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+          const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+            text: getTextToCopy,
+            container: window.document.getElementById('quarto-embedded-source-code-modal')
+          });
+          clipboardModal.on('success', onCopySuccess);
+        }
+          var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+          var mailtoRegex = new RegExp(/^mailto:/);
+            var filterRegex = new RegExp('/' + window.location.host + '/');
+          var isInternal = (href) => {
+              return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+          }
+          // Inspect non-navigation links and adorn them if external
+         var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+          for (var i=0; i<links.length; i++) {
+            const link = links[i];
+            if (!isInternal(link.href)) {
+              // undo the damage that might have been done by quarto-nav.js in the case of
+              // links that we want to consider external
+              if (link.dataset.originalHref !== undefined) {
+                link.href = link.dataset.originalHref;
+              }
+            }
+          }
+        function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+          const config = {
+            allowHTML: true,
+            maxWidth: 500,
+            delay: 100,
+            arrow: false,
+            appendTo: function(el) {
+                return el.closest('section.slide') || el.parentElement;
+            },
+            interactive: true,
+            interactiveBorder: 10,
+            theme: 'light-border',
+            placement: 'bottom-start',
+          };
+          if (contentFn) {
+            config.content = contentFn;
+          }
+          if (onTriggerFn) {
+            config.onTrigger = onTriggerFn;
+          }
+          if (onUntriggerFn) {
+            config.onUntrigger = onUntriggerFn;
+          }
+            config['offset'] = [0,0];
+            config['maxWidth'] = 700;
+          window.tippy(el, config); 
+        }
+        const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+        for (var i=0; i<noterefs.length; i++) {
+          const ref = noterefs[i];
+          tippyHover(ref, function() {
+            // use id or data attribute instead here
+            let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+            try { href = new URL(href).hash; } catch {}
+            const id = href.replace(/^#\/?/, "");
+            const note = window.document.getElementById(id);
+            if (note) {
+              return note.innerHTML;
+            } else {
+              return "";
+            }
+          });
+        }
+        const findCites = (el) => {
+          const parentEl = el.parentElement;
+          if (parentEl) {
+            const cites = parentEl.dataset.cites;
+            if (cites) {
+              return {
+                el,
+                cites: cites.split(' ')
+              };
+            } else {
+              return findCites(el.parentElement)
+            }
+          } else {
+            return undefined;
+          }
+        };
+        var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+        for (var i=0; i<bibliorefs.length; i++) {
+          const ref = bibliorefs[i];
+          const citeInfo = findCites(ref);
+          if (citeInfo) {
+            tippyHover(citeInfo.el, function() {
+              var popup = window.document.createElement('div');
+              citeInfo.cites.forEach(function(cite) {
+                var citeDiv = window.document.createElement('div');
+                citeDiv.classList.add('hanging-indent');
+                citeDiv.classList.add('csl-entry');
+                var biblioDiv = window.document.getElementById('ref-' + cite);
+                if (biblioDiv) {
+                  citeDiv.innerHTML = biblioDiv.innerHTML;
+                }
+                popup.appendChild(citeDiv);
+              });
+              return popup.innerHTML;
+            });
+          }
+        }
+      });
+      </script>
+    <script type="text/javascript">
+      window.addEventListener('load', function() {
+        var logo = document.querySelector('.slide-logo');
+        var url = 'https://stat20.org';
+        logo.addEventListener('click', function() {
+          window.open(url, '_blank');
+        });
+      });
+      Reveal.on('ready', event => {
+        if (event.indexh === 0) {
+          document.querySelector("div.has-logo > img.slide-logo").style.display = "none";
+        }
+      });
+      Reveal.addEventListener('slidechanged', (event) => {
+        if (event.indexh === 0) {
+          Reveal.configure({ slideNumber: null });
+          document.querySelector("div.has-logo > img.slide-logo").style.display = "none";
+        }
+        if (event.indexh === 1) { 
+          Reveal.configure({ slideNumber: 'c' });
+          document.querySelector("div.has-logo > img.slide-logo").style.display = null;
+        }
+      });
+    </script>
+    
+
+</body></html>
