@@ -1,0 +1,13 @@
+name: brownian_motion_explained
+title: brownian_motion_explained
+username: gabrielnakamura
+account: gabrielnakamura
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 17581907
+bundleId: 12221437
+url: https://gabrielnakamura.shinyapps.io/brownian_motion_explained/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: app.R|index.qmd|slides.qmd

@@ -1,0 +1,13 @@
+name: aula2_descricao-padroes_I
+title: aula2_descricao-padroes_I
+username: gabrielnakamura
+account: gabrielnakamura
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 17581903
+bundleId: 12222121
+url: https://gabrielnakamura.shinyapps.io/aula2_descricao-padroes_I/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: app.R|index.qmd|slides.qmd|images

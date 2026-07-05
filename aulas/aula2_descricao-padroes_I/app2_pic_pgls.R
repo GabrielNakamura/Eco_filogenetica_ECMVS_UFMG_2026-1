@@ -4,21 +4,21 @@ library(nlme) # Necessário para rodar a função gls() e corBrownian()
 
 # Define UI
 ui <- fluidPage(
-  titlePanel("Modelagem Evolutiva por Movimento Browniano, PIC e PGLS"),
+  titlePanel("Evolução de atributos, Movimento Browniano, PIC e PGLS"),
   
   sidebarLayout(
     sidebarPanel(
       sliderInput("n_lines", "Número de Espécies (Linhagens):", min = 6, max = 25, value = 12, step = 1),
-      checkboxInput("show_mean", "Mostrar Média Geral Final (Modelos Lineares)", value = FALSE),
+      checkboxInput("show_mean", "Mostrar Média Geral", value = FALSE),
       hr(),
-      sliderInput("rho", "Rho de Grafen (Distorção do Tempo):", min = 0.1, max = 3.0, value = 1.0, step = 0.1),
+      sliderInput("rho", "Distorção do Tempo:", min = 0.1, max = 3.0, value = 1.0, step = 0.1),
       p(tags$small("rho = 1: Padrão | rho < 1: Nós próximos à raiz | rho > 1: Nós próximos às pontas")),
       hr(),
       sliderInput("sig2_1", "Taxa de Evolução Painel 1 (sigma^2):", min = 0.01, max = 0.5, value = 0.02, step = 0.01),
       sliderInput("sig2_2", "Taxa de Evolução Painel 2 (sigma^2):", min = 0.01, max = 0.5, value = 0.10, step = 0.01),
       sliderInput("sig2_3", "Taxa de Evolução Painel 3 (sigma^2):", min = 0.01, max = 0.5, value = 0.40, step = 0.01),
       hr(),
-      actionButton("go", "Simular Tudo")
+      actionButton("go", "Simular")
     ),
     
     mainPanel(
@@ -83,7 +83,7 @@ server <- function(input, output, session) {
     ))
   })
   
-  # --- RENDERIZAÇÃO ABA 1: PAINÉIS EVOLUTIVOS COMPÓSITOS ---
+  # --- RENDERIZAÇÃO ABA 1: PAINÉIS EVOLUTIVOS  ---
   output$bmPlot <- renderPlot({
     d <- sim_data()
     n_tips <- length(d$tree$tip.label)
