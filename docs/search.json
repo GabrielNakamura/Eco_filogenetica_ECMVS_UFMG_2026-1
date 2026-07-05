@@ -385,48 +385,60 @@
     "text": "Árvores filogenéticas: mini quiz"
   },
   {
-    "objectID": "links.html",
-    "href": "links.html",
-    "title": "Links para materiais",
-    "section": "",
-    "text": "Aqui vocês irão encontrar links para materiais abertos sobre ecologia filogenética e outros assuntos relacionados.",
-    "crumbs": [
-      "Informações sobre o curso",
-      "Links para materiais úteis"
-    ]
+    "objectID": "aulas/aula2_descricao-padroes_I/slides.html#relação-entre-atributos",
+    "href": "aulas/aula2_descricao-padroes_I/slides.html#relação-entre-atributos",
+    "title": "Filogenias como ‘problema’",
+    "section": "Relação entre atributos",
+    "text": "Relação entre atributos"
   },
   {
-    "objectID": "links.html#livros-e-materiais-didáticos",
-    "href": "links.html#livros-e-materiais-didáticos",
-    "title": "Links para materiais",
-    "section": "Livros e materiais didáticos",
-    "text": "Livros e materiais didáticos\n\nPhylogenetic Biology por Cassey Dunn",
-    "crumbs": [
-      "Informações sobre o curso",
-      "Links para materiais úteis"
-    ]
+    "objectID": "aulas/aula2_descricao-padroes_I/slides.html#relação-entre-atributos-1",
+    "href": "aulas/aula2_descricao-padroes_I/slides.html#relação-entre-atributos-1",
+    "title": "Filogenias como ‘problema’",
+    "section": "Relação entre atributos",
+    "text": "Relação entre atributos"
   },
   {
-    "objectID": "links.html#ferramental",
-    "href": "links.html#ferramental",
-    "title": "Links para materiais",
-    "section": "Ferramental",
-    "text": "Ferramental\n\nCRAN Task View: Phylogenetics: compilado de pacotes em R voltados para filogenômica, ecologia filogenética, macroevolução e outros assuntos relacionados.",
-    "crumbs": [
-      "Informações sobre o curso",
-      "Links para materiais úteis"
-    ]
+    "objectID": "aulas/aula2_descricao-padroes_I/slides.html#relação-entre-atributos---o-que-queremos-encontrar",
+    "href": "aulas/aula2_descricao-padroes_I/slides.html#relação-entre-atributos---o-que-queremos-encontrar",
+    "title": "Filogenias como ‘problema’",
+    "section": "Relação entre atributos - o que queremos encontrar?",
+    "text": "Relação entre atributos - o que queremos encontrar?"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Ecologia filogenética ECMVS 2026-1",
-    "section": "",
-    "text": "Dia\nData\nTópico\nDescrição\nRoteiros e códigos\nSlides\nLeituras\n\n\n\n\nDia 1\n05/07\nIntrodução a ecologia evolutiva\nÁrvores filogenéticas\nQuestões e métodos em ecologia evolutiva, Tipos de árvores, estrutura de árvores filogenéticas, processamento e manejo de árvores, fontes secundárias para árvores\n💻\n📽\n📚\n\n\nDia 2\n06/07\nDescrição de padrões I: filogenias e atributos\nModelo Browniano de evolução, sinal filogenético,\n💻\n📽\n📚\n\n\nDia 3\n07/07\nDescrição de padrões II: diversificação e métricas de diversidade\nModelo Birth-Death, estimando diversificação, estimando diversidade\n\n\n\n\n\nDia 3\n07/07 - manhã\nInferências II: macroevolução e macroecologia\nReconstruindo histórias passadas, processos históricos em escala regional e local\n\n\n\n\n\nDia 4\n08/07\na definir\n\n\n\n\n\n\nDia 4\n09/07 -\na definir",
-    "crumbs": [
-      "Informações sobre o curso",
-      "Cronograma do curso"
-    ]
+    "objectID": "aulas/aula2_descricao-padroes_I/slides.html#relação-entre-atributos---o-que-queremos-evitar",
+    "href": "aulas/aula2_descricao-padroes_I/slides.html#relação-entre-atributos---o-que-queremos-evitar",
+    "title": "Filogenias como ‘problema’",
+    "section": "Relação entre atributos - o que queremos evitar?",
+    "text": "Relação entre atributos - o que queremos evitar?"
+  },
+  {
+    "objectID": "aulas/aula2_descricao-padroes_I/slides.html#relação-entre-atributos-2",
+    "href": "aulas/aula2_descricao-padroes_I/slides.html#relação-entre-atributos-2",
+    "title": "Filogenias como ‘problema’",
+    "section": "Relação entre atributos",
+    "text": "Relação entre atributos\nDois atributos independentes e randômicos \\(N(\\mu = 0, \\sigma = 0.14)\\)"
+  },
+  {
+    "objectID": "aulas/aula2_descricao-padroes_I/slides.html#relação-entre-atributos-3",
+    "href": "aulas/aula2_descricao-padroes_I/slides.html#relação-entre-atributos-3",
+    "title": "Filogenias como ‘problema’",
+    "section": "Relação entre atributos",
+    "text": "Relação entre atributos\nDois atributos independentes com \\(N(\\mu = 0, \\sigma = 0.14)\\), porém…."
+  },
+  {
+    "objectID": "aulas/aula2_descricao-padroes_I/slides.html#relação-entre-atributos-4",
+    "href": "aulas/aula2_descricao-padroes_I/slides.html#relação-entre-atributos-4",
+    "title": "Filogenias como ‘problema’",
+    "section": "Relação entre atributos",
+    "text": "Relação entre atributos\nDois atributos independentes com \\(N(\\mu = 0, \\sigma = 0.14)\\), porém…."
+  },
+  {
+    "objectID": "aulas/aula2_descricao-padroes_I/slides.html#será-que-estamos-corretos",
+    "href": "aulas/aula2_descricao-padroes_I/slides.html#será-que-estamos-corretos",
+    "title": "Filogenias como ‘problema’",
+    "section": "Será que estamos corretos?",
+    "text": "Será que estamos corretos?"
   },
   {
     "objectID": "about.html",
@@ -459,6 +471,50 @@
     "crumbs": [
       "Informações sobre o curso",
       "Apresentação"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Ecologia filogenética ECMVS 2026-1",
+    "section": "",
+    "text": "Dia\nData\nTópico\nDescrição\nRoteiros e códigos\nSlides\nLeituras\n\n\n\n\nDia 1\n05/07\nIntrodução a ecologia evolutiva\nÁrvores filogenéticas\nQuestões e métodos em ecologia evolutiva, Tipos de árvores, estrutura de árvores filogenéticas, processamento e manejo de árvores, fontes secundárias para árvores\n💻\n📽\n📚\n\n\nDia 2\n06/07\nDescrição de padrões I: filogenias e atributos\nModelo Browniano de evolução, sinal filogenético,\n💻\n📽\n📚\n\n\nDia 3\n07/07\nDescrição de padrões II: diversificação e métricas de diversidade\nModelo Birth-Death, estimando diversificação, estimando diversidade\n\n\n\n\n\nDia 3\n07/07 - manhã\nInferências II: macroevolução e macroecologia\nReconstruindo histórias passadas, processos históricos em escala regional e local\n\n\n\n\n\nDia 4\n08/07\na definir\n\n\n\n\n\n\nDia 4\n09/07 -\na definir",
+    "crumbs": [
+      "Informações sobre o curso",
+      "Cronograma do curso"
+    ]
+  },
+  {
+    "objectID": "links.html",
+    "href": "links.html",
+    "title": "Links para materiais",
+    "section": "",
+    "text": "Aqui vocês irão encontrar links para materiais abertos sobre ecologia filogenética e outros assuntos relacionados.",
+    "crumbs": [
+      "Informações sobre o curso",
+      "Links para materiais úteis"
+    ]
+  },
+  {
+    "objectID": "links.html#livros-e-materiais-didáticos",
+    "href": "links.html#livros-e-materiais-didáticos",
+    "title": "Links para materiais",
+    "section": "Livros e materiais didáticos",
+    "text": "Livros e materiais didáticos\n\nPhylogenetic Biology por Cassey Dunn",
+    "crumbs": [
+      "Informações sobre o curso",
+      "Links para materiais úteis"
+    ]
+  },
+  {
+    "objectID": "links.html#ferramental",
+    "href": "links.html#ferramental",
+    "title": "Links para materiais",
+    "section": "Ferramental",
+    "text": "Ferramental\n\nCRAN Task View: Phylogenetics: compilado de pacotes em R voltados para filogenômica, ecologia filogenética, macroevolução e outros assuntos relacionados.",
+    "crumbs": [
+      "Informações sobre o curso",
+      "Links para materiais úteis"
     ]
   },
   {
@@ -581,68 +637,5 @@
       "Materiais por dia",
       "Aula 0 - Introdução e escopo da ecologia evolutiva (nessa disciplina)"
     ]
-  },
-  {
-    "objectID": "aulas/aula2_descricao-padroes_I/slides.html#relação-entre-atributos",
-    "href": "aulas/aula2_descricao-padroes_I/slides.html#relação-entre-atributos",
-    "title": "Filogenias como ‘problema’",
-    "section": "Relação entre atributos",
-    "text": "Relação entre atributos"
-  },
-  {
-    "objectID": "aulas/aula2_descricao-padroes_I/slides.html#será-que-estamos-corretos",
-    "href": "aulas/aula2_descricao-padroes_I/slides.html#será-que-estamos-corretos",
-    "title": "Filogenias como ‘problema’",
-    "section": "Será que estamos corretos?",
-    "text": "Será que estamos corretos?"
-  },
-  {
-    "objectID": "aulas/aula2_descricao-padroes_I/slides.html#título-do-meu-slide-com-app",
-    "href": "aulas/aula2_descricao-padroes_I/slides.html#título-do-meu-slide-com-app",
-    "title": "Filogenias como ‘problema’",
-    "section": "Título do meu Slide com App",
-    "text": "Título do meu Slide com App\n#| '!! shinylive warning !!': |\n#|   shinylive does not work in self-contained HTML documents.\n#|   Please set `embed-resources: false` in your metadata.\n#| standalone: true\n#| viewerHeight: 600\n\nlibrary(shiny)\nlibrary(phytools)\nlibrary(nlme) # Necessário para rodar a função gls() e corBrownian()\n\n# Define UI\nui &lt;- fluidPage(\n  titlePanel(\"Modelagem Evolutiva por Movimento Browniano, PIC e PGLS\"),\n  \n  sidebarLayout(\n    sidebarPanel(\n      sliderInput(\"n_lines\", \"Número de Espécies (Linhagens):\", min = 6, max = 25, value = 12, step = 1),\n      checkboxInput(\"show_mean\", \"Mostrar Média Geral Final (Modelos Lineares)\", value = FALSE),\n      hr(),\n      sliderInput(\"rho\", \"Rho de Grafen (Distorção do Tempo):\", min = 0.1, max = 3.0, value = 1.0, step = 0.1),\n      p(tags$small(\"rho = 1: Padrão | rho &lt; 1: Nós próximos à raiz | rho &gt; 1: Nós próximos às pontas\")),\n      hr(),\n      sliderInput(\"sig2_1\", \"Taxa de Evolução Painel 1 (sigma^2):\", min = 0.01, max = 0.5, value = 0.02, step = 0.01),\n      sliderInput(\"sig2_2\", \"Taxa de Evolução Painel 2 (sigma^2):\", min = 0.01, max = 0.5, value = 0.10, step = 0.01),\n      sliderInput(\"sig2_3\", \"Taxa de Evolução Painel 3 (sigma^2):\", min = 0.01, max = 0.5, value = 0.40, step = 0.01),\n      hr(),\n      actionButton(\"go\", \"Simular Tudo\")\n    ),\n    \n    mainPanel(\n      tabsetPanel(\n        tabPanel(\"Modelos Evolutivos\", \n                 plotOutput(\"bmPlot\", height = \"1050px\")\n        ),\n        tabPanel(\"Relação de Atributos & PIC\", \n                 plotOutput(\"picPlot\", height = \"500px\")\n        ),\n        tabPanel(\"Relação de Atributos & PGLS\", \n                 plotOutput(\"traitPlot\", height = \"950px\")\n        )\n      )\n    )\n  )\n)\n\n# Define Server\nserver &lt;- function(input, output, session) {\n  \n  # Bloco Reativo Principal de Simulação\n  sim_data &lt;- eventReactive(c(input$go, input$n_lines, input$rho, input$sig2_1, input$sig2_2, input$sig2_3), {\n    lines &lt;- input$n_lines\n    steps &lt;- 100 \n    \n    # 1. Gerar árvore e aplicar distorção de Grafen via compute.brlen (pacote ape)\n    raw_tree &lt;- pbtree(n = lines, scale = 1, quiet = TRUE)\n    raw_tree &lt;- rotateNodes(raw_tree, \"all\") \n    \n    distorted_tree &lt;- compute.brlen(raw_tree, method = \"Grafen\", power = input$rho)\n    distorted_tree$edge.length &lt;- distorted_tree$edge.length / max(nodeHeights(distorted_tree))\n    \n    # 2. Simulações Independentes Lineares (Aba 1)\n    mat1 &lt;- replicate(lines, c(0, cumsum(rnorm(steps, mean = 0, sd = sqrt(input$sig2_1)))))\n    mat2 &lt;- replicate(lines, c(0, cumsum(rnorm(steps, mean = 0, sd = sqrt(input$sig2_2)))))\n    mat3 &lt;- replicate(lines, c(0, cumsum(rnorm(steps, mean = 0, sd = sqrt(input$sig2_3)))))\n    \n    colnames(mat1) &lt;- distorted_tree$tip.label\n    colnames(mat2) &lt;- distorted_tree$tip.label\n    colnames(mat3) &lt;- distorted_tree$tip.label\n    \n    # 3. Simulações Filogenéticas (Atributo A)\n    phy_sim1_A &lt;- fastBM(distorted_tree, sig2 = input$sig2_1, internal = TRUE)\n    phy_sim2_A &lt;- fastBM(distorted_tree, sig2 = input$sig2_2, internal = TRUE)\n    phy_sim3_A &lt;- fastBM(distorted_tree, sig2 = input$sig2_3, internal = TRUE)\n    \n    # 4. Simulação de um SEGUNDO Atributo Independente (Atributo B)\n    phy_sim1_B &lt;- fastBM(distorted_tree, sig2 = input$sig2_1, internal = TRUE)\n    phy_sim2_B &lt;- fastBM(distorted_tree, sig2 = input$sig2_2, internal = TRUE)\n    phy_sim3_B &lt;- fastBM(distorted_tree, sig2 = input$sig2_3, internal = TRUE)\n    \n    y_limits_global &lt;- range(c(mat1, mat2, max(mat3), phy_sim1_A, phy_sim2_A, phy_sim3_A))\n    x_limits_linear &lt;- c(0, steps * 1.15)\n    \n    return(list(\n      tree = distorted_tree, steps = steps, \n      x_limits_linear = x_limits_linear, y_limits_global = y_limits_global,\n      mat1 = mat1, mat2 = mat2, mat3 = mat3,\n      phy_sim1_A = phy_sim1_A, phy_sim2_A = phy_sim2_A, phy_sim3_A = phy_sim3_A,\n      phy_sim1_B = phy_sim1_B, phy_sim2_B = phy_sim2_B, phy_sim3_B = phy_sim3_B\n    ))\n  })\n  \n  # --- RENDERIZAÇÃO ABA 1: PAINÉIS EVOLUTIVOS COMPÓSITOS ---\n  output$bmPlot &lt;- renderPlot({\n    d &lt;- sim_data()\n    n_tips &lt;- length(d$tree$tip.label)\n    lineage_colors &lt;- rainbow(n_tips, alpha = 0.8)\n    names(lineage_colors) &lt;- d$tree$tip.label\n    \n    layout(matrix(1:9, nrow = 3, byrow = TRUE))\n    \n    # Linha 1: Modelos Lineares\n    par(mar = c(4, 4.5, 3, 1.5))\n    draw_linear_panel &lt;- function(mat, sig2_val) {\n      plot(0:d$steps, mat[, 1], type = \"n\", xlim = d$x_limits_linear, ylim = d$y_limits_global, \n           xlab = \"Gerações\", ylab = if(sig2_val == input$sig2_1) \"Valor do Traço\" else \"\", \n           main = paste(\"Linear (sig2 =\", sig2_val, \")\"), las = 1)\n      grid(col = \"lightgray\", lty = \"dotted\")\n      for(tip in d$tree$tip.label) {\n        lines(0:d$steps, mat[, tip], col = lineage_colors[tip], lwd = 1.3)\n        points(d$steps, mat[nrow(mat), tip], pch = 21, bg = lineage_colors[tip], col = \"white\", cex = 1.3)\n        text(d$steps, mat[nrow(mat), tip], labels = tip, pos = 4, cex = 0.9, col = \"black\")\n      }\n      if (input$show_mean) abline(h = mean(mat[nrow(mat), ]), col = \"black\", lwd = 2.5, lty = \"dashed\")\n    }\n    draw_linear_panel(d$mat1, input$sig2_1)\n    draw_linear_panel(d$mat2, input$sig2_2)\n    draw_linear_panel(d$mat3, input$sig2_3)\n    \n    # Linha 2: Árvores Filogenéticas Clássicas\n    par(mar = c(4, 2, 4, 3.5))\n    draw_phylo_panel &lt;- function(phy_sim, sig2_val) {\n      tips_only &lt;- phy_sim[d$tree$tip.label]\n      cmap &lt;- contMap(d$tree, tips_only, plot = FALSE)\n      cmap &lt;- setMap(cmap, c(\"darkgray\", \"lightgray\", \"darkgray\")) \n      plot(cmap, type = \"phylogram\", direction = \"rightwards\", fsize = 1.0, lwd = 2, \n           main = paste(\"Árvore (sig2 =\", sig2_val, \")\"), legend = FALSE, mar = c(4, 2, 4, 3.5))\n      tiplabels(pch = 21, bg = lineage_colors[d$tree$tip.label], col = \"white\", cex = 1.5)\n      axisPhylo(side = 1)\n    }\n    draw_phylo_panel(d$phy_sim1_A, input$sig2_1)\n    draw_phylo_panel(d$phy_sim2_A, input$sig2_2)\n    draw_phylo_panel(d$phy_sim3_A, input$sig2_3)\n    \n    # Linha 3: Fenogramas\n    par(mar = c(4.5, 4.5, 3, 1.5))\n    draw_phenogram_panel &lt;- function(phy_sim, sig2_val) {\n      local_y_limits &lt;- range(phy_sim)\n      phenogram(d$tree, phy_sim, ylim = local_y_limits, \n                xlab = \"Tempo Histórico\", ylab = if(sig2_val == input$sig2_1) \"Valor do Traço\" else \"\", \n                main = paste(\"Fenograma Zoom (sig2 =\", sig2_val, \")\"), colors = \"darkslateblue\", las = 1, fsize = 0.9)\n      for(tip in d$tree$tip.label) {\n        points(1.0, phy_sim[tip], pch = 21, bg = lineage_colors[tip], col = \"white\", cex = 1.3)\n      }\n    }\n    draw_phenogram_panel(d$phy_sim1_A, input$sig2_1)\n    draw_phenogram_panel(d$phy_sim2_A, input$sig2_2)\n    draw_phenogram_panel(d$phy_sim3_A, input$sig2_3)\n  })\n  \n  # --- RENDERIZAÇÃO ABA 2: CONTRASTES FILOGENÉTICOS INDEPENDENTES (PIC) ---\n  output$picPlot &lt;- renderPlot({\n    d &lt;- sim_data()\n    \n    # Configura o layout: 1 linha por 3 colunas para os três sigmas\n    layout(matrix(1:3, nrow = 1))\n    par(mar = c(5, 5, 4, 1.5))\n    \n    draw_pic_panel &lt;- function(phy_A, phy_B, sig2_val) {\n      x_vals &lt;- phy_A[d$tree$tip.label]\n      y_vals &lt;- phy_B[d$tree$tip.label]\n      \n      # Calcular os contrastes independentes (PIC) utilizando a função nativa pic() do pacote ape\n      pic_X &lt;- pic(x_vals, d$tree)\n      pic_Y &lt;- pic(y_vals, d$tree)\n      \n      # Ajustar modelo linear passando OBRIGATORIAMENTE pela origem (Y ~ X - 1 ou Y ~ X + 0)\n      pic_fit &lt;- lm(pic_Y ~ pic_X + 0)\n      pic_summary &lt;- summary(pic_fit)\n      \n      beta_pic &lt;- round(pic_summary$coefficients[1, 1], 4)\n      p_pic &lt;- round(pic_summary$coefficients[1, 4], 4)\n      \n      # Gerar gráfico de dispersão dos contrastes\n      plot(pic_X, pic_Y, xlab = \"Contrastes do Atributo X\", ylab = \"Contrastes do Atributo Y\",\n           main = paste(\"Regressão via PIC\\nsigma^2 =\", sig2_val), las = 1,\n           pch = 21, bg = \"forestgreen\", col = \"darkgreen\", cex = 1.5)\n      grid(col = \"lightgray\", lty = \"dotted\")\n      \n      # Força a linha de regressão a cruzar o ponto central (0,0)\n      abline(pic_fit, col = \"darkgreen\", lwd = 2.5)\n      abline(h = 0, v = 0, col = \"gray\", lty = \"dashed\", lwd = 0.8) # Linhas de referência da origem\n      \n      # Anotação com os parâmetros estatísticos do PIC\n      mtext(paste0(\"PIC (Regressão na Origem):\\nBeta = \", beta_pic, \"\\nP-valor = \", p_pic), \n            side = 3, line = -3, cex = 0.9, col = \"darkgreen\", font = 2, adj = 0.05)\n    }\n    \n    draw_pic_panel(d$phy_sim1_A, d$phy_sim1_B, input$sig2_1)\n    draw_pic_panel(d$phy_sim2_A, d$phy_sim2_B, input$sig2_2)\n    draw_pic_panel(d$phy_sim3_A, d$phy_sim3_B, input$sig2_3)\n  })\n  \n  # --- RENDERIZAÇÃO ABA 3: GLM CLÁSSICO vs PGLS (FILOGENÉTICO) ---\n  output$traitPlot &lt;- renderPlot({\n    d &lt;- sim_data()\n    n_tips &lt;- length(d$tree$tip.label)\n    lineage_colors &lt;- rainbow(n_tips, alpha = 0.8)\n    names(lineage_colors) &lt;- d$tree$tip.label\n    \n    layout(matrix(1:6, nrow = 2, byrow = TRUE))\n    \n    # Sub-rotina para o GLM clássico\n    draw_glm_panel &lt;- function(phy_A, phy_B, sig2_val) {\n      par(mar = c(4.5, 5, 4, 1.5))\n      x_vals &lt;- phy_A[d$tree$tip.label]\n      y_vals &lt;- phy_B[d$tree$tip.label]\n      \n      df_data &lt;- data.frame(X = x_vals, Y = y_vals)\n      glm_fit &lt;- glm(Y ~ X, data = df_data, family = gaussian)\n      glm_summary &lt;- summary(glm_fit)\n      \n      beta_val &lt;- round(glm_summary$coefficients[2, 1], 4) \n      p_val &lt;- round(glm_summary$coefficients[2, 4], 4)    \n      \n      lambda_X &lt;- round(phylosig(d$tree, x_vals, method = \"lambda\")$lambda, 3)\n      lambda_Y &lt;- round(phylosig(d$tree, y_vals, method = \"lambda\")$lambda, 3)\n      \n      plot(x_vals, y_vals, type = \"n\", xlab = \"Atributo X\", ylab = \"Atributo Y\",\n           main = paste(\"GLM Tradicional (Normal)\\nsigma^2 =\", sig2_val), las = 1)\n      grid(col = \"lightgray\", lty = \"dotted\")\n      abline(glm_fit, col = \"darkred\", lwd = 2.5, lty = \"dashed\")\n      \n      for(tip in d$tree$tip.label) {\n        points(x_vals[tip], y_vals[tip], pch = 21, bg = lineage_colors[tip], col = \"white\", cex = 1.6)\n        text(x_vals[tip], y_vals[tip], labels = tip, pos = 4, cex = 0.85, col = \"darkgray\")\n      }\n      \n      mtext(paste0(\"GLM: Beta = \", \n                   beta_val, \n                   \" | P-valor = \", \n                   p_val, \n                   \"\\nSinal Filo: Lambda X = \", \n                   lambda_X, \n                   \" | Lambda Y = \",\n                   lambda_Y), \n            side = 3, \n            line = -3,\n            cex = 0.8, \n            col = \"darkred\",\n            font = 2, \n            adj = 0.02)\n    }\n    \n    # Sub-rotina para o PGLS filogenético\n    draw_pgls_panel &lt;- \n      function(phy_A, phy_B, sig2_val) {\n      par(mar = c(4.5, 5, 4, 1.5))\n        x_vals &lt;- phy_A[d$tree$tip.label]\n        y_vals &lt;- phy_B[d$tree$tip.label]\n        df_data &lt;- data.frame(X = x_vals, Y = y_vals)\n        rownames(df_data) &lt;- d$tree$tip.label\n        bm_cor &lt;- corBrownian(phy = d$tree)\n        pgls_fit &lt;- gls(Y ~ X, data = df_data, correlation = bm_cor, method = \"ML\")\n        pgls_summary &lt;- summary(pgls_fit)\n        beta_pgls &lt;- round(pgls_summary$coefficients[2], 4)\n        p_pgls &lt;- round(pgls_summary$tTable[2, 4], 4)\n        plot(x_vals, y_vals, \n             type = \"n\", xlab = \"Atributo X\",\n             ylab = \"Atributo Y\", \n             main = paste(\"PGLS (corBrownian)\\nsigma^2 =\", sig2_val),\n             las = 1)\n        grid(col = \"lightgray\", lty = \"dotted\")\n        abline(a = pgls_summary$coefficients[1], b = pgls_summary$coefficients[2], col = \"darkblue\", lwd = 2.5)\n        for(tip in d$tree$tip.label) {\n          points(x_vals[tip], y_vals[tip], pch = 21, bg = lineage_colors[tip], col = \"white\", cex = 1.6)\n          text(x_vals[tip], y_vals[tip], labels = tip, pos = 4, cex = 0.85, col = \"darkgray\")\n        }\n        mtext(paste0(\"PGLS (BM): Beta = \", beta_pgls, \" | P-valor = \", p_pgls), \n              side = 3, line = -2, cex = 0.85, col = \"darkblue\", font = 2, adj = 0.02)\n      }\n    # Executa as sublinhas do PGLS\n    draw_glm_panel(d$phy_sim1_A, d$phy_sim1_B, input$sig2_1)\n    draw_glm_panel(d$phy_sim2_A, d$phy_sim2_B, input$sig2_2)\n    draw_glm_panel(d$phy_sim3_A, d$phy_sim3_B, input$sig2_3)\n    draw_pgls_panel(d$phy_sim1_A, d$phy_sim1_B, input$sig2_1)\n    draw_pgls_panel(d$phy_sim2_A, d$phy_sim2_B, input$sig2_2)\n    draw_pgls_panel(d$phy_sim3_A, d$phy_sim3_B, input$sig2_3)\n  }\n  )\n  }\n\nshinyApp(ui = ui, server = server)"
-  },
-  {
-    "objectID": "aulas/aula2_descricao-padroes_I/slides.html#relação-entre-atributos-1",
-    "href": "aulas/aula2_descricao-padroes_I/slides.html#relação-entre-atributos-1",
-    "title": "Filogenias como ‘problema’",
-    "section": "Relação entre atributos",
-    "text": "Relação entre atributos"
-  },
-  {
-    "objectID": "aulas/aula2_descricao-padroes_I/slides.html#relação-entre-atributos---o-que-queremos-encontrar",
-    "href": "aulas/aula2_descricao-padroes_I/slides.html#relação-entre-atributos---o-que-queremos-encontrar",
-    "title": "Filogenias como ‘problema’",
-    "section": "Relação entre atributos - o que queremos encontrar?",
-    "text": "Relação entre atributos - o que queremos encontrar?"
-  },
-  {
-    "objectID": "aulas/aula2_descricao-padroes_I/slides.html#relação-entre-atributos---o-que-queremos-evitar",
-    "href": "aulas/aula2_descricao-padroes_I/slides.html#relação-entre-atributos---o-que-queremos-evitar",
-    "title": "Filogenias como ‘problema’",
-    "section": "Relação entre atributos - o que queremos evitar?",
-    "text": "Relação entre atributos - o que queremos evitar?"
-  },
-  {
-    "objectID": "aulas/aula2_descricao-padroes_I/slides.html#relação-entre-atributos-2",
-    "href": "aulas/aula2_descricao-padroes_I/slides.html#relação-entre-atributos-2",
-    "title": "Filogenias como ‘problema’",
-    "section": "Relação entre atributos",
-    "text": "Relação entre atributos\nDois atributos independentes e randômicos \\(N(\\mu = 0, \\sigma = 0.14)\\)"
-  },
-  {
-    "objectID": "aulas/aula2_descricao-padroes_I/slides.html#relação-entre-atributos-3",
-    "href": "aulas/aula2_descricao-padroes_I/slides.html#relação-entre-atributos-3",
-    "title": "Filogenias como ‘problema’",
-    "section": "Relação entre atributos",
-    "text": "Relação entre atributos\nDois atributos independentes com \\(N(\\mu = 0, \\sigma = 0.14)\\), porém…."
-  },
-  {
-    "objectID": "aulas/aula2_descricao-padroes_I/slides.html#relação-entre-atributos-4",
-    "href": "aulas/aula2_descricao-padroes_I/slides.html#relação-entre-atributos-4",
-    "title": "Filogenias como ‘problema’",
-    "section": "Relação entre atributos",
-    "text": "Relação entre atributos\nDois atributos independentes com \\(N(\\mu = 0, \\sigma = 0.14)\\), porém…."
   }
 ]
