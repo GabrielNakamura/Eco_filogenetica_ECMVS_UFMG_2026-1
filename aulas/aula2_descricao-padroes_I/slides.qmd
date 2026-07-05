@@ -94,3 +94,19 @@ filters:
 
 ## Relação entre atributos e gradientes ambientais em comunidades
 
+### O problema
+
+![](images/phylo_signal_comm_ecology.jpg){width="100%"}
+
+## Relação entre atributos e gradientes ambientais em comunidades{background-iframe="https://seu-usuario.shinyapps.io/nome-do-seu-app/" background-iframe-style="transform: scale(0.75); transform-origin: top left; width: 133%; height: 133%; border: none;"}
+
+::: callout-note
+Em construção...
+:::
+
+<iframe src="https://gabrielnakamura.shinyapps.io/reactive_simulation_phylo_filtering/" width="100%" height="1100px" style="border: 1px solid #eee; border-radius: 8px;"></iframe>
+
+
+
+
+
