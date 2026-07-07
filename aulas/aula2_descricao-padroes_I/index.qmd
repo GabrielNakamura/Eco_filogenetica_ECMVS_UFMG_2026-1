@@ -16,7 +16,12 @@ Em construção...
 
 ### Objetivo
 
-Nessa aula iremos explorar informações sobre padrões e processos evolutivos que podemos obter a partir do uso de filogenias. De maneira geral, o objetivo desta aula é apresentar os principais métodos comparativos utilizados em diferentes áreas.
+Nessa aula iremos explorar informações sobre padrões e processos evolutivos atuando sobre atributos (traits) e que podemos 
+    quantificar a partir do uso de filogenias. 
+    De maneira geral, o objetivo desta aula é apresentar os 
+    principais métodos comparativos utilizados e proporcionar uma 
+    compreensão sobre como autocorrelação filogenética em atributos 
+    surge, como identificar e potenciais formas de tratar esse problema.
 
 ### Conteúdo
 
@@ -26,26 +31,30 @@ Nessa aula iremos explorar informações sobre padrões e processos evolutivos q
 
 ### Atividades
 
-Interaja com o simulador de atributos para explorar as situações onde
-    podemos realizar inferências inadequadas sobre a relação entre atributos
-    por conta da não independência filogenética entre eles
+Interaja com o simulador de atributos para explorar as situações onde podemos realizar inferências inadequadas sobre a relação entre atributos por conta da não independência filogenética entre esses atributos
 
 <iframe src="https://gabrielnakamura.shinyapps.io/brownian_motion_explained/" width="100%" height="1100px" style="border: 1px solid #eee; border-radius: 8px;"></iframe>
 
+Se preferir podem acessar o aplicativo [interativo diretamente](https://gabrielnakamura.shinyapps.io/brownian_motion_explained/)
+
+A partir dessas simulações responda:
+
+1 - Qual o potencial problema quando estamos relacionando dois atributos em 
+    termos de inferência de possíveis mecanismos relacionando ambos?
+    
+2 - Sob quais cenários devemos ter maior preocupação em relação a inferências
+   espúrias quando relacionamos dois atributos? 
+
 ### Referências utilizadas nessa seção
 
-1. Trabalho clássico do Felsenstein sobre método comparativo na 
-    [American Naturalist](https://ichthyology.usm.edu/courses/multivariate/Felsenstein_1985.pdf)
-2. [Materiais práticos do Liam Revell e Luke Harmon](https://lukejharmon.github.io/ilhabela/instruction/2015/07/02/phylogenetic-independent-contrasts/) sobre modelo browniano e 
-   o problema da não independência nos atributos
+1.  Trabalho clássico do Felsenstein sobre método comparativo na [American Naturalist](https://ichthyology.usm.edu/courses/multivariate/Felsenstein_1985.pdf)
+2.  [Materiais práticos do Liam Revell e Luke Harmon](https://lukejharmon.github.io/ilhabela/instruction/2015/07/02/phylogenetic-independent-contrasts/) sobre modelo browniano e o problema da não independência nos atributos
 
 ### Exercícios
 
-Explore um pouco esse shiny app interativo sobre evolução de atributos e 
-   o problema da não independência. Experimente algumas combinações de parâmetros
-   para simulação dos atributos. Após isso, simule alguns cenários onde:
-   
-1. 
+Explore um pouco esse shiny app interativo sobre evolução de atributos e o problema da não independência. Experimente algumas combinações de parâmetros para simulação dos atributos. Após isso, simule alguns cenários onde:
+
+1.  
 
 ## Slides da aula
 

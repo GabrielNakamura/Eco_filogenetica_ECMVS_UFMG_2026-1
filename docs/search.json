@@ -441,6 +441,69 @@
     "text": "Será que estamos corretos?"
   },
   {
+    "objectID": "aulas/aula2_descricao-padroes_I/slides.html#devemos-nos-preocupar-sim",
+    "href": "aulas/aula2_descricao-padroes_I/slides.html#devemos-nos-preocupar-sim",
+    "title": "Filogenias como ‘problema’",
+    "section": "Devemos nos preocupar? Sim",
+    "text": "Devemos nos preocupar? Sim"
+  },
+  {
+    "objectID": "aulas/aula2_descricao-padroes_I/slides.html#como-não-chegar-a-conclusões-erradas",
+    "href": "aulas/aula2_descricao-padroes_I/slides.html#como-não-chegar-a-conclusões-erradas",
+    "title": "Filogenias como ‘problema’",
+    "section": "Como não chegar a conclusões erradas?",
+    "text": "Como não chegar a conclusões erradas?\n\nAvaliar o nível do sinal filogenético\nControlar a autocorrelação filogenética (PIC, métodos baseados em matrizes de covariância filogenética, autovetores filogenéticos)"
+  },
+  {
+    "objectID": "aulas/aula2_descricao-padroes_I/slides.html#métricas-de-sinal-filogenético-avaliando-nível-do-sinal",
+    "href": "aulas/aula2_descricao-padroes_I/slides.html#métricas-de-sinal-filogenético-avaliando-nível-do-sinal",
+    "title": "Filogenias como ‘problema’",
+    "section": "Métricas de sinal filogenético (avaliando nível do sinal)",
+    "text": "Métricas de sinal filogenético (avaliando nível do sinal)\n\nEstatística K (Bloomberg et al. 2003, Adams et al 2014)\nLambda (\\(\\lambda\\)) de Pagel (Pagel 1999)\nCurva PVR (Diniz-Filho et al 1998)"
+  },
+  {
+    "objectID": "aulas/aula2_descricao-padroes_I/slides.html#métricas-de-sinal-filogenético-avaliando-nível-do-sinal-1",
+    "href": "aulas/aula2_descricao-padroes_I/slides.html#métricas-de-sinal-filogenético-avaliando-nível-do-sinal-1",
+    "title": "Filogenias como ‘problema’",
+    "section": "Métricas de sinal filogenético (avaliando nível do sinal)",
+    "text": "Métricas de sinal filogenético (avaliando nível do sinal)"
+  },
+  {
+    "objectID": "aulas/aula2_descricao-padroes_I/slides.html#métricas-de-sinal-filogenético-avaliando-nível-do-sinal-2",
+    "href": "aulas/aula2_descricao-padroes_I/slides.html#métricas-de-sinal-filogenético-avaliando-nível-do-sinal-2",
+    "title": "Filogenias como ‘problema’",
+    "section": "Métricas de sinal filogenético (avaliando nível do sinal)",
+    "text": "Métricas de sinal filogenético (avaliando nível do sinal)"
+  },
+  {
+    "objectID": "aulas/aula2_descricao-padroes_I/slides.html#métricas-de-sinal-filogenético-avaliando-nível-do-sinal-3",
+    "href": "aulas/aula2_descricao-padroes_I/slides.html#métricas-de-sinal-filogenético-avaliando-nível-do-sinal-3",
+    "title": "Filogenias como ‘problema’",
+    "section": "Métricas de sinal filogenético (avaliando nível do sinal)",
+    "text": "Métricas de sinal filogenético (avaliando nível do sinal)"
+  },
+  {
+    "objectID": "aulas/aula2_descricao-padroes_I/slides.html#controlando-a-autocorrelação-filogenética",
+    "href": "aulas/aula2_descricao-padroes_I/slides.html#controlando-a-autocorrelação-filogenética",
+    "title": "Filogenias como ‘problema’",
+    "section": "Controlando a autocorrelação filogenética",
+    "text": "Controlando a autocorrelação filogenética\n\nCalculando “novos” atributos independentes (PIC)\nIncluindo a variação filogenética no modelo (retirando do termo de erro - PVR)\nModelando o erro de maneira a considerar corretamente a covariância filogenética (PGLS, GLS)"
+  },
+  {
+    "objectID": "aulas/aula2_descricao-padroes_I/slides.html#relação-entre-atributos-e-gradientes-ambientais-em-comunidades",
+    "href": "aulas/aula2_descricao-padroes_I/slides.html#relação-entre-atributos-e-gradientes-ambientais-em-comunidades",
+    "title": "Filogenias como ‘problema’",
+    "section": "Relação entre atributos e gradientes ambientais em comunidades",
+    "text": "Relação entre atributos e gradientes ambientais em comunidades\nO problema"
+  },
+  {
+    "objectID": "aulas/aula2_descricao-padroes_I/slides.html#relação-entre-atributos-e-gradientes-ambientais-em-comunidades-1",
+    "href": "aulas/aula2_descricao-padroes_I/slides.html#relação-entre-atributos-e-gradientes-ambientais-em-comunidades-1",
+    "title": "Filogenias como ‘problema’",
+    "section": "Relação entre atributos e gradientes ambientais em comunidades",
+    "text": "Relação entre atributos e gradientes ambientais em comunidades\n\n\n\n\n\n\nNote\n\n\nEm construção…"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "Sobre o curso",
