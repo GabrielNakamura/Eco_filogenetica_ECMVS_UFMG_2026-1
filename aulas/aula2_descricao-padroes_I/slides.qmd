@@ -17,6 +17,10 @@ filters:
 
 ![](images/traits_plant_corr.png){width="100%"}
 
+## Relação entre atributos
+
+![](images/traits_plant_corr.png){width="100%" fig-align="center"}
+
 ## Relação entre atributos - o que queremos encontrar?
 
 ![](images/any_correlation.png){width="100%"}
