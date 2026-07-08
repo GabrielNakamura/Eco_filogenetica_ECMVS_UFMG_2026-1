@@ -2,135 +2,348 @@
   {
     "objectID": "aulas/aula3_descricao-padroes_II/index.html",
     "href": "aulas/aula3_descricao-padroes_II/index.html",
-    "title": "Inferência de processos evolutivos a partir de filogenias",
+    "title": "Métricas filogenéticas",
     "section": "",
-    "text": "Note\n\n\n\nEm construção…"
+    "text": "Note\n\n\n\nEm construção…",
+    "crumbs": [
+      "Materiais por dia",
+      "Aula 3 - métricas filogenéticas"
+    ]
   },
   {
     "objectID": "aulas/aula3_descricao-padroes_II/index.html#slides-da-aula",
     "href": "aulas/aula3_descricao-padroes_II/index.html#slides-da-aula",
+    "title": "Métricas filogenéticas",
+    "section": "Slides da aula",
+    "text": "Slides da aula\nAqui você encontra os slides apresentados em sala de aula sobre esse tópico\nTela cheia 📺",
+    "crumbs": [
+      "Materiais por dia",
+      "Aula 3 - métricas filogenéticas"
+    ]
+  },
+  {
+    "objectID": "aulas/aula0_intro_inferencia/index.html",
+    "href": "aulas/aula0_intro_inferencia/index.html",
+    "title": "Introdução a ecologia filogenética",
+    "section": "",
+    "text": "Note\n\n\n\nEm construção…",
+    "crumbs": [
+      "Materiais por dia",
+      "Aula 0 - Introdução e escopo da ecologia evolutiva (nessa disciplina)"
+    ]
+  },
+  {
+    "objectID": "aulas/aula0_intro_inferencia/index.html#slides-da-aula-e-arquivos-de-apoio",
+    "href": "aulas/aula0_intro_inferencia/index.html#slides-da-aula-e-arquivos-de-apoio",
+    "title": "Introdução a ecologia filogenética",
+    "section": "Slides da aula e arquivos de apoio",
+    "text": "Slides da aula e arquivos de apoio\nAqui você encontra os slides apresentados em aula sobre esse tópico\nTela cheia 📺",
+    "crumbs": [
+      "Materiais por dia",
+      "Aula 0 - Introdução e escopo da ecologia evolutiva (nessa disciplina)"
+    ]
+  },
+  {
+    "objectID": "aulas/aula1_phylogenetic_trees/index.html",
+    "href": "aulas/aula1_phylogenetic_trees/index.html",
+    "title": "Árvores 🌳 filogenéticas",
+    "section": "",
+    "text": "Note\n\n\n\nEm construção…",
+    "crumbs": [
+      "Materiais por dia",
+      "Aula 1 - Árvores filogenéticas"
+    ]
+  },
+  {
+    "objectID": "aulas/aula1_phylogenetic_trees/index.html#árvores-filogenéticas",
+    "href": "aulas/aula1_phylogenetic_trees/index.html#árvores-filogenéticas",
+    "title": "Árvores 🌳 filogenéticas",
+    "section": "Árvores filogenéticas",
+    "text": "Árvores filogenéticas\nNessa seção iremos compreender como identificar as principais estruturas de uma árvore filogenética, extrair informações referentes a identidade dos tips, nós, ramos e suas respectivas idades.\nAo fim dessa aula você deve ser capaz de identificar os principais elementos que compõe uma árvore filogenética, extrair suas informações, editar as árvores, interoperabilizar os formatos existentes e dominar funções básicas de plotagem de árvores.",
+    "crumbs": [
+      "Materiais por dia",
+      "Aula 1 - Árvores filogenéticas"
+    ]
+  },
+  {
+    "objectID": "aulas/aula1_phylogenetic_trees/index.html#formatos-manejáveis-das-árvores-filogenéticas",
+    "href": "aulas/aula1_phylogenetic_trees/index.html#formatos-manejáveis-das-árvores-filogenéticas",
+    "title": "Árvores 🌳 filogenéticas",
+    "section": "Formatos manejáveis das árvores filogenéticas",
+    "text": "Formatos manejáveis das árvores filogenéticas\nPara essa prática utilizaremos os seguintes pacotes:\n\nlibrary(geiger)\nlibrary(ape)\nlibrary(phytools)",
+    "crumbs": [
+      "Materiais por dia",
+      "Aula 1 - Árvores filogenéticas"
+    ]
+  },
+  {
+    "objectID": "aulas/aula1_phylogenetic_trees/index.html#manejo-e-processamento-das-árvores",
+    "href": "aulas/aula1_phylogenetic_trees/index.html#manejo-e-processamento-das-árvores",
+    "title": "Árvores 🌳 filogenéticas",
+    "section": "Manejo e processamento das árvores",
+    "text": "Manejo e processamento das árvores",
+    "crumbs": [
+      "Materiais por dia",
+      "Aula 1 - Árvores filogenéticas"
+    ]
+  },
+  {
+    "objectID": "aulas/aula1_phylogenetic_trees/index.html#diferentes-formas-de-representar-a-estrutura-de-árvores",
+    "href": "aulas/aula1_phylogenetic_trees/index.html#diferentes-formas-de-representar-a-estrutura-de-árvores",
+    "title": "Árvores 🌳 filogenéticas",
+    "section": "Diferentes formas de representar a estrutura de árvores",
+    "text": "Diferentes formas de representar a estrutura de árvores\nExistem algumas situações que o formato da informação da estrutura da árvore não é muito amigável para manipulação nem para compreensão de seus detalhes, por exemplo, verificar quem são todos os descendentes e os clados filhos de um determinado ancestral. Para tornar essa tarefa menos complicada podemos transformar a árvore em formatos mais amigáveis para manipulação, por exemplo, data frames.\n\nlibrary(tidytree)\n\nO pacote tidytree possibilita manipular a estrutura da árvore filogenética seguindo o paradigma de programação funcional utilizado em pacotes mais recentes como tidiverse e dplyr",
+    "crumbs": [
+      "Materiais por dia",
+      "Aula 1 - Árvores filogenéticas"
+    ]
+  },
+  {
+    "objectID": "aulas/aula1_phylogenetic_trees/index.html#sec-exercicios",
+    "href": "aulas/aula1_phylogenetic_trees/index.html#sec-exercicios",
+    "title": "Árvores 🌳 filogenéticas",
+    "section": "Exercícios para praticar",
+    "text": "Exercícios para praticar\n\nSimule uma árvore filogenética e mapeie todos os ancestrais de todos os tips, ou seja, desde o tempo zero até a raiz.\n\n\n\nClique para ver a resolução do exercício\nset.seed(42)\n\n\n\nSimule uma filogenia com 50 espécies. Após a simulação insira mais 4 espécies na filogenia. Faça esses inserções de duas formas. Uma, inserindo na metade do ramo de qualquer outra espécie já presente, outra inserindo em um nó que liga pelo menos 10 espécies.\n\n\n\nClique para ver a resolução do exercício\nset.seed(42)\n\n\n\nUtilizando a mesma árvore simulada no exercício anterior. Calcule o comprimento do ramo que leva até o tip de cada espécie. O que esse ramo indica em termos de informação evolutiva?\n\n\n\nClique para ver a resolução do exercício\nset.seed(42)\n\n\n\nReferências e recursos utilizados nesta aula\n\nPacote treethinking contendo alguns quizes em relação a estrutura de árvores filogenéticas \nMaterial do Nick Matzke com uma introdução ao pensamento filogenético e interpretação de árvores\nExplicação simples e com exemplos pequenos sore como funciona o método de verossimilhança (likelihood)",
+    "crumbs": [
+      "Materiais por dia",
+      "Aula 1 - Árvores filogenéticas"
+    ]
+  },
+  {
+    "objectID": "aulas/aula1_phylogenetic_trees/index.html#slides-da-aula-e-arquivos-de-apoio",
+    "href": "aulas/aula1_phylogenetic_trees/index.html#slides-da-aula-e-arquivos-de-apoio",
+    "title": "Árvores 🌳 filogenéticas",
+    "section": "Slides da aula e arquivos de apoio",
+    "text": "Slides da aula e arquivos de apoio\n 📥 Download dos scripts \nAqui você encontra os slides apresentados em aula sobre esse tópico\nTela cheia 📺",
+    "crumbs": [
+      "Materiais por dia",
+      "Aula 1 - Árvores filogenéticas"
+    ]
+  },
+  {
+    "objectID": "aulas/aula2_descricao-padroes_I/index.html",
+    "href": "aulas/aula2_descricao-padroes_I/index.html",
+    "title": "Inferência de processos evolutivos a partir de filogenias",
+    "section": "",
+    "text": "Note\n\n\n\nEm construção…",
+    "crumbs": [
+      "Materiais por dia",
+      "Aula 2 - Evolução como fator de 'confusão'"
+    ]
+  },
+  {
+    "objectID": "aulas/aula2_descricao-padroes_I/index.html#slides-da-aula",
+    "href": "aulas/aula2_descricao-padroes_I/index.html#slides-da-aula",
     "title": "Inferência de processos evolutivos a partir de filogenias",
     "section": "Slides da aula",
-    "text": "Slides da aula\nAqui você encontra os slides apresentados em sala de aula sobre esse tópico\nTela cheia 📺"
+    "text": "Slides da aula\nAqui você encontra os slides apresentados em sala de aula sobre esse tópico\nTela cheia 📺",
+    "crumbs": [
+      "Materiais por dia",
+      "Aula 2 - Evolução como fator de 'confusão'"
+    ]
   },
   {
-    "objectID": "aulas/aula0_intro_inferencia/slides.html#macroecologia-macroevolutiva-algumas-questões",
-    "href": "aulas/aula0_intro_inferencia/slides.html#macroecologia-macroevolutiva-algumas-questões",
-    "title": "Ecologia evolutiva",
-    "section": "(Macro)Ecologia (Macro)evolutiva: algumas questões",
-    "text": "(Macro)Ecologia (Macro)evolutiva: algumas questões"
+    "objectID": "links.html",
+    "href": "links.html",
+    "title": "Links para materiais",
+    "section": "",
+    "text": "Aqui vocês irão encontrar links para materiais abertos sobre ecologia filogenética e outros assuntos relacionados.",
+    "crumbs": [
+      "Informações sobre o curso",
+      "Links para materiais úteis"
+    ]
   },
   {
-    "objectID": "aulas/aula0_intro_inferencia/slides.html#filogenia-como-fonte-de-confusão",
-    "href": "aulas/aula0_intro_inferencia/slides.html#filogenia-como-fonte-de-confusão",
-    "title": "Ecologia evolutiva",
-    "section": "Filogenia como fonte de “confusão””",
-    "text": "Filogenia como fonte de “confusão””"
+    "objectID": "links.html#livros-e-materiais-didáticos",
+    "href": "links.html#livros-e-materiais-didáticos",
+    "title": "Links para materiais",
+    "section": "Livros e materiais didáticos",
+    "text": "Livros e materiais didáticos\n\nPhylogenetic Biology por Cassey Dunn",
+    "crumbs": [
+      "Informações sobre o curso",
+      "Links para materiais úteis"
+    ]
   },
   {
-    "objectID": "aulas/aula0_intro_inferencia/slides.html#filogenia-como-fonte-de-confusão-1",
-    "href": "aulas/aula0_intro_inferencia/slides.html#filogenia-como-fonte-de-confusão-1",
-    "title": "Ecologia evolutiva",
-    "section": "Filogenia como fonte de “confusão””",
-    "text": "Filogenia como fonte de “confusão””"
+    "objectID": "links.html#ferramental",
+    "href": "links.html#ferramental",
+    "title": "Links para materiais",
+    "section": "Ferramental",
+    "text": "Ferramental\n\nCRAN Task View: Phylogenetics: compilado de pacotes em R voltados para filogenômica, ecologia filogenética, macroevolução e outros assuntos relacionados.",
+    "crumbs": [
+      "Informações sobre o curso",
+      "Links para materiais úteis"
+    ]
   },
   {
-    "objectID": "aulas/aula0_intro_inferencia/slides.html#filogenias-como-proxy-de-padrões-e-processos",
-    "href": "aulas/aula0_intro_inferencia/slides.html#filogenias-como-proxy-de-padrões-e-processos",
-    "title": "Ecologia evolutiva",
-    "section": "Filogenias como “proxy” de padrões e processos",
-    "text": "Filogenias como “proxy” de padrões e processos"
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Ecologia filogenética ECMVS 2026-1",
+    "section": "",
+    "text": "Dia\nData\nTópico\nDescrição\nRoteiros e códigos\nSlides\nLeituras\n\n\n\n\nDia 1\n05/07\nIntrodução a ecologia evolutiva\nÁrvores filogenéticas\nQuestões e métodos em ecologia evolutiva, Tipos de árvores, estrutura de árvores filogenéticas, processamento e manejo de árvores, fontes secundárias para árvores\n💻\n📽\n📚\n\n\nDia 2\n06/07\nDescrição de padrões I: filogenias e atributos\nModelo Browniano de evolução, sinal filogenético,\n💻\n📽\n📚\n\n\nDia 3\n07/07\nDescrição de padrões II: diversificação e métricas de diversidade\nModelo Birth-Death, estimando diversificação, estimando diversidade\n\n\n\n\n\nDia 3\n07/07 - manhã\nInferências II: macroevolução e macroecologia\nReconstruindo histórias passadas, processos históricos em escala regional e local\n\n\n\n\n\nDia 4\n08/07\na definir\n\n\n\n\n\n\nDia 4\n09/07 -\na definir",
+    "crumbs": [
+      "Informações sobre o curso",
+      "Cronograma do curso"
+    ]
   },
   {
-    "objectID": "aulas/aula0_intro_inferencia/slides.html#filogenias-como-proxy-de-padrões-e-processos-1",
-    "href": "aulas/aula0_intro_inferencia/slides.html#filogenias-como-proxy-de-padrões-e-processos-1",
-    "title": "Ecologia evolutiva",
-    "section": "Filogenias como “proxy” de padrões e processos",
-    "text": "Filogenias como “proxy” de padrões e processos"
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Sobre o curso",
+    "section": "",
+    "text": "O conteúdo nesse sítio tem como objetivo servir como material de apoio para a disciplina **Tópicos Especiais - Métodos e técnicas em ecologia, conservação e manejo da vida silvestre - Diversidade Funcional e filogenética de comunidades, parte da grade de disciplinas oferecidas no PPG Ecologia, Conservação e Manejo da Vida Silvestre da Universidade Federal de Minas Gerais, ministrada por mim, Gabriel Nakamura e pelo Rafa Leitão.\nEspecificamente, aqui você irá encontrar os materiais para a segunda semana da disciplina, onde, apesar do nome oficial ser Diversidade Filogenética, iremos abordar menos sobre isso, e mais sobre o que gera, de onde vem, e como podemos utilizar alguns métodos filogenéticos para responder questões em ecologia e macroevolução. Este curso não tem como intuito apresentar uma lista exaustiva de métricas e métodos, mas sim fornecer as bases teóricas e metodológicas para que os estudantes possam eles mesmos chegarem nas melhores alternativas para representar e responder suas questões.\nPara uma visão geral dos temas, horários e conteúdos veja esta página.",
+    "crumbs": [
+      "Informações sobre o curso",
+      "Apresentação"
+    ]
   },
   {
-    "objectID": "aulas/aula0_intro_inferencia/slides.html#filogenias-como-fonte-de-informação-de-processos-históricos",
-    "href": "aulas/aula0_intro_inferencia/slides.html#filogenias-como-fonte-de-informação-de-processos-históricos",
-    "title": "Ecologia evolutiva",
-    "section": "Filogenias como fonte de informação de processos históricos",
-    "text": "Filogenias como fonte de informação de processos históricos"
+    "objectID": "about.html#professores",
+    "href": "about.html#professores",
+    "title": "Sobre o curso",
+    "section": "Professores",
+    "text": "Professores\n\n\n\n\nRafa Leitão\n\n\n\nRafa é professor Adjunto do Departamento de Genética, Ecologia e Evolução (GEE/ICB) da Universidade Federal de Minas Gerais (UFMG) e orientador permanente do Programa de Pós-Graduação em Ecologia, Conservação e Manejo de Vida Silvestre (ECMVS-UFMG). Doutor em Biologia de Água Doce pelo Instituto Nacional de Pesquisas da Amazônia (BADPI-INPA) e em ‘Ecosystèmes’ pela Universidade de Montpellier (ESA-UM, França). Bacharel em Ciências Biológicas e mestre em Ecologia pela Universidade Federal do Rio de Janeiro (UFRJ). Atua principalmente nas áreas de ecologia de comunidades, diversidade funcional, conservação de ecossistemas aquáticos, interações interespecíficas e ictiologia.\n\n\n\n\n\n\n\nGabriel Nakamura\n\n\n\nGabriel é professor no Departamento de Genética, Ecologia e Evolução da UFMG e credenciado como membro permanente do programa de pós-graduação em Ecologia, Conservação e Manejo da Vida Silvestre. Tem graduação em Ciências Biológicas (licenciatura plena, UFMS), mestrado em Ecologia e Conservação (UFMS) e doutorado em Ecologia (UFRGS). Minha pesquisa busca compreender como processos históricos (especiação, extinção, dispersão) e ecológicos geram e moldam a biodiversidade no tempo profundo. Atuo principalmente no desenvolvimento de ferramentas numéricas para quantificar padrões e processos macroecológicos e macroevolutivos. Tenho experiência em métodos quantitativos, simulações, ecologia de comunidades e reprodutibilidade em pesquisa. Me interesso também por vieses no conhecimento biológico e na produção científica, sobretudo na comparação entre norte e sul globais, visando promover equidade, diversidade e inclusão na ciência. Fui pesquisador em biogeografia computacional na Texas AM University. Sou editor associado dos periódicos Austral Ecology e Perspectives in Ecology and Conservation e pesquisador do INCT - Ecologia, Evolução e Conservação da Biodiversidade. Mais informações em minha página profissional",
+    "crumbs": [
+      "Informações sobre o curso",
+      "Apresentação"
+    ]
   },
   {
-    "objectID": "aulas/aula0_intro_inferencia/slides.html#tentativa-de-compreender-o-passado",
-    "href": "aulas/aula0_intro_inferencia/slides.html#tentativa-de-compreender-o-passado",
-    "title": "Ecologia evolutiva",
-    "section": "Tentativa de compreender o passado",
-    "text": "Tentativa de compreender o passado"
+    "objectID": "about.html#recursos-e-referências",
+    "href": "about.html#recursos-e-referências",
+    "title": "Sobre o curso",
+    "section": "Recursos e referências",
+    "text": "Recursos e referências\nLista com alguns recursos que podem ser utilizados na disciplina de ecologia filogenética ou macroecologia filogenética. - Livro do Luke Harmon sobre método comparativo - site utilizado como modelo para de layout para site da disciplina - Livro do Nate Swenson - Phylogenetic Ecology como base para organização do conteúdo, principalmente a sequência e os eixos apresentados - Cassey Dunn book - very very good source of information on phylogenies and phylogenetic inference - Special issue in Phil Transactions B on phylogenetic models - Figure tree by Darwin in On the origin of species",
+    "crumbs": [
+      "Informações sobre o curso",
+      "Apresentação"
+    ]
   },
   {
-    "objectID": "aulas/aula0_intro_inferencia/slides.html#tentativa-de-compreender-o-passado-1",
-    "href": "aulas/aula0_intro_inferencia/slides.html#tentativa-de-compreender-o-passado-1",
-    "title": "Ecologia evolutiva",
-    "section": "Tentativa de compreender o passado",
-    "text": "Tentativa de compreender o passado"
+    "objectID": "aulas/aula2_descricao-padroes_I/slides.html#relação-entre-atributos",
+    "href": "aulas/aula2_descricao-padroes_I/slides.html#relação-entre-atributos",
+    "title": "Filogenias como ‘problema’",
+    "section": "Relação entre atributos",
+    "text": "Relação entre atributos"
   },
   {
-    "objectID": "aulas/aula0_intro_inferencia/slides.html#ferramentas-de-inferência-para-entender-o-passado-um-pequeno-parênteses",
-    "href": "aulas/aula0_intro_inferencia/slides.html#ferramentas-de-inferência-para-entender-o-passado-um-pequeno-parênteses",
-    "title": "Ecologia evolutiva",
-    "section": "Ferramentas de inferência para entender o passado (um pequeno parênteses)",
-    "text": "Ferramentas de inferência para entender o passado (um pequeno parênteses)"
+    "objectID": "aulas/aula2_descricao-padroes_I/slides.html#relação-entre-atributos-1",
+    "href": "aulas/aula2_descricao-padroes_I/slides.html#relação-entre-atributos-1",
+    "title": "Filogenias como ‘problema’",
+    "section": "Relação entre atributos",
+    "text": "Relação entre atributos"
   },
   {
-    "objectID": "aulas/aula0_intro_inferencia/slides.html#uma-brevíssima-explicação-sobre-likelihood",
-    "href": "aulas/aula0_intro_inferencia/slides.html#uma-brevíssima-explicação-sobre-likelihood",
-    "title": "Ecologia evolutiva",
-    "section": "Uma brevíssima explicação sobre likelihood",
-    "text": "Uma brevíssima explicação sobre likelihood"
+    "objectID": "aulas/aula2_descricao-padroes_I/slides.html#relação-entre-atributos-2",
+    "href": "aulas/aula2_descricao-padroes_I/slides.html#relação-entre-atributos-2",
+    "title": "Filogenias como ‘problema’",
+    "section": "Relação entre atributos",
+    "text": "Relação entre atributos"
   },
   {
-    "objectID": "aulas/aula0_intro_inferencia/slides.html#uma-brevíssima-explicação-sobre-likelihood-1",
-    "href": "aulas/aula0_intro_inferencia/slides.html#uma-brevíssima-explicação-sobre-likelihood-1",
-    "title": "Ecologia evolutiva",
-    "section": "Uma brevíssima explicação sobre likelihood",
-    "text": "Uma brevíssima explicação sobre likelihood"
+    "objectID": "aulas/aula2_descricao-padroes_I/slides.html#relação-entre-atributos---o-que-queremos-encontrar",
+    "href": "aulas/aula2_descricao-padroes_I/slides.html#relação-entre-atributos---o-que-queremos-encontrar",
+    "title": "Filogenias como ‘problema’",
+    "section": "Relação entre atributos - o que queremos encontrar?",
+    "text": "Relação entre atributos - o que queremos encontrar?"
   },
   {
-    "objectID": "aulas/aula0_intro_inferencia/slides.html#uma-brevíssima-explicação-sobre-likelihood-2",
-    "href": "aulas/aula0_intro_inferencia/slides.html#uma-brevíssima-explicação-sobre-likelihood-2",
-    "title": "Ecologia evolutiva",
-    "section": "Uma brevíssima explicação sobre likelihood",
-    "text": "Uma brevíssima explicação sobre likelihood"
+    "objectID": "aulas/aula2_descricao-padroes_I/slides.html#relação-entre-atributos---o-que-queremos-evitar",
+    "href": "aulas/aula2_descricao-padroes_I/slides.html#relação-entre-atributos---o-que-queremos-evitar",
+    "title": "Filogenias como ‘problema’",
+    "section": "Relação entre atributos - o que queremos evitar?",
+    "text": "Relação entre atributos - o que queremos evitar?"
   },
   {
-    "objectID": "aulas/aula0_intro_inferencia/slides.html#uma-brevíssima-explicação-sobre-likelihood-3",
-    "href": "aulas/aula0_intro_inferencia/slides.html#uma-brevíssima-explicação-sobre-likelihood-3",
-    "title": "Ecologia evolutiva",
-    "section": "Uma brevíssima explicação sobre likelihood",
-    "text": "Uma brevíssima explicação sobre likelihood"
+    "objectID": "aulas/aula2_descricao-padroes_I/slides.html#relação-entre-atributos-3",
+    "href": "aulas/aula2_descricao-padroes_I/slides.html#relação-entre-atributos-3",
+    "title": "Filogenias como ‘problema’",
+    "section": "Relação entre atributos",
+    "text": "Relação entre atributos\nDois atributos independentes e randômicos \\(N(\\mu = 0, \\sigma = 0.14)\\)"
   },
   {
-    "objectID": "aulas/aula0_intro_inferencia/slides.html#uma-brevíssima-explicação-sobre-likelihood-4",
-    "href": "aulas/aula0_intro_inferencia/slides.html#uma-brevíssima-explicação-sobre-likelihood-4",
-    "title": "Ecologia evolutiva",
-    "section": "Uma brevíssima explicação sobre likelihood",
-    "text": "Uma brevíssima explicação sobre likelihood"
+    "objectID": "aulas/aula2_descricao-padroes_I/slides.html#relação-entre-atributos-4",
+    "href": "aulas/aula2_descricao-padroes_I/slides.html#relação-entre-atributos-4",
+    "title": "Filogenias como ‘problema’",
+    "section": "Relação entre atributos",
+    "text": "Relação entre atributos\nDois atributos independentes com \\(N(\\mu = 0, \\sigma = 0.14)\\), porém…."
   },
   {
-    "objectID": "aulas/aula0_intro_inferencia/slides.html#uma-brevíssima-explicação-sobre-likelihood-5",
-    "href": "aulas/aula0_intro_inferencia/slides.html#uma-brevíssima-explicação-sobre-likelihood-5",
-    "title": "Ecologia evolutiva",
-    "section": "Uma brevíssima explicação sobre likelihood",
-    "text": "Uma brevíssima explicação sobre likelihood"
+    "objectID": "aulas/aula2_descricao-padroes_I/slides.html#relação-entre-atributos-5",
+    "href": "aulas/aula2_descricao-padroes_I/slides.html#relação-entre-atributos-5",
+    "title": "Filogenias como ‘problema’",
+    "section": "Relação entre atributos",
+    "text": "Relação entre atributos\nDois atributos independentes com \\(N(\\mu = 0, \\sigma = 0.14)\\), porém…."
   },
   {
-    "objectID": "aulas/aula0_intro_inferencia/slides.html#uma-brevíssima-explicação-sobre-likelihood-6",
-    "href": "aulas/aula0_intro_inferencia/slides.html#uma-brevíssima-explicação-sobre-likelihood-6",
-    "title": "Ecologia evolutiva",
-    "section": "Uma brevíssima explicação sobre likelihood",
-    "text": "Uma brevíssima explicação sobre likelihood"
+    "objectID": "aulas/aula2_descricao-padroes_I/slides.html#será-que-estamos-corretos",
+    "href": "aulas/aula2_descricao-padroes_I/slides.html#será-que-estamos-corretos",
+    "title": "Filogenias como ‘problema’",
+    "section": "Será que estamos corretos?",
+    "text": "Será que estamos corretos?"
   },
   {
-    "objectID": "aulas/aula0_intro_inferencia/slides.html#uma-brevíssima-explicação-sobre-likelihood-7",
-    "href": "aulas/aula0_intro_inferencia/slides.html#uma-brevíssima-explicação-sobre-likelihood-7",
-    "title": "Ecologia evolutiva",
-    "section": "Uma brevíssima explicação sobre likelihood",
-    "text": "Uma brevíssima explicação sobre likelihood"
+    "objectID": "aulas/aula2_descricao-padroes_I/slides.html#devemos-nos-preocupar-sim",
+    "href": "aulas/aula2_descricao-padroes_I/slides.html#devemos-nos-preocupar-sim",
+    "title": "Filogenias como ‘problema’",
+    "section": "Devemos nos preocupar? Sim",
+    "text": "Devemos nos preocupar? Sim"
+  },
+  {
+    "objectID": "aulas/aula2_descricao-padroes_I/slides.html#como-não-chegar-a-conclusões-erradas",
+    "href": "aulas/aula2_descricao-padroes_I/slides.html#como-não-chegar-a-conclusões-erradas",
+    "title": "Filogenias como ‘problema’",
+    "section": "Como não chegar a conclusões erradas?",
+    "text": "Como não chegar a conclusões erradas?\n\nAvaliar o nível do sinal filogenético\nControlar a autocorrelação filogenética (PIC, métodos baseados em matrizes de covariância filogenética, autovetores filogenéticos)"
+  },
+  {
+    "objectID": "aulas/aula2_descricao-padroes_I/slides.html#métricas-de-sinal-filogenético-avaliando-nível-do-sinal",
+    "href": "aulas/aula2_descricao-padroes_I/slides.html#métricas-de-sinal-filogenético-avaliando-nível-do-sinal",
+    "title": "Filogenias como ‘problema’",
+    "section": "Métricas de sinal filogenético (avaliando nível do sinal)",
+    "text": "Métricas de sinal filogenético (avaliando nível do sinal)\n\nEstatística K (Bloomberg et al. 2003, Adams et al 2014)\nLambda (\\(\\lambda\\)) de Pagel (Pagel 1999)\nCurva PVR (Diniz-Filho et al 1998)"
+  },
+  {
+    "objectID": "aulas/aula2_descricao-padroes_I/slides.html#métricas-de-sinal-filogenético-avaliando-nível-do-sinal-1",
+    "href": "aulas/aula2_descricao-padroes_I/slides.html#métricas-de-sinal-filogenético-avaliando-nível-do-sinal-1",
+    "title": "Filogenias como ‘problema’",
+    "section": "Métricas de sinal filogenético (avaliando nível do sinal)",
+    "text": "Métricas de sinal filogenético (avaliando nível do sinal)"
+  },
+  {
+    "objectID": "aulas/aula2_descricao-padroes_I/slides.html#métricas-de-sinal-filogenético-avaliando-nível-do-sinal-2",
+    "href": "aulas/aula2_descricao-padroes_I/slides.html#métricas-de-sinal-filogenético-avaliando-nível-do-sinal-2",
+    "title": "Filogenias como ‘problema’",
+    "section": "Métricas de sinal filogenético (avaliando nível do sinal)",
+    "text": "Métricas de sinal filogenético (avaliando nível do sinal)"
+  },
+  {
+    "objectID": "aulas/aula2_descricao-padroes_I/slides.html#métricas-de-sinal-filogenético-avaliando-nível-do-sinal-3",
+    "href": "aulas/aula2_descricao-padroes_I/slides.html#métricas-de-sinal-filogenético-avaliando-nível-do-sinal-3",
+    "title": "Filogenias como ‘problema’",
+    "section": "Métricas de sinal filogenético (avaliando nível do sinal)",
+    "text": "Métricas de sinal filogenético (avaliando nível do sinal)"
+  },
+  {
+    "objectID": "aulas/aula2_descricao-padroes_I/slides.html#controlando-a-autocorrelação-filogenética",
+    "href": "aulas/aula2_descricao-padroes_I/slides.html#controlando-a-autocorrelação-filogenética",
+    "title": "Filogenias como ‘problema’",
+    "section": "Controlando a autocorrelação filogenética",
+    "text": "Controlando a autocorrelação filogenética\n\nCalculando “novos” atributos independentes (PIC)\nIncluindo a variação filogenética no modelo (retirando do termo de erro - PVR)\nModelando o erro de maneira a considerar corretamente a covariância filogenética (PGLS, GLS)"
+  },
+  {
+    "objectID": "aulas/aula2_descricao-padroes_I/slides.html#relação-entre-atributos-e-gradientes-ambientais-em-comunidades",
+    "href": "aulas/aula2_descricao-padroes_I/slides.html#relação-entre-atributos-e-gradientes-ambientais-em-comunidades",
+    "title": "Filogenias como ‘problema’",
+    "section": "Relação entre atributos e gradientes ambientais em comunidades",
+    "text": "Relação entre atributos e gradientes ambientais em comunidades\nO problema"
+  },
+  {
+    "objectID": "aulas/aula2_descricao-padroes_I/slides.html#relação-entre-atributos-e-gradientes-ambientais-em-comunidades-1",
+    "href": "aulas/aula2_descricao-padroes_I/slides.html#relação-entre-atributos-e-gradientes-ambientais-em-comunidades-1",
+    "title": "Filogenias como ‘problema’",
+    "section": "Relação entre atributos e gradientes ambientais em comunidades",
+    "text": "Relação entre atributos e gradientes ambientais em comunidades\n\n\n\n\n\n\nNote\n\n\nEm construção…"
   },
   {
     "objectID": "aulas/aula1_phylogenetic_trees/slides.html#arvores-filogenéticas-o-que-são",
@@ -385,327 +598,227 @@
     "text": "Árvores filogenéticas: mini quiz"
   },
   {
-    "objectID": "aulas/aula2_descricao-padroes_I/slides.html#relação-entre-atributos",
-    "href": "aulas/aula2_descricao-padroes_I/slides.html#relação-entre-atributos",
-    "title": "Filogenias como ‘problema’",
-    "section": "Relação entre atributos",
-    "text": "Relação entre atributos"
+    "objectID": "aulas/aula0_intro_inferencia/slides.html#macroecologia-macroevolutiva-algumas-questões",
+    "href": "aulas/aula0_intro_inferencia/slides.html#macroecologia-macroevolutiva-algumas-questões",
+    "title": "Ecologia evolutiva",
+    "section": "(Macro)Ecologia (Macro)evolutiva: algumas questões",
+    "text": "(Macro)Ecologia (Macro)evolutiva: algumas questões"
   },
   {
-    "objectID": "aulas/aula2_descricao-padroes_I/slides.html#relação-entre-atributos-1",
-    "href": "aulas/aula2_descricao-padroes_I/slides.html#relação-entre-atributos-1",
-    "title": "Filogenias como ‘problema’",
-    "section": "Relação entre atributos",
-    "text": "Relação entre atributos"
+    "objectID": "aulas/aula0_intro_inferencia/slides.html#filogenia-como-fonte-de-confusão",
+    "href": "aulas/aula0_intro_inferencia/slides.html#filogenia-como-fonte-de-confusão",
+    "title": "Ecologia evolutiva",
+    "section": "Filogenia como fonte de “confusão””",
+    "text": "Filogenia como fonte de “confusão””"
   },
   {
-    "objectID": "aulas/aula2_descricao-padroes_I/slides.html#relação-entre-atributos-2",
-    "href": "aulas/aula2_descricao-padroes_I/slides.html#relação-entre-atributos-2",
-    "title": "Filogenias como ‘problema’",
-    "section": "Relação entre atributos",
-    "text": "Relação entre atributos"
+    "objectID": "aulas/aula0_intro_inferencia/slides.html#filogenia-como-fonte-de-confusão-1",
+    "href": "aulas/aula0_intro_inferencia/slides.html#filogenia-como-fonte-de-confusão-1",
+    "title": "Ecologia evolutiva",
+    "section": "Filogenia como fonte de “confusão””",
+    "text": "Filogenia como fonte de “confusão””"
   },
   {
-    "objectID": "aulas/aula2_descricao-padroes_I/slides.html#relação-entre-atributos---o-que-queremos-encontrar",
-    "href": "aulas/aula2_descricao-padroes_I/slides.html#relação-entre-atributos---o-que-queremos-encontrar",
-    "title": "Filogenias como ‘problema’",
-    "section": "Relação entre atributos - o que queremos encontrar?",
-    "text": "Relação entre atributos - o que queremos encontrar?"
+    "objectID": "aulas/aula0_intro_inferencia/slides.html#filogenias-como-proxy-de-padrões-e-processos",
+    "href": "aulas/aula0_intro_inferencia/slides.html#filogenias-como-proxy-de-padrões-e-processos",
+    "title": "Ecologia evolutiva",
+    "section": "Filogenias como “proxy” de padrões e processos",
+    "text": "Filogenias como “proxy” de padrões e processos"
   },
   {
-    "objectID": "aulas/aula2_descricao-padroes_I/slides.html#relação-entre-atributos---o-que-queremos-evitar",
-    "href": "aulas/aula2_descricao-padroes_I/slides.html#relação-entre-atributos---o-que-queremos-evitar",
-    "title": "Filogenias como ‘problema’",
-    "section": "Relação entre atributos - o que queremos evitar?",
-    "text": "Relação entre atributos - o que queremos evitar?"
+    "objectID": "aulas/aula0_intro_inferencia/slides.html#filogenias-como-proxy-de-padrões-e-processos-1",
+    "href": "aulas/aula0_intro_inferencia/slides.html#filogenias-como-proxy-de-padrões-e-processos-1",
+    "title": "Ecologia evolutiva",
+    "section": "Filogenias como “proxy” de padrões e processos",
+    "text": "Filogenias como “proxy” de padrões e processos"
   },
   {
-    "objectID": "aulas/aula2_descricao-padroes_I/slides.html#relação-entre-atributos-3",
-    "href": "aulas/aula2_descricao-padroes_I/slides.html#relação-entre-atributos-3",
-    "title": "Filogenias como ‘problema’",
-    "section": "Relação entre atributos",
-    "text": "Relação entre atributos\nDois atributos independentes e randômicos \\(N(\\mu = 0, \\sigma = 0.14)\\)"
+    "objectID": "aulas/aula0_intro_inferencia/slides.html#filogenias-como-fonte-de-informação-de-processos-históricos",
+    "href": "aulas/aula0_intro_inferencia/slides.html#filogenias-como-fonte-de-informação-de-processos-históricos",
+    "title": "Ecologia evolutiva",
+    "section": "Filogenias como fonte de informação de processos históricos",
+    "text": "Filogenias como fonte de informação de processos históricos"
   },
   {
-    "objectID": "aulas/aula2_descricao-padroes_I/slides.html#relação-entre-atributos-4",
-    "href": "aulas/aula2_descricao-padroes_I/slides.html#relação-entre-atributos-4",
-    "title": "Filogenias como ‘problema’",
-    "section": "Relação entre atributos",
-    "text": "Relação entre atributos\nDois atributos independentes com \\(N(\\mu = 0, \\sigma = 0.14)\\), porém…."
+    "objectID": "aulas/aula0_intro_inferencia/slides.html#tentativa-de-compreender-o-passado",
+    "href": "aulas/aula0_intro_inferencia/slides.html#tentativa-de-compreender-o-passado",
+    "title": "Ecologia evolutiva",
+    "section": "Tentativa de compreender o passado",
+    "text": "Tentativa de compreender o passado"
   },
   {
-    "objectID": "aulas/aula2_descricao-padroes_I/slides.html#relação-entre-atributos-5",
-    "href": "aulas/aula2_descricao-padroes_I/slides.html#relação-entre-atributos-5",
-    "title": "Filogenias como ‘problema’",
-    "section": "Relação entre atributos",
-    "text": "Relação entre atributos\nDois atributos independentes com \\(N(\\mu = 0, \\sigma = 0.14)\\), porém…."
+    "objectID": "aulas/aula0_intro_inferencia/slides.html#tentativa-de-compreender-o-passado-1",
+    "href": "aulas/aula0_intro_inferencia/slides.html#tentativa-de-compreender-o-passado-1",
+    "title": "Ecologia evolutiva",
+    "section": "Tentativa de compreender o passado",
+    "text": "Tentativa de compreender o passado"
   },
   {
-    "objectID": "aulas/aula2_descricao-padroes_I/slides.html#será-que-estamos-corretos",
-    "href": "aulas/aula2_descricao-padroes_I/slides.html#será-que-estamos-corretos",
-    "title": "Filogenias como ‘problema’",
-    "section": "Será que estamos corretos?",
-    "text": "Será que estamos corretos?"
+    "objectID": "aulas/aula0_intro_inferencia/slides.html#ferramentas-de-inferência-para-entender-o-passado-um-pequeno-parênteses",
+    "href": "aulas/aula0_intro_inferencia/slides.html#ferramentas-de-inferência-para-entender-o-passado-um-pequeno-parênteses",
+    "title": "Ecologia evolutiva",
+    "section": "Ferramentas de inferência para entender o passado (um pequeno parênteses)",
+    "text": "Ferramentas de inferência para entender o passado (um pequeno parênteses)"
   },
   {
-    "objectID": "aulas/aula2_descricao-padroes_I/slides.html#devemos-nos-preocupar-sim",
-    "href": "aulas/aula2_descricao-padroes_I/slides.html#devemos-nos-preocupar-sim",
-    "title": "Filogenias como ‘problema’",
-    "section": "Devemos nos preocupar? Sim",
-    "text": "Devemos nos preocupar? Sim"
+    "objectID": "aulas/aula0_intro_inferencia/slides.html#uma-brevíssima-explicação-sobre-likelihood",
+    "href": "aulas/aula0_intro_inferencia/slides.html#uma-brevíssima-explicação-sobre-likelihood",
+    "title": "Ecologia evolutiva",
+    "section": "Uma brevíssima explicação sobre likelihood",
+    "text": "Uma brevíssima explicação sobre likelihood"
   },
   {
-    "objectID": "aulas/aula2_descricao-padroes_I/slides.html#como-não-chegar-a-conclusões-erradas",
-    "href": "aulas/aula2_descricao-padroes_I/slides.html#como-não-chegar-a-conclusões-erradas",
-    "title": "Filogenias como ‘problema’",
-    "section": "Como não chegar a conclusões erradas?",
-    "text": "Como não chegar a conclusões erradas?\n\nAvaliar o nível do sinal filogenético\nControlar a autocorrelação filogenética (PIC, métodos baseados em matrizes de covariância filogenética, autovetores filogenéticos)"
+    "objectID": "aulas/aula0_intro_inferencia/slides.html#uma-brevíssima-explicação-sobre-likelihood-1",
+    "href": "aulas/aula0_intro_inferencia/slides.html#uma-brevíssima-explicação-sobre-likelihood-1",
+    "title": "Ecologia evolutiva",
+    "section": "Uma brevíssima explicação sobre likelihood",
+    "text": "Uma brevíssima explicação sobre likelihood"
   },
   {
-    "objectID": "aulas/aula2_descricao-padroes_I/slides.html#métricas-de-sinal-filogenético-avaliando-nível-do-sinal",
-    "href": "aulas/aula2_descricao-padroes_I/slides.html#métricas-de-sinal-filogenético-avaliando-nível-do-sinal",
-    "title": "Filogenias como ‘problema’",
-    "section": "Métricas de sinal filogenético (avaliando nível do sinal)",
-    "text": "Métricas de sinal filogenético (avaliando nível do sinal)\n\nEstatística K (Bloomberg et al. 2003, Adams et al 2014)\nLambda (\\(\\lambda\\)) de Pagel (Pagel 1999)\nCurva PVR (Diniz-Filho et al 1998)"
+    "objectID": "aulas/aula0_intro_inferencia/slides.html#uma-brevíssima-explicação-sobre-likelihood-2",
+    "href": "aulas/aula0_intro_inferencia/slides.html#uma-brevíssima-explicação-sobre-likelihood-2",
+    "title": "Ecologia evolutiva",
+    "section": "Uma brevíssima explicação sobre likelihood",
+    "text": "Uma brevíssima explicação sobre likelihood"
   },
   {
-    "objectID": "aulas/aula2_descricao-padroes_I/slides.html#métricas-de-sinal-filogenético-avaliando-nível-do-sinal-1",
-    "href": "aulas/aula2_descricao-padroes_I/slides.html#métricas-de-sinal-filogenético-avaliando-nível-do-sinal-1",
-    "title": "Filogenias como ‘problema’",
-    "section": "Métricas de sinal filogenético (avaliando nível do sinal)",
-    "text": "Métricas de sinal filogenético (avaliando nível do sinal)"
+    "objectID": "aulas/aula0_intro_inferencia/slides.html#uma-brevíssima-explicação-sobre-likelihood-3",
+    "href": "aulas/aula0_intro_inferencia/slides.html#uma-brevíssima-explicação-sobre-likelihood-3",
+    "title": "Ecologia evolutiva",
+    "section": "Uma brevíssima explicação sobre likelihood",
+    "text": "Uma brevíssima explicação sobre likelihood"
   },
   {
-    "objectID": "aulas/aula2_descricao-padroes_I/slides.html#métricas-de-sinal-filogenético-avaliando-nível-do-sinal-2",
-    "href": "aulas/aula2_descricao-padroes_I/slides.html#métricas-de-sinal-filogenético-avaliando-nível-do-sinal-2",
-    "title": "Filogenias como ‘problema’",
-    "section": "Métricas de sinal filogenético (avaliando nível do sinal)",
-    "text": "Métricas de sinal filogenético (avaliando nível do sinal)"
+    "objectID": "aulas/aula0_intro_inferencia/slides.html#uma-brevíssima-explicação-sobre-likelihood-4",
+    "href": "aulas/aula0_intro_inferencia/slides.html#uma-brevíssima-explicação-sobre-likelihood-4",
+    "title": "Ecologia evolutiva",
+    "section": "Uma brevíssima explicação sobre likelihood",
+    "text": "Uma brevíssima explicação sobre likelihood"
   },
   {
-    "objectID": "aulas/aula2_descricao-padroes_I/slides.html#métricas-de-sinal-filogenético-avaliando-nível-do-sinal-3",
-    "href": "aulas/aula2_descricao-padroes_I/slides.html#métricas-de-sinal-filogenético-avaliando-nível-do-sinal-3",
-    "title": "Filogenias como ‘problema’",
-    "section": "Métricas de sinal filogenético (avaliando nível do sinal)",
-    "text": "Métricas de sinal filogenético (avaliando nível do sinal)"
+    "objectID": "aulas/aula0_intro_inferencia/slides.html#uma-brevíssima-explicação-sobre-likelihood-5",
+    "href": "aulas/aula0_intro_inferencia/slides.html#uma-brevíssima-explicação-sobre-likelihood-5",
+    "title": "Ecologia evolutiva",
+    "section": "Uma brevíssima explicação sobre likelihood",
+    "text": "Uma brevíssima explicação sobre likelihood"
   },
   {
-    "objectID": "aulas/aula2_descricao-padroes_I/slides.html#controlando-a-autocorrelação-filogenética",
-    "href": "aulas/aula2_descricao-padroes_I/slides.html#controlando-a-autocorrelação-filogenética",
-    "title": "Filogenias como ‘problema’",
-    "section": "Controlando a autocorrelação filogenética",
-    "text": "Controlando a autocorrelação filogenética\n\nCalculando “novos” atributos independentes (PIC)\nIncluindo a variação filogenética no modelo (retirando do termo de erro - PVR)\nModelando o erro de maneira a considerar corretamente a covariância filogenética (PGLS, GLS)"
+    "objectID": "aulas/aula0_intro_inferencia/slides.html#uma-brevíssima-explicação-sobre-likelihood-6",
+    "href": "aulas/aula0_intro_inferencia/slides.html#uma-brevíssima-explicação-sobre-likelihood-6",
+    "title": "Ecologia evolutiva",
+    "section": "Uma brevíssima explicação sobre likelihood",
+    "text": "Uma brevíssima explicação sobre likelihood"
   },
   {
-    "objectID": "aulas/aula2_descricao-padroes_I/slides.html#relação-entre-atributos-e-gradientes-ambientais-em-comunidades",
-    "href": "aulas/aula2_descricao-padroes_I/slides.html#relação-entre-atributos-e-gradientes-ambientais-em-comunidades",
-    "title": "Filogenias como ‘problema’",
-    "section": "Relação entre atributos e gradientes ambientais em comunidades",
-    "text": "Relação entre atributos e gradientes ambientais em comunidades\nO problema"
+    "objectID": "aulas/aula0_intro_inferencia/slides.html#uma-brevíssima-explicação-sobre-likelihood-7",
+    "href": "aulas/aula0_intro_inferencia/slides.html#uma-brevíssima-explicação-sobre-likelihood-7",
+    "title": "Ecologia evolutiva",
+    "section": "Uma brevíssima explicação sobre likelihood",
+    "text": "Uma brevíssima explicação sobre likelihood"
   },
   {
-    "objectID": "aulas/aula2_descricao-padroes_I/slides.html#relação-entre-atributos-e-gradientes-ambientais-em-comunidades-1",
-    "href": "aulas/aula2_descricao-padroes_I/slides.html#relação-entre-atributos-e-gradientes-ambientais-em-comunidades-1",
-    "title": "Filogenias como ‘problema’",
-    "section": "Relação entre atributos e gradientes ambientais em comunidades",
-    "text": "Relação entre atributos e gradientes ambientais em comunidades\n\n\n\n\n\n\nNote\n\n\nEm construção…"
+    "objectID": "aulas/aula3_descricao-padroes_II/slides.html#classificação-de-métricas-de-diversidade",
+    "href": "aulas/aula3_descricao-padroes_II/slides.html#classificação-de-métricas-de-diversidade",
+    "title": "Métricas de diversidade filogenética",
+    "section": "Classificação de métricas de diversidade",
+    "text": "Classificação de métricas de diversidade"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Sobre o curso",
-    "section": "",
-    "text": "O conteúdo nesse sítio tem como objetivo servir como material de apoio para a disciplina **Tópicos Especiais - Métodos e técnicas em ecologia, conservação e manejo da vida silvestre - Diversidade Funcional e filogenética de comunidades, parte da grade de disciplinas oferecidas no PPG Ecologia, Conservação e Manejo da Vida Silvestre da Universidade Federal de Minas Gerais, ministrada por mim, Gabriel Nakamura e pelo Rafa Leitão.\nEspecificamente, aqui você irá encontrar os materiais para a segunda semana da disciplina, onde, apesar do nome oficial ser Diversidade Filogenética, iremos abordar menos sobre isso, e mais sobre o que gera, de onde vem, e como podemos utilizar alguns métodos filogenéticos para responder questões em ecologia e macroevolução. Este curso não tem como intuito apresentar uma lista exaustiva de métricas e métodos, mas sim fornecer as bases teóricas e metodológicas para que os estudantes possam eles mesmos chegarem nas melhores alternativas para representar e responder suas questões.\nPara uma visão geral dos temas, horários e conteúdos veja esta página.",
-    "crumbs": [
-      "Informações sobre o curso",
-      "Apresentação"
-    ]
+    "objectID": "aulas/aula3_descricao-padroes_II/slides.html#métricas-de-riqueza",
+    "href": "aulas/aula3_descricao-padroes_II/slides.html#métricas-de-riqueza",
+    "title": "Métricas de diversidade filogenética",
+    "section": "Métricas de riqueza",
+    "text": "Métricas de riqueza"
   },
   {
-    "objectID": "about.html#professores",
-    "href": "about.html#professores",
-    "title": "Sobre o curso",
-    "section": "Professores",
-    "text": "Professores\n\n\n\n\nRafa Leitão\n\n\n\nRafa é professor Adjunto do Departamento de Genética, Ecologia e Evolução (GEE/ICB) da Universidade Federal de Minas Gerais (UFMG) e orientador permanente do Programa de Pós-Graduação em Ecologia, Conservação e Manejo de Vida Silvestre (ECMVS-UFMG). Doutor em Biologia de Água Doce pelo Instituto Nacional de Pesquisas da Amazônia (BADPI-INPA) e em ‘Ecosystèmes’ pela Universidade de Montpellier (ESA-UM, França). Bacharel em Ciências Biológicas e mestre em Ecologia pela Universidade Federal do Rio de Janeiro (UFRJ). Atua principalmente nas áreas de ecologia de comunidades, diversidade funcional, conservação de ecossistemas aquáticos, interações interespecíficas e ictiologia.\n\n\n\n\n\n\n\nGabriel Nakamura\n\n\n\nGabriel é professor no Departamento de Genética, Ecologia e Evolução da UFMG e credenciado como membro permanente do programa de pós-graduação em Ecologia, Conservação e Manejo da Vida Silvestre. Tem graduação em Ciências Biológicas (licenciatura plena, UFMS), mestrado em Ecologia e Conservação (UFMS) e doutorado em Ecologia (UFRGS). Minha pesquisa busca compreender como processos históricos (especiação, extinção, dispersão) e ecológicos geram e moldam a biodiversidade no tempo profundo. Atuo principalmente no desenvolvimento de ferramentas numéricas para quantificar padrões e processos macroecológicos e macroevolutivos. Tenho experiência em métodos quantitativos, simulações, ecologia de comunidades e reprodutibilidade em pesquisa. Me interesso também por vieses no conhecimento biológico e na produção científica, sobretudo na comparação entre norte e sul globais, visando promover equidade, diversidade e inclusão na ciência. Fui pesquisador em biogeografia computacional na Texas AM University. Sou editor associado dos periódicos Austral Ecology e Perspectives in Ecology and Conservation e pesquisador do INCT - Ecologia, Evolução e Conservação da Biodiversidade. Mais informações em minha página profissional",
-    "crumbs": [
-      "Informações sobre o curso",
-      "Apresentação"
-    ]
+    "objectID": "aulas/aula3_descricao-padroes_II/slides.html#métricas-de-riqueza---aplicações",
+    "href": "aulas/aula3_descricao-padroes_II/slides.html#métricas-de-riqueza---aplicações",
+    "title": "Métricas de diversidade filogenética",
+    "section": "Métricas de riqueza - aplicações",
+    "text": "Métricas de riqueza - aplicações"
   },
   {
-    "objectID": "about.html#recursos-e-referências",
-    "href": "about.html#recursos-e-referências",
-    "title": "Sobre o curso",
-    "section": "Recursos e referências",
-    "text": "Recursos e referências\nLista com alguns recursos que podem ser utilizados na disciplina de ecologia filogenética ou macroecologia filogenética. - Livro do Luke Harmon sobre método comparativo - site utilizado como modelo para de layout para site da disciplina - Livro do Nate Swenson - Phylogenetic Ecology como base para organização do conteúdo, principalmente a sequência e os eixos apresentados - Cassey Dunn book - very very good source of information on phylogenies and phylogenetic inference - Special issue in Phil Transactions B on phylogenetic models - Figure tree by Darwin in On the origin of species",
-    "crumbs": [
-      "Informações sobre o curso",
-      "Apresentação"
-    ]
+    "objectID": "aulas/aula3_descricao-padroes_II/slides.html#métricas-de-riqueza---aplicações-1",
+    "href": "aulas/aula3_descricao-padroes_II/slides.html#métricas-de-riqueza---aplicações-1",
+    "title": "Métricas de diversidade filogenética",
+    "section": "Métricas de riqueza - aplicações",
+    "text": "Métricas de riqueza - aplicações"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Ecologia filogenética ECMVS 2026-1",
-    "section": "",
-    "text": "Dia\nData\nTópico\nDescrição\nRoteiros e códigos\nSlides\nLeituras\n\n\n\n\nDia 1\n05/07\nIntrodução a ecologia evolutiva\nÁrvores filogenéticas\nQuestões e métodos em ecologia evolutiva, Tipos de árvores, estrutura de árvores filogenéticas, processamento e manejo de árvores, fontes secundárias para árvores\n💻\n📽\n📚\n\n\nDia 2\n06/07\nDescrição de padrões I: filogenias e atributos\nModelo Browniano de evolução, sinal filogenético,\n💻\n📽\n📚\n\n\nDia 3\n07/07\nDescrição de padrões II: diversificação e métricas de diversidade\nModelo Birth-Death, estimando diversificação, estimando diversidade\n\n\n\n\n\nDia 3\n07/07 - manhã\nInferências II: macroevolução e macroecologia\nReconstruindo histórias passadas, processos históricos em escala regional e local\n\n\n\n\n\nDia 4\n08/07\na definir\n\n\n\n\n\n\nDia 4\n09/07 -\na definir",
-    "crumbs": [
-      "Informações sobre o curso",
-      "Cronograma do curso"
-    ]
+    "objectID": "aulas/aula3_descricao-padroes_II/slides.html#métricas-de-divergência",
+    "href": "aulas/aula3_descricao-padroes_II/slides.html#métricas-de-divergência",
+    "title": "Métricas de diversidade filogenética",
+    "section": "Métricas de divergência",
+    "text": "Métricas de divergência"
   },
   {
-    "objectID": "links.html",
-    "href": "links.html",
-    "title": "Links para materiais",
-    "section": "",
-    "text": "Aqui vocês irão encontrar links para materiais abertos sobre ecologia filogenética e outros assuntos relacionados.",
-    "crumbs": [
-      "Informações sobre o curso",
-      "Links para materiais úteis"
-    ]
+    "objectID": "aulas/aula3_descricao-padroes_II/slides.html#métricas-de-divergência-1",
+    "href": "aulas/aula3_descricao-padroes_II/slides.html#métricas-de-divergência-1",
+    "title": "Métricas de diversidade filogenética",
+    "section": "Métricas de divergência",
+    "text": "Métricas de divergência"
   },
   {
-    "objectID": "links.html#livros-e-materiais-didáticos",
-    "href": "links.html#livros-e-materiais-didáticos",
-    "title": "Links para materiais",
-    "section": "Livros e materiais didáticos",
-    "text": "Livros e materiais didáticos\n\nPhylogenetic Biology por Cassey Dunn",
-    "crumbs": [
-      "Informações sobre o curso",
-      "Links para materiais úteis"
-    ]
+    "objectID": "aulas/aula3_descricao-padroes_II/slides.html#métricas-de-divergência-entre-comunidades---filogenia-como-causa",
+    "href": "aulas/aula3_descricao-padroes_II/slides.html#métricas-de-divergência-entre-comunidades---filogenia-como-causa",
+    "title": "Métricas de diversidade filogenética",
+    "section": "Métricas de divergência (entre comunidades) - filogenia como causa",
+    "text": "Métricas de divergência (entre comunidades) - filogenia como causa"
   },
   {
-    "objectID": "links.html#ferramental",
-    "href": "links.html#ferramental",
-    "title": "Links para materiais",
-    "section": "Ferramental",
-    "text": "Ferramental\n\nCRAN Task View: Phylogenetics: compilado de pacotes em R voltados para filogenômica, ecologia filogenética, macroevolução e outros assuntos relacionados.",
-    "crumbs": [
-      "Informações sobre o curso",
-      "Links para materiais úteis"
-    ]
+    "objectID": "aulas/aula3_descricao-padroes_II/slides.html#métricas-de-divergência-entre-comunidades---aplicações",
+    "href": "aulas/aula3_descricao-padroes_II/slides.html#métricas-de-divergência-entre-comunidades---aplicações",
+    "title": "Métricas de diversidade filogenética",
+    "section": "Métricas de divergência (entre comunidades) - aplicações",
+    "text": "Métricas de divergência (entre comunidades) - aplicações"
   },
   {
-    "objectID": "aulas/aula2_descricao-padroes_I/index.html",
-    "href": "aulas/aula2_descricao-padroes_I/index.html",
-    "title": "Inferência de processos evolutivos a partir de filogenias",
-    "section": "",
-    "text": "Note\n\n\n\nEm construção…",
-    "crumbs": [
-      "Materiais por dia",
-      "Aula 2 - Evolução como fator de 'confusão'"
-    ]
+    "objectID": "aulas/aula3_descricao-padroes_II/slides.html#métricas-de-divergência-entre-comunidades---biogeografia",
+    "href": "aulas/aula3_descricao-padroes_II/slides.html#métricas-de-divergência-entre-comunidades---biogeografia",
+    "title": "Métricas de diversidade filogenética",
+    "section": "Métricas de divergência (entre comunidades) - biogeografia",
+    "text": "Métricas de divergência (entre comunidades) - biogeografia"
   },
   {
-    "objectID": "aulas/aula2_descricao-padroes_I/index.html#slides-da-aula",
-    "href": "aulas/aula2_descricao-padroes_I/index.html#slides-da-aula",
-    "title": "Inferência de processos evolutivos a partir de filogenias",
-    "section": "Slides da aula",
-    "text": "Slides da aula\nAqui você encontra os slides apresentados em sala de aula sobre esse tópico\nTela cheia 📺",
-    "crumbs": [
-      "Materiais por dia",
-      "Aula 2 - Evolução como fator de 'confusão'"
-    ]
+    "objectID": "aulas/aula3_descricao-padroes_II/slides.html#métricas-de-divergência---aplicações",
+    "href": "aulas/aula3_descricao-padroes_II/slides.html#métricas-de-divergência---aplicações",
+    "title": "Métricas de diversidade filogenética",
+    "section": "Métricas de divergência - aplicações",
+    "text": "Métricas de divergência - aplicações"
   },
   {
-    "objectID": "aulas/aula1_phylogenetic_trees/index.html",
-    "href": "aulas/aula1_phylogenetic_trees/index.html",
-    "title": "Árvores 🌳 filogenéticas",
-    "section": "",
-    "text": "Note\n\n\n\nEm construção…",
-    "crumbs": [
-      "Materiais por dia",
-      "Aula 1 - Árvores filogenéticas"
-    ]
+    "objectID": "aulas/aula3_descricao-padroes_II/slides.html#métricas-como-indicadores-de-processos-históricos",
+    "href": "aulas/aula3_descricao-padroes_II/slides.html#métricas-como-indicadores-de-processos-históricos",
+    "title": "Métricas de diversidade filogenética",
+    "section": "Métricas como indicadores de processos históricos",
+    "text": "Métricas como indicadores de processos históricos"
   },
   {
-    "objectID": "aulas/aula1_phylogenetic_trees/index.html#árvores-filogenéticas",
-    "href": "aulas/aula1_phylogenetic_trees/index.html#árvores-filogenéticas",
-    "title": "Árvores 🌳 filogenéticas",
-    "section": "Árvores filogenéticas",
-    "text": "Árvores filogenéticas\nNessa seção iremos compreender como identificar as principais estruturas de uma árvore filogenética, extrair informações referentes a identidade dos tips, nós, ramos e suas respectivas idades.\nAo fim dessa aula você deve ser capaz de identificar os principais elementos que compõe uma árvore filogenética, extrair suas informações, editar as árvores, interoperabilizar os formatos existentes e dominar funções básicas de plotagem de árvores.",
-    "crumbs": [
-      "Materiais por dia",
-      "Aula 1 - Árvores filogenéticas"
-    ]
+    "objectID": "aulas/aula3_descricao-padroes_II/slides.html#métricas-de-diversificação",
+    "href": "aulas/aula3_descricao-padroes_II/slides.html#métricas-de-diversificação",
+    "title": "Métricas de diversidade filogenética",
+    "section": "Métricas de diversificação",
+    "text": "Métricas de diversificação"
   },
   {
-    "objectID": "aulas/aula1_phylogenetic_trees/index.html#formatos-manejáveis-das-árvores-filogenéticas",
-    "href": "aulas/aula1_phylogenetic_trees/index.html#formatos-manejáveis-das-árvores-filogenéticas",
-    "title": "Árvores 🌳 filogenéticas",
-    "section": "Formatos manejáveis das árvores filogenéticas",
-    "text": "Formatos manejáveis das árvores filogenéticas\nPara essa prática utilizaremos os seguintes pacotes:\n\nlibrary(geiger)\nlibrary(ape)\nlibrary(phytools)",
-    "crumbs": [
-      "Materiais por dia",
-      "Aula 1 - Árvores filogenéticas"
-    ]
+    "objectID": "aulas/aula3_descricao-padroes_II/slides.html#métricas-de-diversificação-1",
+    "href": "aulas/aula3_descricao-padroes_II/slides.html#métricas-de-diversificação-1",
+    "title": "Métricas de diversidade filogenética",
+    "section": "Métricas de diversificação",
+    "text": "Métricas de diversificação"
   },
   {
-    "objectID": "aulas/aula1_phylogenetic_trees/index.html#manejo-e-processamento-das-árvores",
-    "href": "aulas/aula1_phylogenetic_trees/index.html#manejo-e-processamento-das-árvores",
-    "title": "Árvores 🌳 filogenéticas",
-    "section": "Manejo e processamento das árvores",
-    "text": "Manejo e processamento das árvores",
-    "crumbs": [
-      "Materiais por dia",
-      "Aula 1 - Árvores filogenéticas"
-    ]
+    "objectID": "aulas/aula3_descricao-padroes_II/slides.html#métricas-de-diversificação---aplicações",
+    "href": "aulas/aula3_descricao-padroes_II/slides.html#métricas-de-diversificação---aplicações",
+    "title": "Métricas de diversidade filogenética",
+    "section": "Métricas de diversificação - aplicações",
+    "text": "Métricas de diversificação - aplicações"
   },
   {
-    "objectID": "aulas/aula1_phylogenetic_trees/index.html#diferentes-formas-de-representar-a-estrutura-de-árvores",
-    "href": "aulas/aula1_phylogenetic_trees/index.html#diferentes-formas-de-representar-a-estrutura-de-árvores",
-    "title": "Árvores 🌳 filogenéticas",
-    "section": "Diferentes formas de representar a estrutura de árvores",
-    "text": "Diferentes formas de representar a estrutura de árvores\nExistem algumas situações que o formato da informação da estrutura da árvore não é muito amigável para manipulação nem para compreensão de seus detalhes, por exemplo, verificar quem são todos os descendentes e os clados filhos de um determinado ancestral. Para tornar essa tarefa menos complicada podemos transformar a árvore em formatos mais amigáveis para manipulação, por exemplo, data frames.\n\nlibrary(tidytree)\n\nO pacote tidytree possibilita manipular a estrutura da árvore filogenética seguindo o paradigma de programação funcional utilizado em pacotes mais recentes como tidiverse e dplyr",
-    "crumbs": [
-      "Materiais por dia",
-      "Aula 1 - Árvores filogenéticas"
-    ]
-  },
-  {
-    "objectID": "aulas/aula1_phylogenetic_trees/index.html#sec-exercicios",
-    "href": "aulas/aula1_phylogenetic_trees/index.html#sec-exercicios",
-    "title": "Árvores 🌳 filogenéticas",
-    "section": "Exercícios para praticar",
-    "text": "Exercícios para praticar\n\nSimule uma árvore filogenética e mapeie todos os ancestrais de todos os tips, ou seja, desde o tempo zero até a raiz.\n\n\n\nClique para ver a resolução do exercício\nset.seed(42)\n\n\n\nSimule uma filogenia com 50 espécies. Após a simulação insira mais 4 espécies na filogenia. Faça esses inserções de duas formas. Uma, inserindo na metade do ramo de qualquer outra espécie já presente, outra inserindo em um nó que liga pelo menos 10 espécies.\n\n\n\nClique para ver a resolução do exercício\nset.seed(42)\n\n\n\nUtilizando a mesma árvore simulada no exercício anterior. Calcule o comprimento do ramo que leva até o tip de cada espécie. O que esse ramo indica em termos de informação evolutiva?\n\n\n\nClique para ver a resolução do exercício\nset.seed(42)\n\n\n\nReferências e recursos utilizados nesta aula\n\nPacote treethinking contendo alguns quizes em relação a estrutura de árvores filogenéticas \nMaterial do Nick Matzke com uma introdução ao pensamento filogenético e interpretação de árvores\nExplicação simples e com exemplos pequenos sore como funciona o método de verossimilhança (likelihood)",
-    "crumbs": [
-      "Materiais por dia",
-      "Aula 1 - Árvores filogenéticas"
-    ]
-  },
-  {
-    "objectID": "aulas/aula1_phylogenetic_trees/index.html#slides-da-aula-e-arquivos-de-apoio",
-    "href": "aulas/aula1_phylogenetic_trees/index.html#slides-da-aula-e-arquivos-de-apoio",
-    "title": "Árvores 🌳 filogenéticas",
-    "section": "Slides da aula e arquivos de apoio",
-    "text": "Slides da aula e arquivos de apoio\n 📥 Download dos scripts \nAqui você encontra os slides apresentados em aula sobre esse tópico\nTela cheia 📺",
-    "crumbs": [
-      "Materiais por dia",
-      "Aula 1 - Árvores filogenéticas"
-    ]
-  },
-  {
-    "objectID": "aulas/aula0_intro_inferencia/index.html",
-    "href": "aulas/aula0_intro_inferencia/index.html",
-    "title": "Introdução a ecologia filogenética",
-    "section": "",
-    "text": "Note\n\n\n\nEm construção…",
-    "crumbs": [
-      "Materiais por dia",
-      "Aula 0 - Introdução e escopo da ecologia evolutiva (nessa disciplina)"
-    ]
-  },
-  {
-    "objectID": "aulas/aula0_intro_inferencia/index.html#slides-da-aula-e-arquivos-de-apoio",
-    "href": "aulas/aula0_intro_inferencia/index.html#slides-da-aula-e-arquivos-de-apoio",
-    "title": "Introdução a ecologia filogenética",
-    "section": "Slides da aula e arquivos de apoio",
-    "text": "Slides da aula e arquivos de apoio\nAqui você encontra os slides apresentados em aula sobre esse tópico\nTela cheia 📺",
-    "crumbs": [
-      "Materiais por dia",
-      "Aula 0 - Introdução e escopo da ecologia evolutiva (nessa disciplina)"
-    ]
+    "objectID": "aulas/aula3_descricao-padroes_II/slides.html#métricas-de-regularidade",
+    "href": "aulas/aula3_descricao-padroes_II/slides.html#métricas-de-regularidade",
+    "title": "Métricas de diversidade filogenética",
+    "section": "Métricas de regularidade",
+    "text": "Métricas de regularidade"
   }
 ]

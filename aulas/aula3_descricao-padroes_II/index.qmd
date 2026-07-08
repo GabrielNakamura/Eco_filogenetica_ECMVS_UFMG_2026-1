@@ -1,5 +1,5 @@
 ---
-title: "Inferência de processos evolutivos a partir de filogenias"
+title: "Métricas filogenéticas"
 format:
   html:
     code-copy: true
@@ -14,13 +14,14 @@ Em construção...
 
 ### Objetivo
 
-Esta aula é a parte dois da aula: "Processos ecológicos"
+Apresentar algumas métricas de diversidade filogenética e suas possíveis
+    aplicações 
 
 ### Conteúdo
 
-1. Filogenias como preditores: diversificação
-2. Filogenias como resposta: métricas de diversidade
-3. Integrando Macroevolução e macroecologia
+1.  Métricas ao nível de assembleias (riqueza, divergência e regularidade)
+2.  Métricas filogenéticas para entender processos (padrões como processo)
+3.  Métricas/Métodos filogenéticos para entender processos históricos
 
 ### Atividades
 

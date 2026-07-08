@@ -39,8 +39,8 @@ website:
             href: aulas/aula1_phylogenetic_trees/index.qmd
           - text: "Aula 2 - Evolução como fator de 'confusão'"
             href: aulas/aula2_descricao-padroes_I/index.qmd
-          - text: "Aula 3 - Processos evolutivos"
-            href: aulas/Aula2_processos_evolutivos_filo.qmd
+          - text: "Aula 3 - métricas filogenéticas"
+            href: aulas/aula3_descricao-padroes_II/index.qmd
 format:
   html:
     theme:

@@ -1,0 +1,72 @@
+---
+title: "Métricas de diversidade filogenética"
+format: 
+  qmdrslides-revealjs:
+    chalkboard: true
+    slide-number: true
+    highlight-style: espresso
+filters:
+  - shinylive
+---
+
+## Classificação de métricas de diversidade
+
+![](images/General_schemes_metrics.png){width="100%" fig-align="center"}
+
+## Métricas de riqueza
+
+![](images/faith_phylo_diversity.png){width="100%" fig-align="center"}
+
+## Métricas de riqueza - aplicações
+
+![](images/Cianciaruso_PD_FD.png){width="100%" fig-align="center"}
+
+
+## Métricas de riqueza - aplicações
+
+![](images/PD_richness_conservation.png){width="100%" fig-align="center"}
+
+## Métricas de divergência
+
+![](images/Webb_2002.png){width="100%" fig-align="center"}
+
+## Métricas de divergência
+
+![](images/phylo_pattern_as_proxy.png){width="100%" fig-align="center"}
+
+## Métricas de divergência (entre comunidades) - filogenia como causa
+
+![](images/phylogeny_as_cause2.png){width="100%" fig-align="center"}
+
+## Métricas de divergência (entre comunidades) - aplicações
+
+![](images/beta_diversity_comm.png){width="100%" fig-align="center"}
+
+## Métricas de divergência (entre comunidades) - biogeografia
+
+![](images/evoregions.png){width="100%" fig-align="center"}
+
+
+## Métricas de divergência - aplicações
+
+![](images/inferencia_processos2.jpg){width="100%" fig-align="center"}
+
+## Métricas como indicadores de processos históricos
+
+![](images/inferencia_processos1.png){width="100%" fig-align="center"}
+
+## Métricas de diversificação
+
+![](images/diversification_jetz.png){width="100%" fig-align="center"}
+
+## Métricas de diversificação
+
+![](images/insitu_diversification.png){width="100%" fig-align="center"}
+
+## Métricas de diversificação - aplicações
+
+![](images/arthur_oikos.png){width="100%" fig-align="center"}
+
+## Métricas de regularidade
+
+![](images/regularidade_phylogenetic.png){width="100%" fig-align="center"}
