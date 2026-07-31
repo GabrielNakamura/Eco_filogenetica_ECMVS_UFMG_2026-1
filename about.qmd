@@ -8,55 +8,26 @@ Especificamente, aqui você irá encontrar os materiais para a segunda semana da
 
 Para uma visão geral dos temas, horários e conteúdos veja [esta página]().
 
+Para acessar os artigos e documentos utilizados durante o módulo de diversidade
+    funcional basta clicar [nesse link](https://www.dropbox.com/scl/fo/jt39y6uynpjj4ax4f2p2y/ABctdpp6w7Ymsvtpk5z1pA4?dl=0&e=1&rlkey=ei13f6hsqw12y19pwfk7atqtt&st=sfg2kmwe)
+
 ## Professores
 
 ::: {style="float: left; margin-right: 15px;"}
-![Rafa Leitão](/images/Rafa_leitao_image2.jpg){width=200px}
+![Rafa Leitão](/images/Rafa_leitao_image2.jpg){width="200px"}
 :::
 
-Rafa é professor Adjunto do Departamento de Genética, Ecologia e Evolução (GEE/ICB) 
-    da Universidade Federal de Minas Gerais (UFMG) e orientador permanente do 
-    Programa de Pós-Graduação em Ecologia, Conservação e Manejo de Vida Silvestre 
-    (ECMVS-UFMG). Doutor em Biologia de Água Doce pelo Instituto Nacional de 
-    Pesquisas da Amazônia (BADPI-INPA) e em 'Ecosystèmes' pela Universidade de 
-    Montpellier (ESA-UM, França). Bacharel em Ciências Biológicas e mestre em 
-    Ecologia pela Universidade Federal do Rio de Janeiro (UFRJ). 
-    Atua principalmente nas áreas de ecologia de comunidades, diversidade funcional,
-    conservação de ecossistemas aquáticos, interações interespecíficas e ictiologia.
-    
-<div style="clear: both;"></div>
+Rafa é professor Adjunto do Departamento de Genética, Ecologia e Evolução (GEE/ICB) da Universidade Federal de Minas Gerais (UFMG) e orientador permanente do Programa de Pós-Graduação em Ecologia, Conservação e Manejo de Vida Silvestre (ECMVS-UFMG). Doutor em Biologia de Água Doce pelo Instituto Nacional de Pesquisas da Amazônia (BADPI-INPA) e em 'Ecosystèmes' pela Universidade de Montpellier (ESA-UM, França). Bacharel em Ciências Biológicas e mestre em Ecologia pela Universidade Federal do Rio de Janeiro (UFRJ). Atua principalmente nas áreas de ecologia de comunidades, diversidade funcional, conservação de ecossistemas aquáticos, interações interespecíficas e ictiologia.
 
+::: {style="clear: both;"}
+:::
 
 ::: {style="float: left; margin-right: 15px;"}
-![Gabriel Nakamura](/images/Gabriel_Nakamura.jpg){width=200px}
+![Gabriel Nakamura](/images/Gabriel_Nakamura.jpg){width="200px"}
 :::
 
-Gabriel é professor no Departamento de Genética, Ecologia e Evolução da UFMG e 
-    credenciado como membro permanente do programa de pós-graduação em Ecologia, 
-    Conservação e Manejo da Vida Silvestre. Tem graduação em Ciências Biológicas
-    (licenciatura plena, UFMS), mestrado em Ecologia e Conservação (UFMS) e
-    doutorado em Ecologia (UFRGS). Minha pesquisa busca compreender como 
-    processos históricos (especiação, extinção, dispersão) e ecológicos geram e
-    moldam a biodiversidade no tempo profundo. Atuo principalmente no 
-    desenvolvimento de ferramentas numéricas para quantificar padrões e processos
-    macroecológicos e macroevolutivos. Tenho experiência em métodos quantitativos, 
-    simulações, ecologia de comunidades e reprodutibilidade em pesquisa. 
-    Me interesso também por vieses no conhecimento biológico e na produção 
-    científica, sobretudo na comparação entre norte e sul globais, visando 
-    promover equidade, diversidade e inclusão na ciência. Fui pesquisador em 
-    biogeografia computacional na Texas AM University. Sou editor associado dos 
-    periódicos Austral Ecology e Perspectives in Ecology and Conservation e
-    pesquisador do INCT - Ecologia, Evolução e Conservação da Biodiversidade. 
-    Mais informações em minha [página profissional](https://gabrielnakamura.netlify.app/)
-    
+Gabriel é professor no Departamento de Genética, Ecologia e Evolução da UFMG e credenciado como membro permanente do programa de pós-graduação em Ecologia, Conservação e Manejo da Vida Silvestre. Tem graduação em Ciências Biológicas (licenciatura plena, UFMS), mestrado em Ecologia e Conservação (UFMS) e doutorado em Ecologia (UFRGS). Minha pesquisa busca compreender como processos históricos (especiação, extinção, dispersão) e ecológicos geram e moldam a biodiversidade no tempo profundo. Atuo principalmente no desenvolvimento de ferramentas numéricas para quantificar padrões e processos macroecológicos e macroevolutivos. Tenho experiência em métodos quantitativos, simulações, ecologia de comunidades e reprodutibilidade em pesquisa. Me interesso também por vieses no conhecimento biológico e na produção científica, sobretudo na comparação entre norte e sul globais, visando promover equidade, diversidade e inclusão na ciência. Fui pesquisador em biogeografia computacional na Texas AM University. Sou editor associado dos periódicos Austral Ecology e Perspectives in Ecology and Conservation e pesquisador do INCT - Ecologia, Evolução e Conservação da Biodiversidade. Mais informações em minha [página profissional](https://gabrielnakamura.netlify.app/)
+
 ## Recursos e referências
-Lista com alguns recursos que podem ser utilizados na disciplina de ecologia filogenética ou macroecologia filogenética. 
-- Livro do Luke Harmon sobre [método comparativo](https://lukejharmon.github.io/pcm/pdf/phylogeneticComparativeMethods.pdf)
-- [site utilizado como modelo para de layout para site da disciplina](https://sta210-s22.github.io/website/)
-- Livro do Nate Swenson - Phylogenetic Ecology como base para organização do conteúdo, principalmente a sequência e os eixos apresentados
-- Cassey Dunn book - very very good source of information on phylogenies and [phylogenetic inference](https://dunnlab.org/phylogenetic_biology/phylogenies.html)
-- Special issue in [Phil Transactions B on phylogenetic models](https://royalsocietypublishing.org/rstb/issue/380/1919)
-- Figure tree by Darwin in [On the origin of species](https://dunnlab.org/phylogenetic_biology/figures/darwin.png)
 
-
-    
+Lista com alguns recursos que podem ser utilizados na disciplina de ecologia filogenética ou macroecologia filogenética. - Livro do Luke Harmon sobre [método comparativo](https://lukejharmon.github.io/pcm/pdf/phylogeneticComparativeMethods.pdf) - [site utilizado como modelo para de layout para site da disciplina](https://sta210-s22.github.io/website/) - Livro do Nate Swenson - Phylogenetic Ecology como base para organização do conteúdo, principalmente a sequência e os eixos apresentados - Cassey Dunn book - very very good source of information on phylogenies and [phylogenetic inference](https://dunnlab.org/phylogenetic_biology/phylogenies.html) - Special issue in [Phil Transactions B on phylogenetic models](https://royalsocietypublishing.org/rstb/issue/380/1919) - Figure tree by Darwin in [On the origin of species](https://dunnlab.org/phylogenetic_biology/figures/darwin.png)
